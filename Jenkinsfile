@@ -6,6 +6,7 @@ pipeline {
             steps {
                 sh 'make' 
 //                 sh './gradlew clean'
+                     sh './gradlew assembleRelease'
                 archiveArtifacts artifacts: '**/target/*.apk'
             }
         }
