@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="8dp" 
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/txt_ReciptDetailListApply"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        style="?textRetriever"
+        android:paddingLeft="5dp"
+        android:text=""
+        android:textAppearance="?android:attr/textAppearanceSmall">
+    </TextView>
+
+    <TextView
+        android:id="@+id/txt_ReciptDetailListDocNo"
+        android:layout_width="275dp"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        style="?textRetriever"
+        android:layout_marginLeft="5dp"
+        android:textAppearance="?android:attr/textAppearanceSmall" >
+    </TextView>
+
+    <TextView
+        android:id="@+id/txt_ReciptDetailListAppliedAmt"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        style="?textRetriever"
+        android:gravity="left"
+        android:layout_marginLeft="5dp"
+        android:textAppearance="?android:attr/textAppearanceSmall">
+    </TextView>
+ 
+    <TextView
+        android:id="@+id/txt_ReciptDetailListPendingAmt"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        style="?textRetriever"
+        android:gravity="left"
+        android:layout_marginLeft="5dp"
+        android:textAppearance="?android:attr/textAppearanceSmall">
+    </TextView>
+    
+    <TextView
+        android:id="@+id/txt_ReciptDetailListNetAmt"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        style="?textRetriever"
+        android:gravity="left"
+        android:layout_marginLeft="1dp"
+        android:textAppearance="?android:attr/textAppearanceSmall">
+    </TextView>
+
+</LinearLayout>

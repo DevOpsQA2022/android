@@ -1,0 +1,452 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--     @designed by T.SARAVANAN 
+ -->
+
+
+<!-- Parent Relative layout with vertical orientation -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="?pageBackground"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/txt_ReceiptTitle"
+        style="?pageTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        android:textColor="#E3474F"
+        android:text="@string/receiptTitle" />
+
+    <!-- Child Table layout 1 -->
+
+    <TableLayout
+        android:id="@+id/reciptCusName"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_ReceiptTitle"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_margin="30dp" >
+
+        <!-- Row 1: Receipt Customer Number & Name Field -->
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" >
+
+            <TextView
+                style="?textRegular"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_weight="0.30"
+                android:textSize="32sp"
+                android:layout_marginLeft="7sp"
+                android:text="@string/txtRecptCusNo" />
+
+            <TextView
+                android:id="@+id/txt_reciptCusNo"
+                style="?textRetriever"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_weight="0.30"
+                android:paddingLeft="4dp"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/txt_reciptCusName"
+                style="?textLongRetriever"
+                android:layout_width="0dip"
+                android:layout_height="50dp"
+                android:textSize="32sp"
+                android:layout_gravity="left"
+                android:layout_weight="0.65"
+                android:paddingLeft="4dp"
+                android:text="" />
+        </TableRow>
+    </TableLayout>
+
+    <!-- Line between title and Table layout -->
+
+    <View
+        android:id="@+id/recipt_view_line1"
+        style="?PageLine"
+        android:layout_width="fill_parent"
+        android:layout_height="2dp"
+        android:layout_below="@id/reciptCusName"
+        android:layout_marginBottom="5dp" />
+
+
+    <!-- Child Table layout 2 -->
+
+    <TableLayout
+        android:id="@+id/tbl_reciptEntryTable"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/reciptCusName"
+        android:layout_gravity="center"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp" >
+
+        <!-- Row 1: Receipt payment code and date Field -->
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:layout_weight="1" >
+
+            <TextView
+                style="?textRegular"
+                android:layout_width="0dip"
+                android:textSize="32sp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|left"
+                android:layout_weight="0.45"
+                android:text="@string/txtPaymentCode" />
+
+            <Spinner
+                android:id="@+id/spn_reciptPaymentCode"
+                style="@style/SpinnerStyle"
+                android:layout_width="0dip"
+                android:layout_marginLeft="12dp"
+                android:layout_height="50dp"
+                android:layout_weight="0.40" />
+
+            <TextView
+                android:id="@+id/txt_reciptPaymentDate"
+                style="?textRetriever"
+                android:layout_width="0dip"
+                android:visibility="invisible"
+                android:textSize="32sp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|center_horizontal"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="0.15" />
+        </TableRow>
+
+        <!-- Row 2: Receipt  Check or receipt number Field -->
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:layout_weight="1" >
+
+            <TextView
+                style="?textRegular"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|left"
+                android:layout_weight="0.45"
+                android:textSize="32sp"
+                android:text="@string/txtPayChkNo" />
+
+            <EditText
+                android:id="@+id/edtTxt_chkReciptNo"
+                style="@style/EditTxt"
+                android:layout_width="0dip"
+                android:layout_height="50dp"
+                android:paddingLeft="15dp"
+                android:layout_weight="0.40"
+                android:text="" />
+
+            <TextView
+                style="?textRetriever"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|right"
+                android:layout_weight="0.15" />
+        </TableRow>
+
+        <!-- Row 3: Receipt amount Field -->
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:layout_weight="1" >
+
+            <TextView
+                style="?textRegular"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|left"
+                android:layout_weight="0.45"
+                android:textSize="32sp"
+                android:text="@string/txtPayRecptAmt" />
+
+            <EditText
+                android:id="@+id/edtTxt_reciptAmt"
+                style="@style/EditTxt"
+                android:layout_width="0dip"
+                android:layout_height="60dp"
+                android:layout_weight="0.40"
+                android:padding="10sp"
+                android:paddingLeft="15dp"
+                android:inputType="numberDecimal" />
+
+            <TextView
+                style="?textRetriever"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|right"
+                android:layout_weight="0.15" />
+        </TableRow>
+
+        <!-- Row 4: Receipt Customer amount Field -->
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:layout_marginTop="2dp"
+            android:layout_weight="1" >
+
+            <TextView
+                style="?textRegular"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|left"
+                android:layout_weight="0.45"
+                android:textSize="32sp"
+                android:text="@string/txtRecptCusAmt" />
+
+            <TextView
+                android:id="@+id/txt_reciptCustAmt"
+                style="?textRetriever"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.37"
+                android:textSize="32sp"
+                android:paddingLeft="10dp"
+                android:text="0.00" />
+
+            <TextView
+                android:id="@+id/txt_reciptUSD"
+                style="?textRetriever"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|right"
+                android:layout_weight="0.18"
+                android:text="" />
+        </TableRow>
+
+        <!-- Row 5: Receipt Customer unapplied amount Field -->
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:layout_weight="1" >
+
+            <TextView
+                style="?textRegular"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|left"
+                android:layout_weight="0.57"
+                android:textSize="32sp"
+                android:text="@string/txtRecptCusUnapplied" />
+
+            <TextView
+                android:id="@+id/txt_reciptUnApplied"
+                style="?textRetriever"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.20"
+                android:textSize="32sp"
+                android:paddingLeft="10dp"
+                android:text="0.00" />
+
+            <TextView
+                style="?textRegular"
+                android:visibility="invisible"
+                android:textSize="32sp"
+                android:paddingBottom="2dp"
+                android:paddingLeft="30dp"
+                android:text="@string/txtRecptPendingTotal" />
+
+            <TextView
+                style="?textRetriever"
+                android:layout_width="0dip"
+                android:textSize="32sp"
+                android:visibility="invisible"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|center_horizontal"
+                android:layout_weight="0.30"
+                android:paddingLeft="30dp"
+                android:text="0.00" />
+
+         <!--   <TextView
+                style="?textRetriever"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|center_horizontal"
+                android:layout_weight="0.25" />-->
+        </TableRow>
+
+        <!-- Row 6: Receipt Total amount Field -->
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:layout_weight="1" >
+
+            <TextView
+                style="?textRegular"
+                android:textSize="32sp"
+                android:paddingBottom="2dp"
+                android:layout_weight="0.35"
+                android:text="@string/txtRecptPendingTotal" />
+
+            <TextView
+                android:id="@+id/txt_reciptTotal"
+                style="?textRetriever"
+                android:layout_width="0dip"
+                android:textSize="32sp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.30"
+                android:paddingLeft="10dp"
+                android:text="0.00" />
+
+            <TextView
+                style="?textRegular"
+                android:textSize="32sp"
+                android:paddingBottom="2dp"
+                android:paddingLeft="30dp"
+                android:visibility="invisible"
+                android:text="@string/txtRecptPendingTotal" />
+
+            <TextView
+                style="?textRetriever"
+                android:layout_width="0dip"
+                android:visibility="invisible"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|center_horizontal"
+                android:layout_weight="0.10"
+                android:paddingLeft="30dp" />
+
+            <!--   <TextView
+                   style="?textRetriever"
+                   android:layout_width="0dip"
+                   android:layout_height="wrap_content"
+                   android:layout_gravity="center|center_horizontal"
+                   android:layout_weight="0.25" />-->
+        </TableRow>
+    </TableLayout>
+
+    <!-- Child linear layout with horizontal orientation for listview titles -->
+
+    <LinearLayout
+        android:id="@+id/reciptListTitle"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tbl_reciptEntryTable"
+        android:layout_marginTop="10dp"
+        android:background="#E3474F"
+        android:orientation="horizontal"
+        android:padding="5dp" >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|left"
+            android:layout_weight="12"
+            android:singleLine="true"
+            android:paddingLeft="15dp"
+            android:paddingStart="15dp"
+            android:text="@string/txtReciptTableTitleApply"
+            android:textSize="26sp"
+            android:textColor="#ffffff"
+            android:textAppearance="?android:attr/textAppearanceSmall">
+        </TextView>
+
+        <TextView
+            style="@style/ListHeadTextStyle"
+            android:paddingLeft="15dp"
+            android:paddingStart="15dp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|center_vertical"
+            android:layout_weight="25"
+            android:textStyle="normal"
+            android:textSize="26sp"
+            android:textColor="#ffffff"
+            android:text="@string/txtOrdSearchTableTitleNum"
+            android:textAppearance="?android:attr/textAppearanceSmall" >
+        </TextView>
+
+        <TextView
+            style="@style/ListHeadTextStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="22"
+            android:gravity="center|left"
+            android:text="@string/txtReciptTableTitleApplyAmt"
+            android:textSize="26sp"
+            android:textStyle="normal"
+            android:textColor="#ffffff"
+            android:textAppearance="?android:attr/textAppearanceSmall" >
+        </TextView>
+
+        <TextView
+            style="@style/ListHeadTextStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="22"
+            android:gravity="center|left"
+            android:text="@string/txtReciptTableTitlePendingAmt"
+            android:textSize="26sp"
+            android:textStyle="normal"
+            android:textColor="#ffffff"
+            android:textAppearance="?android:attr/textAppearanceSmall" >
+        </TextView>
+
+        <TextView
+            style="@style/ListHeadTextStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="20"
+            android:gravity="center|center_vertical"
+            android:text="@string/txtReciptTableTitleNetAmt"
+            android:textSize="26sp"
+            android:textStyle="normal"
+            android:textColor="#ffffff"
+            android:textAppearance="?android:attr/textAppearanceSmall" >
+        </TextView>
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/lst_reciptItems"
+        android:layout_width="fill_parent"
+        android:layout_height="520dp"
+        android:layout_below="@id/reciptListTitle"
+        android:background="@drawable/aboutus_border"
+        android:focusableInTouchMode="false"
+        android:paddingLeft="15dp"
+        android:paddingStart="15dp"
+        android:listSelector="@android:color/transparent" >
+    </ListView>
+
+    <ImageView
+        android:id="@+id/img_receiptShowMenu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/lst_reciptItems"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:contentDescription="@string/imgDesc"
+        android:src="@drawable/upmenu_gray" />
+
+</RelativeLayout>

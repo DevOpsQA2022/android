@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--     @designed by T.SARAVANAN 
+ -->
+
+<!-- Parent Relative layout with vertical orientation -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="?pageBackground"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/txt_SalesSummaryTitle"
+        style="?pageTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="@string/txtSaleSummaryTitle" />
+
+    <!-- Line between title and Table layout -->
+
+    <View
+        android:id="@+id/salesSummary_view_line1"
+        style="?PageLine"
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/txt_SalesSummaryTitle"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="10dp" />
+
+    <!-- Child Table Layout -->
+
+    <TableLayout
+        android:id="@+id/lay_salesSummaryDateSec"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/salesSummary_view_line1"
+        android:layout_gravity="center"
+        android:layout_margin="5dp" >
+
+        <!-- Row 1: Transaction Summary From Date Field -->
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight="1" >
+
+            <TextView
+                style="?textRegular"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|right"
+                android:layout_weight="0.35"
+                android:gravity="right"
+                android:text="@string/txtTransSummaryFrom" />
+
+            <EditText
+                android:id="@+id/edt_SalesSummaryFromDate"
+                style="@style/EditTxt"
+                android:layout_width="0dip"
+                android:layout_height="60dp"
+                android:layout_gravity="left"
+                android:paddingLeft="5dp"
+                android:layout_marginLeft="3dp"
+                android:layout_weight="0.40"
+                android:focusable="false"
+                android:inputType="date"
+                android:text="" />
+
+            <TextView
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.25" />
+        </TableRow>
+
+        <!-- Row 2: Transaction Summary To Date Field -->
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight="1" >
+
+            <TextView
+                style="?textRegular"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|right"
+                android:layout_weight="0.35"
+                android:gravity="right"
+                android:text="@string/txtTransSummaryTo" />
+
+            <EditText
+                android:id="@+id/edt_SalesSummaryToDate"
+                style="@style/EditTxt"
+                android:layout_width="0dip"
+                android:layout_height="60dp"
+                android:layout_gravity="left"
+                android:paddingLeft="5dp"
+                android:layout_marginLeft="3dp"
+                android:layout_weight="0.40"
+                android:focusable="false"
+                android:inputType="date"
+                android:text="" />
+
+            <TextView
+                style="?textRegular"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.25" />
+        </TableRow>
+
+         <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp" 
+             android:layout_weight="1" >
+
+            <TextView
+                style="?textRegular"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.35"
+                android:gravity="right"
+                android:layout_gravity="center|right"
+                android:text="@string/itmCrncyTxtStr" />
+
+            <Spinner
+                android:id="@+id/spn_SalesSummaryType"
+                style="@style/SpinnerStyle"
+                android:layout_width="0dip"
+                android:layout_height="54dp"
+                android:layout_weight="0.40" 
+                android:layout_marginLeft="5dp" />
+            
+            <Button
+                android:id="@+id/btn_loadSalessummary"
+                style="?buttonStyle"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="0.25"
+                android:layout_marginLeft="5dp"
+                android:text="@string/loadSummary" />             
+        </TableRow>        
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight="1" >
+
+            <TextView
+                style="?textRegular"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.35"
+                android:gravity="right"
+                android:text="@string/txtTransSalesPerson" />
+
+            <TextView
+                android:id="@+id/txt_salesPersonNamePrepay"
+                style="?textRetriever"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.40"
+                android:gravity="left"
+                android:paddingLeft="5dp"
+                android:text="" />
+            
+            <TextView
+                style="?textRegular"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.25" />
+        </TableRow>
+        
+    </TableLayout>
+
+    <HorizontalScrollView
+        android:id="@+id/scroll_SaleSummaryView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lay_salesSummaryDateSec" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:id="@+id/lay_SalesSummarylistTitle"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_weight="1"
+                android:background="#267ad4"
+                android:orientation="horizontal"
+                android:padding="5dp" >
+
+                <TextView
+                    android:layout_width="250dp"
+                    android:layout_height="fill_parent"                    
+                    android:text="@string/prepayOrdNoTxtStr"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textSize="32sp"
+                    android:textStyle="bold" >
+                </TextView>
+
+                <TextView
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="12dp"
+                    android:gravity="center|left"
+                    android:text="@string/txtReciptCusName"
+                    android:textSize="32sp"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textStyle="bold" >
+                </TextView>
+
+                <TextView
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:gravity="center|left"
+                    android:text="@string/prePaymentNoTxtStr"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textSize="32sp"
+                    android:textStyle="bold" >
+                </TextView>
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="4dp"
+                    android:gravity="center|left"
+                    android:text="@string/txtReciptAmount"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textSize="32sp"
+                    android:textStyle="bold" >
+                </TextView>
+				
+            </LinearLayout>
+
+            <ListView
+                android:id="@+id/lst_SalesSummaryItems"
+                android:layout_width="fill_parent"
+                android:layout_height="340dp"
+                android:background="@drawable/aboutus_border" >
+            </ListView>
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <!-- Child linear layout 2 with horizontal orientation -->
+
+    <LinearLayout
+        android:id="@+id/lay_sumSalesTotal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/scroll_SaleSummaryView"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            style="?textRegular"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_weight="60"
+            android:gravity="right"
+            android:text="@string/txtTransSummaryTotal" />
+
+        <TextView
+            android:id="@+id/txt_SalesSummaryTotal"
+            style="?textRetriever"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="40"
+            android:gravity="center|right"
+            android:paddingRight="15dp" />
+    </LinearLayout>
+
+</RelativeLayout>

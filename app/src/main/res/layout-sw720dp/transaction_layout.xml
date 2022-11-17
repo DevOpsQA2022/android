@@ -1,0 +1,628 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--     @designed by T.SARAVANAN 
+ -->
+
+
+<!-- Parent Relative layout with vertical orientation -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="?pageBackground"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/txt_TransTitle"
+        style="?pageTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:textSize="36sp"
+        android:textColor="#E3474F"
+        android:textStyle="bold"
+        android:text="@string/transTitle" />
+
+    <!-- Child linear layout1 with horizontal orientation -->
+
+    <LinearLayout
+        android:id="@+id/transCusName"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_TransTitle"
+        android:layout_gravity="center"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            style="?textRegular"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_weight="20"
+            android:textSize="32sp"
+            android:text="@string/txtTransCusName" />
+
+        <TextView
+            android:id="@+id/txt_TransCusName"
+            style="?textRetriever"
+            android:textSize="32sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="70"
+            android:text="" />
+
+        <Button
+            android:id="@+id/btn_CusNameEdit"
+            style="?buttonStyle"
+            android:textSize="32sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|center_horizontal"
+            android:layout_marginRight="10dp"
+            android:layout_weight="15"
+            android:text="@string/txtCusNameEdit" />
+    </LinearLayout>
+
+    <!-- Line between title and Table layout -->
+
+    <View
+        android:id="@+id/trans_view_line1"
+        style="?PageLine"
+        android:layout_width="fill_parent"
+        android:layout_height="5dp"
+        android:layout_below="@+id/transCusName"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="20dp" />
+
+    <!-- Child linear layout3 with horizontal orientation -->
+
+    <LinearLayout
+        android:id="@+id/transEntryType"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/trans_view_line1"
+        android:layout_gravity="center"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/txt_TransEntryLbl"
+            style="?textRegular"
+            android:textSize="32sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|right"
+            android:layout_weight="5"
+            android:text="@string/txtTransEntryType" />
+
+        <Spinner
+            android:id="@+id/spn_EntryType"
+            style="@style/SpinnerStyle"
+            android:textSize="32sp"
+            android:layout_marginRight="15dp"
+            android:layout_width="120dp"
+            android:layout_height="60dp"
+            android:layout_weight="45" />
+
+        <RadioGroup
+            android:id="@+id/radiogroup2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:orientation="horizontal" >
+
+            <RadioButton
+                android:id="@+id/radio_TransNum2"
+                style="?textRegular"
+                android:visibility="invisible"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="25"
+                android:checked="true"
+                android:text="@string/txtTransRadioNum"
+                android:textSize="32sp" />
+
+            <RadioButton
+                android:id="@+id/radio_TransUpc2"
+                style="?textRegular"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_weight="25"
+                android:visibility="invisible"
+                android:text="@string/txtTransRadioUPC"
+                android:textSize="32sp" />
+        </RadioGroup>
+    </LinearLayout>
+
+    <!-- Child linear layout2 with horizontal orientation -->
+
+    <LinearLayout
+        android:id="@+id/invoiceBtnGrp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/transEntryType"
+
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btn_AddToSale"
+            style="?buttonStyle"
+            android:layout_width="160dp"
+            android:layout_height="50dp"
+            android:layout_gravity="right"
+            android:text="@string/txtAddtoSale"
+            android:layout_marginRight="15dp"
+            android:textColor="#000000"
+            android:textSize="29sp" />
+
+        <Button
+            android:id="@+id/btn_AddToReturn"
+            style="?buttonStyle"
+            android:layout_width="190dp"
+            android:layout_height="50dp"
+            android:layout_gravity="left"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="15dp"
+            android:text="@string/txtAddtoReturn"
+            android:textColor="#000000"
+            android:textSize="29sp" />
+    </LinearLayout>
+
+    <!-- Child linear layout4 with horizontal orientation -->
+
+    <LinearLayout
+        android:id="@+id/transScanType"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/invoiceBtnGrp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            style="?textRegular"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|right"
+            android:layout_weight="5"
+            android:text="@string/txtTransScanItem" />
+
+        <EditText
+            android:id="@+id/edt_TranScan"
+            style="@style/EditTxt"
+            android:textSize="32sp"
+            android:layout_width="120dp"
+            android:layout_height="50dp"
+            android:layout_gravity="left"
+            android:layout_marginRight="15dp"
+            android:layout_weight="45"
+            android:layout_marginLeft="4dp"
+            android:gravity="center|right"
+            android:text="" />
+
+        <RadioGroup
+            android:id="@+id/radiogroup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:orientation="horizontal" >
+
+            <RadioButton
+                android:id="@+id/radio_TransNum"
+                style="?textRegular"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="25"
+                android:checked="true"
+                android:text="@string/txtTransRadioNum"
+                android:textSize="32sp" />
+
+            <RadioButton
+                android:id="@+id/radio_TransUpc"
+                style="?textRegular"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_weight="25"
+                android:text="@string/txtTransRadioUPC"
+                android:textSize="32sp" />
+        </RadioGroup>
+    </LinearLayout>
+
+    <!-- Child linear layout5 with horizontal orientation -->
+
+    <LinearLayout
+        android:id="@+id/listTitle"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/transScanType"
+        android:layout_marginTop="15dp"
+        android:background="#E3474F"
+        android:orientation="horizontal"
+        android:padding="5dp" >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:paddingLeft="15dp"
+            android:paddingStart="15dp"
+            android:layout_weight="25"
+            android:text="@string/txtTransTableTitleNum"
+            android:textSize="32sp"
+            android:textColor="#ffffff"
+            android:textAppearance="?android:attr/textAppearanceSmall">
+        </TextView>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="10"
+            android:gravity="center|right"
+            android:text="@string/txtTransTableTitleQty"
+            android:textSize="32sp"
+            android:textColor="#ffffff"
+            android:textAppearance="?android:attr/textAppearanceSmall">
+        </TextView>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="25"
+            android:textSize="32sp"
+            android:gravity="center|right"
+            android:text="@string/txtTransTableTitleExPrice"
+            android:textColor="#ffffff"
+            android:textAppearance="?android:attr/textAppearanceSmall">
+        </TextView>
+
+        <TextView
+            android:layout_width="0dp"
+            android:textSize="32sp"
+            android:layout_height="wrap_content"
+            android:layout_weight="25"
+            android:gravity="center"
+            android:text="@string/txtTransTableTitleLoc"
+            android:textColor="#ffffff"
+            android:textAppearance="?android:attr/textAppearanceSmall">
+        </TextView>
+
+        <TextView
+            android:layout_width="0dp"
+            android:textSize="32sp"
+            android:layout_height="wrap_content"
+            android:layout_weight="15"
+            android:gravity="center|center_vertical"
+            android:text="@string/txtTransTableTitleUom"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="#ffffff">
+        </TextView>
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/lst_TransItems"
+        android:layout_width="fill_parent"
+        android:layout_height="250dp"
+        android:paddingLeft="15dp"
+        android:paddingStart="15dp"
+        android:layout_below="@id/listTitle"
+        android:background="@drawable/aboutus_border">
+    </ListView>
+
+    <!-- Child Table layout -->
+
+    <TableLayout
+        android:id="@+id/costField"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/lst_TransItems"
+        android:layout_gravity="center"
+        android:layout_margin="10dp" >
+
+        <!-- Row 1: Transaction Total Field -->
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="7dp"
+            android:layout_weight="1" >
+
+            <TextView
+                android:id="@+id/txt_ModeTypeTotal"
+                style="?textRegular"
+                android:textSize="32sp"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|left"
+                android:layout_weight="0.40"
+                android:text="@string/txtTransInvoiceTotal" />
+
+            <TextView
+                style="?textRetriever"
+                android:textSize="32sp"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|right"
+                android:layout_weight="0.10" />
+
+            <TextView
+                style="?textRetriever"
+                android:textSize="32sp"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|right"
+                android:layout_weight="0.10" />
+
+            <TextView
+                android:id="@+id/txt_TransTotal"
+                style="?textRetriever"
+                android:textSize="32sp"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.40"
+                android:gravity="right"
+                android:text="" />
+        </TableRow>
+
+        <!-- Row 2: Transaction Discount Field -->
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="7dp"
+            android:layout_weight="1" >
+
+            <TextView
+                android:id="@+id/txt_Discount"
+                style="?textRegular"
+                android:textSize="32sp"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|left"
+                android:layout_weight="0.40"
+                android:text="@string/txtTransDiscount" />
+
+            <TextView
+                style="?textRetriever"
+                android:textSize="32sp"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|right"
+                android:layout_weight="0.10" />
+
+            <TextView
+                style="?textRetriever"
+                android:layout_width="0dip"
+                android:textSize="32sp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|right"
+                android:layout_weight="0.10" />
+
+            <TextView
+                android:id="@+id/txt_TransDiscount"
+                style="?textRetriever"
+                android:textSize="32sp"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.40"
+                android:gravity="right"
+                android:text="" />
+        </TableRow>
+
+        <!-- Row 3: Transaction Total Quantity and Tax Field -->
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="7dp"
+            android:layout_weight="1" >
+
+            <TextView
+                style="?textRegular"
+                android:textSize="32sp"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|left"
+                android:layout_weight="0.40"
+                android:text="@string/txtTransTotalQty" />
+
+            <TextView
+                android:id="@+id/txt_TransTotalQty2"
+                style="?textRetriever"
+                android:textSize="32sp"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.10"
+                android:gravity="right"
+                android:paddingRight="2dp"
+                android:text="" />
+
+            <TextView
+                style="?textRegular"
+                android:textSize="32sp"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.10"
+                android:gravity="right" />
+
+            <TextView
+                android:id="@+id/txt_TransTotalQty"
+                style="?textRetriever"
+                android:textSize="32sp"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.40"
+                android:gravity="right"
+                android:text="" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="7dp"
+            android:layout_weight="1" >
+
+            <TextView
+                style="?textRegular"
+                android:textSize="32sp"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|left"
+                android:layout_weight="0.40"
+                android:text="@string/txtTransTax" />
+
+            <TextView
+                style="?textRetriever"
+                android:textSize="32sp"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|right"
+                android:layout_weight="0.10" />
+
+            <TextView
+                style="?textRetriever"
+                android:layout_width="0dip"
+                android:textSize="32sp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|right"
+                android:layout_weight="0.10" />
+
+            <TextView
+                android:id="@+id/txt_TransTax"
+                style="?textRetriever"
+                android:textSize="32sp"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.40"
+                android:gravity="right"
+                android:text="" />
+        </TableRow>
+
+       <!-- Row 4: Transaction PreTax Field
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_marginBottom="1dp"
+            android:layout_marginTop="1dp"
+            android:layout_weight="1" >
+
+            <TextView
+                style="?textRegular"
+                android:textSize="32sp"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|left"
+                android:layout_weight="0.40"
+                android:text="@string/txtTransTax" />
+
+            <TextView
+                android:id="@+id/txt_TransPreTax"
+                style="?textRetriever"
+                android:textSize="32sp"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.50"
+                android:gravity="left"
+                android:paddingRight="2dp"
+                android:text="" />
+
+            <TextView
+                android:layout_width="0dip"
+                android:textSize="32sp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.10"
+                android:gravity="right"
+                android:text="" />
+
+            <TextView
+                android:layout_width="0dip"
+                android:textSize="32sp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.10"
+                android:gravity="right"
+                android:text="" />
+        </TableRow>-->
+
+
+        <!-- Row 5: Transaction Net Amount Field -->
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="7dp"
+            android:layout_weight="1" >
+
+            <TextView
+                style="?textRegular"
+                android:textSize="32sp"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|left"
+                android:layout_weight="0.40"
+                android:text="@string/txtTransNetAmt" />
+
+            <TextView
+                android:layout_width="0dip"
+                android:textSize="32sp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.10"
+                android:gravity="right"
+                android:text="" />
+
+            <TextView
+                android:layout_width="0dip"
+                android:textSize="32sp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.10"
+                android:gravity="right"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/txt_TransNetAmt"
+                style="?textRetriever"
+                android:textSize="32sp"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.40"
+                android:gravity="right" />
+        </TableRow>
+    </TableLayout>
+
+    <Button
+        android:id="@+id/btn_TransFinish"
+        style="?buttonStyle"
+        android:layout_width="160dp"
+        android:layout_height="50dp"
+        android:textSize="32sp"
+        android:layout_alignRight="@+id/costField"
+        android:layout_below="@+id/costField"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="8dp"
+        android:drawablePadding="3dp"
+        android:text="@string/finishBtnStr" />
+
+    
+         <ImageView
+        android:id="@+id/img_transShowMenu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignBottom="@+id/btn_TransFinish"
+        android:layout_centerHorizontal="true" 
+        android:layout_marginBottom="10dp"
+        android:contentDescription="@string/imgDesc"
+        android:src="@drawable/upmenu_gray" />
+   
+
+</RelativeLayout>

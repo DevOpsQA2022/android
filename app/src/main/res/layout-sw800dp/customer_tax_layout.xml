@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- @designed by T.SARAVANAN -->
+
+<!-- Parent Relative layout with vertical orientation -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="?pageBackground"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/txt_CusTaxTitle"
+        style="?pageTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="@string/txtCustomerTax" />
+
+    <!-- Line between title and Table layout -->
+
+    <View
+        android:id="@+id/cusTax_view_line1"
+        style="?PageLine"
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/txt_CusTaxTitle"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="10dp" />
+
+    <!-- Child Table layout -->
+
+    <TableLayout
+        android:id="@+id/lay_CusTaxSec"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cusTax_view_line1"
+        android:layout_gravity="center"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp" >
+
+        <!-- Row 1: Customer TaxGroup Selection Field -->
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1" >
+
+            <TextView
+                style="?textRegular"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|left"
+                android:layout_weight="0.40"
+                android:text="@string/txtCustomerTaxGrp" />
+
+            <Spinner
+                android:id="@+id/spn_TaxGroup"
+                style="@style/SpinnerStyle"
+                android:layout_width="0dip"
+                android:layout_height="54dp"
+                android:layout_gravity="left"
+                android:layout_weight="0.60" />
+        </TableRow>
+
+        <!-- Row 2: Customer Tax Authority and Tax Class Title Field -->
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight="1" >
+
+            <TextView
+                style="?textRegular"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.40"
+                android:gravity="center"
+                android:text="@string/txtCustomerTaxAuthority" />
+
+            <TextView
+                android:id="@+id/txt_prePayCodeDesc"
+                style="?textRegular"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.60"
+                android:gravity="center"
+                android:text="@string/txtCustomerTaxClass" />
+        </TableRow>
+
+        <!-- Row 3: Customer Tax for state selection Field -->
+
+        <TableRow
+            android:id="@+id/taxRow1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1" >
+
+            <TextView
+                android:id="@+id/txtAuthority1"
+                style="?textRegular"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|left"
+                android:layout_weight="0.40" />
+
+            <Spinner
+                android:id="@+id/spn_State"
+                style="@style/SpinnerStyle"
+                android:layout_width="0dip"
+                android:layout_height="54dp"
+                android:layout_gravity="left"
+                android:layout_weight="0.60" />
+        </TableRow>
+
+        <!-- Row 4: Customer tax for county selection Field -->
+
+        <TableRow
+            android:id="@+id/taxRow2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1" >
+
+            <TextView
+                android:id="@+id/txtAuthority2"
+                style="?textRegular"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|left"
+                android:layout_weight="0.40" />
+
+            <Spinner
+                android:id="@+id/spn_County"
+                style="@style/SpinnerStyle"
+                android:layout_width="0dip"
+                android:layout_height="54dp"
+                android:layout_gravity="left"
+                android:layout_weight="0.60" />
+        </TableRow>
+
+        <!-- Row 5: Customer future tax selection Field -->
+
+        <TableRow
+            android:id="@+id/taxRow3"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1" >
+
+            <TextView
+                android:id="@+id/txtAuthority3"
+                style="?textRegular"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|left"
+                android:layout_weight="0.40"
+                android:text="----" />
+
+            <Spinner
+                android:id="@+id/spn_TaxClass3"
+                style="@style/SpinnerStyle"
+                android:layout_width="0dip"
+                android:layout_height="54dp"
+                android:layout_gravity="left"
+                android:layout_weight="0.60" />
+        </TableRow>
+
+        <!-- Row 6: Customer future tax selection Field -->
+
+        <TableRow
+            android:id="@+id/taxRow4"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1" >
+
+            <TextView
+                android:id="@+id/txtAuthority4"
+                style="?textRegular"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|left"
+                android:layout_weight="0.40"
+                android:text="----" />
+
+            <Spinner
+                android:id="@+id/spn_TaxClass4"
+                style="@style/SpinnerStyle"
+                android:layout_width="0dip"
+                android:layout_height="54dp"
+                android:layout_gravity="left"
+                android:layout_weight="0.60" />
+        </TableRow>
+
+        <!-- Row 7: Customer future tax selection Field -->
+
+        <TableRow
+            android:id="@+id/taxRow5"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1" >
+
+            <TextView
+                android:id="@+id/txtAuthority5"
+                style="?textRegular"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|left"
+                android:layout_weight="0.40"
+                android:text="----" />
+
+            <Spinner
+                android:id="@+id/spn_TaxClass5"
+                style="@style/SpinnerStyle"
+                android:layout_width="0dip"
+                android:layout_height="54dp"
+                android:layout_gravity="left"
+                android:layout_weight="0.60" />
+        </TableRow>
+    </TableLayout>
+
+    <!-- Child linear layout with horizontal orientation -->
+
+    <Button
+        android:id="@+id/btn_CusTaxOk"
+        style="?buttonStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         android:layout_below="@+id/lay_CusTaxSec"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:paddingLeft="50dp"
+        android:paddingRight="50dp"
+        android:text="@string/okBtnStr" />
+
+    <TextView
+        style="?textRegular"
+        android:layout_below="@+id/btn_CusTaxOk"
+        android:layout_width="0dip"
+        android:layout_height="wrap_content" 
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="20dp"/>
+
+</RelativeLayout>

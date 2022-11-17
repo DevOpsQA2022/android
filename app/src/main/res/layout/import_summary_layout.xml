@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- @designed by T.SARAVANAN -->
+
+<!-- Parent Relative layout with vertical orientation -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="?pageBackground"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/txt_ImportSumTitle"
+        style="?pageTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="@string/txtImportSumTitle" />
+
+    <!-- Line between title and Table layout -->
+
+    <View
+        android:id="@+id/txt_ImportSumTitle_view_line1"
+        style="?PageLine"
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/txt_ImportSumTitle"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="10dp" />
+
+    <TableLayout
+        android:id="@+id/lay_ImportSummary"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" 
+         android:layout_below="@+id/txt_ImportSumTitle_view_line1"
+         android:layout_marginTop="10dp">
+
+        <TableRow
+            android:id="@+id/rowSummaryOE"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1" >
+
+            <TextView
+                android:id="@+id/txtSummaryOE"
+                style="?textRegular"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|left"
+                android:layout_weight="0.70"                
+                android:gravity="left"
+                android:paddingLeft="10dp"
+                android:text="@string/txtOE" />
+
+            <ImageView
+                android:id="@+id/imgSummaryOE"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.30"
+                android:contentDescription="@string/imgDesc"
+                android:src="@drawable/green_ball" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/rowSummaryRecipt"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1" >
+
+            <TextView
+                android:id="@+id/txtSummaryRecipt"
+                style="?textRegular"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|left"
+                android:layout_weight="0.70"
+                android:gravity="left"
+                android:paddingLeft="10dp"
+                android:text="@string/txtRecipt" />
+
+            <ImageView
+                android:id="@+id/imgSummaryRecipt"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.30"
+                android:contentDescription="@string/imgDesc"
+                android:src="@drawable/green_ball" />
+        </TableRow>
+    </TableLayout>
+    
+    <View
+        android:id="@+id/txt_ImportSumTitle_view_line2"
+        style="?PageLine"
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/lay_ImportSummary"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp" />
+    
+    <TextView
+        android:id="@+id/txt_ImportSumTabTitle"
+        style="?pageTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"        
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/txt_ImportSumTitle_view_line2"
+        android:layout_marginTop="2dp"
+        android:text="Table Names" />
+    
+    <ListView	
+        android:id="@+id/lst_ImportSummary"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:cacheColorHint="@color/transparent"
+        android:layout_below="@+id/txt_ImportSumTabTitle"/>  
+
+</RelativeLayout>

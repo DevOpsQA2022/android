@@ -1,0 +1,414 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--     @designed by T.SARAVANAN 
+ -->
+
+<!-- Parent Relative layout with vertical orientation -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"    
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    style="?pageBackground"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/txt_AddCusTitle"
+        style="?pageTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="" />
+
+    <!-- Line between title and Table layout -->
+
+    <View
+        android:id="@+id/addCus_view_line1"
+        style="?PageLine"
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/txt_AddCusTitle"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp" />
+
+    <!-- Child Table layout -->
+    <TableLayout
+        android:id="@+id/tbl_CusTable"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/addCus_view_line1"
+        android:layout_gravity="center"
+        android:layout_marginTop="3dp" >
+
+        <!-- Row 1: Customer Number Field -->
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="1dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1" >
+
+            <TextView
+                style="?textRegular"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|center_vertical"
+                android:layout_marginRight="5dp"
+                android:layout_weight="0.40"
+                android:gravity="right"
+                android:text="@string/custNumTxtStr" />
+
+            <EditText
+                android:id="@+id/edtTxt_CustNo"
+                style="@style/EditTxt"
+                android:layout_width="0dip"
+                android:layout_height="35dp"
+                android:layout_weight="0.60" />
+        </TableRow>
+
+        <!-- Row 2: Customer Name Field -->
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1" >
+
+            <TextView
+                style="?textRegular"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|right"
+                android:layout_marginRight="5dp"
+                android:layout_weight="0.40"
+                android:gravity="right"
+                android:text="@string/custNameTxtStr" />
+
+            <EditText
+                android:id="@+id/edtTxt_CustName"
+                style="@style/EditTxt"
+                android:layout_width="0dip"
+                android:layout_height="35dp"
+                android:layout_weight="0.60"
+                android:maxLength="60" />
+        </TableRow>
+
+        <!-- Row 3: Customer Address Field -->
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="1dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1" >
+
+            <TextView
+                style="?textRegular"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|right"
+                android:layout_marginRight="5dp"
+                android:layout_weight="0.40"
+                android:gravity="right"
+                android:text="@string/custAddTxtStr" />
+
+            <EditText
+                android:id="@+id/edtTxt_CustAdd"
+                style="@style/EditTxt"
+                android:layout_width="0dip"
+                android:layout_height="35dp"
+                android:layout_weight="0.60"
+                android:maxLength="60" />
+        </TableRow>
+
+        <!-- Row 4: Customer City Field -->
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="1dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1" >
+
+            <TextView
+                style="?textRegular"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|right"
+                android:layout_marginRight="5dp"
+                android:layout_weight="0.40"
+                android:gravity="right"
+                android:text="@string/custCityTxtStr" />
+
+            <EditText
+                android:id="@+id/edtTxt_CustCity"
+                style="@style/EditTxt"
+                android:layout_width="0dip"
+                android:layout_height="35dp"
+                android:layout_weight="0.60"
+                android:maxLength="30" />
+        </TableRow>
+
+        <!-- Row 5: Customer Phone Field -->
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="1dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1" >
+
+            <TextView
+                style="?textRegular"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|right"
+                android:layout_marginRight="5dp"
+                android:layout_weight="0.40"
+                android:gravity="right"
+                android:text="@string/custPhoneTxtStr" />
+
+            <EditText
+                android:id="@+id/edtTxt_CustPhone"
+                style="@style/EditTxt"
+                android:layout_width="0dip"
+                android:layout_height="35dp"
+                android:layout_weight="0.60"
+                android:inputType="number"
+                android:maxLength="10" />
+        </TableRow>
+
+        <!-- Row 6: Customer Group Code Field -->
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="3dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1" >
+
+            <TextView
+                style="?textRegular"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|right"
+                android:layout_marginRight="5dp"
+                android:layout_weight="0.40"
+                android:gravity="right"
+                android:text="@string/addCustGpCdTxtStr" />
+
+            <Spinner
+                android:id="@+id/spn_CustGroupCode"
+                style="@style/SpinnerStyle"
+                android:layout_width="0dip"
+                android:layout_height="35dp"
+                android:layout_weight="0.60" />
+        </TableRow>
+
+        <!-- Row 7: Customer Terms Code Field -->
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="1dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1" >
+
+            <TextView
+                style="?textRegular"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|right"
+                android:layout_marginRight="5dp"
+                android:layout_weight="0.40"
+                android:gravity="right"
+                android:text="@string/addCustTmsCdTxtStr" />
+
+            <EditText
+                android:id="@+id/edtTxt_CustTermsCode"
+                style="@style/EditTxt"
+                android:layout_width="0dip"
+                android:layout_height="35dp"
+                android:layout_weight="0.60"
+                android:focusable="false"
+                android:maxLength="6" />
+        </TableRow>
+
+        <!-- Row 8: Customer Type Field -->
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="3dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1" >
+
+            <TextView
+                style="?textRegular"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|right"
+                android:layout_marginRight="5dp"
+                android:layout_weight="0.40"
+                android:gravity="right"
+                android:text="@string/addCustTypTxtStr" />
+
+            <Spinner
+                android:id="@+id/spn_CustType"
+                style="@style/SpinnerStyle"
+                android:layout_width="0dip"
+                android:layout_height="35dp"
+                android:layout_weight="0.60" />
+        </TableRow>
+
+        <!-- Row 9: Customer Price List Field -->
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="3dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1" >
+
+            <TextView
+                style="?textRegular"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|right"
+                android:layout_marginRight="5dp"
+                android:layout_weight="0.40"
+                android:gravity="right"
+                android:text="@string/itmPrcLstTxtStr" />
+
+            <Spinner
+                android:id="@+id/spn_AddCustPriceList"
+                style="@style/SpinnerStyle"
+                android:layout_width="0dip"
+                android:layout_height="35dp"
+                android:layout_weight="0.60" />
+        </TableRow>
+
+        <!-- Row 10: Customer Comment Field -->
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="1dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1" >
+
+            <TextView
+                style="?textRegular"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|right"
+                android:layout_marginRight="5dp"
+                android:layout_weight="0.40"
+                android:gravity="right"
+                android:text="@string/addCustCmtTxtStr" />
+
+            <EditText
+                android:id="@+id/edtTxt_CustComment"
+                style="@style/EditTxt"
+                android:layout_width="0dip"
+                android:layout_marginRight="5dp"
+                android:layout_height="35dp"
+                android:layout_weight="0.60"
+                android:maxLength="250" />
+        </TableRow>
+
+        <!-- Row 11: Customer setTax Field -->
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="1dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1">
+
+
+            <TextView
+                style="?textRegular"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|right"
+                android:layout_marginRight="5dp"
+                android:layout_weight="0.40"
+                android:gravity="right"
+                android:text="Customer Alt No." />
+
+            <EditText
+                android:id="@+id/Customer_Alt_no"
+                style="@style/EditTxt"
+                android:layout_width="0dip"
+                android:inputType="number"
+                android:layout_marginLeft="0dp"
+                android:layout_height="35dp"
+                android:layout_weight="0.60"
+                android:maxLength="250" />
+        </TableRow>
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="1dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1" >
+
+            <TextView
+                style="?textRegular"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|right"
+                android:layout_marginRight="5dp"
+                android:layout_weight="0.40"
+                android:gravity="right"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/txt_AddCustSetTax"
+                style="?textRegular"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|right"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:paddingBottom="5dp"
+                android:text="@string/setTaxBtnStr" />
+        </TableRow>
+
+    </TableLayout>
+
+    <!-- Child linear layout with horizontal orientation -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@id/tbl_CusTable"        
+        android:gravity="center|center_horizontal"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btn_AddCustOk"
+            style="?buttonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:drawableRight="@drawable/finish"
+            android:text="@string/finishBtnStr" />
+        
+    </LinearLayout>
+
+</RelativeLayout>

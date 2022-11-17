@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    @designed by T.SARAVANAN 
+-->
+
+<!-- Parent Relative layout with vertical orientation -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    style="?pageBackground"
+    android:orientation="vertical" >
+
+    <!-- Child relative layout with horizontal orientation -->
+    <RelativeLayout
+        android:id="@+id/lay_selectSec"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/zoomImg"
+        android:layout_margin="10dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/dialogCatalogText"
+            style="?textRegular"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_gravity="center|center_vertical"
+            android:layout_marginLeft="3dp"
+            android:text="@string/mainMenu"/>
+
+        <ImageView
+            android:id="@+id/img_selectView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="5dp"
+            android:contentDescription="@string/imgDesc" />
+    </RelativeLayout>
+
+    <!-- Line between title and Table layout -->	
+    <View
+        android:id="@+id/menuLine"
+        android:layout_width="fill_parent"
+        android:layout_height="2dp"
+        android:layout_below="@+id/lay_selectSec"
+        style="?PageLine"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="10dp" />
+
+     <!-- Child linear layout with vertical orientation -->
+    <LinearLayout
+        android:id="@+id/lay_menuview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/menuLine"
+        android:layout_centerVertical="true"
+        android:layout_centerInParent="true"
+        android:orientation="vertical" >
+
+        <GridView
+            android:id="@+id/grd_Menu"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp"
+            android:columnWidth="150dp"
+            android:gravity="center"
+            android:horizontalSpacing="30dp"
+            android:numColumns="auto_fit"
+            android:stretchMode="columnWidth"
+            android:verticalSpacing="30dp" />
+
+        <ListView
+            android:id="@+id/menuList"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:dividerHeight="15dp"
+            android:layout_marginLeft="60dp"
+            android:layout_marginRight="60dp"
+            android:layout_gravity="center_vertical"
+            style="?dividerStyle"            
+        	android:padding="10dp"
+        	android:cacheColorHint="@android:color/transparent"
+            android:fastScrollEnabled="true" >
+        </ListView>
+    </LinearLayout>
+    
+</RelativeLayout>

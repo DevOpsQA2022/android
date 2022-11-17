@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+ <!--     @designed by T.SARAVANAN 
+
+  --> 
+ <!--  Parent Linear layout with vertical orientation 
+  --> 
+ <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+     android:layout_width="match_parent" 
+     android:layout_height="match_parent" 
+     android:orientation="vertical">
+     
+ <EditText 
+     android:id="@+id/edtTxt_Comments" 
+     android:layout_width="fill_parent" 
+     android:layout_height="wrap_content" 
+     android:layout_marginTop="10dp" 
+     android:layout_marginBottom="10dp" 
+     android:layout_marginLeft="20dp" 
+     android:layout_marginRight="20dp" 
+     android:gravity="top|left" 
+     android:lines="8" android:maxLines="12" 
+     android:minLines="8" 
+     android:scrollbars="vertical" 
+     android:singleLine="false" 
+     android:textSize="32sp">
+     
+  <requestFocus /> 
+  </EditText>
+  <Button 
+      android:id="@+id/btn_commentOk" style="?buttonStyle" 
+      android:layout_width="wrap_content" 
+      android:layout_height="wrap_content" 
+      android:layout_margin="10dp" 
+      android:layout_gravity="center" 
+      android:text="@string/okBtnStr" /> 
+  </LinearLayout>

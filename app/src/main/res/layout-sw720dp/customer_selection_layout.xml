@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+    @designed by T.SARAVANAN 
+-->
+
+<!-- Parent Relative layout with vertical orientation -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    style="?pageBackground">
+	
+     <!-- Child linear layout with horizontal orientation -->
+    <LinearLayout
+        android:id="@+id/lay_SelectPriceList"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"        
+        android:layout_gravity="center"        
+        android:layout_margin="25dp" >
+
+       <TextView
+            style="?textRegular"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+           android:textSize="32sp"
+            android:layout_gravity="center|center_horizontal"
+            android:text="@string/txtSelectLocation" />
+
+        <Spinner
+            android:id="@+id/spn_CustPriceList"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:textSize="32sp"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="40dp"            
+            style="@style/SpinnerStyle" />
+    </LinearLayout>
+    
+    <!-- Editext for Search -->
+    <EditText
+        android:id="@+id/edtTxt_CustSearch"
+        style="@style/EditTxt"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/lay_SelectPriceList"
+        android:layout_margin="5dp"
+        android:textSize="32sp"
+        android:paddingLeft="7dp"
+        android:paddingStart="7dp"
+        android:layout_marginTop="25dp"
+        android:hint="@string/sltCustHint" />
+
+    <ListView
+        android:id="@+id/lstView_Customer"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_margin="5dp"
+        android:layout_below="@+id/edtTxt_CustSearch"/>
+
+</RelativeLayout>

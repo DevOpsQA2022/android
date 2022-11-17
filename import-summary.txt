@@ -1,0 +1,164 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Risky Project Location:
+-----------------------
+The tools *should* handle project locations in any directory. However,
+due to bugs, placing projects in directories containing spaces in the
+path, or characters like ", ' and &, have had issues. We're working to
+eliminate these bugs, but to save yourself headaches you may want to
+move your project to a location where this is not a problem.
+D:\Mobile Team-\MSP\Universal\Android\With Invoice Edit\MobileSalesPerson Android Studio
+         -                                -       -                      -       -      
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* gradle\
+* gradle\wrapper\
+* gradle\wrapper\gradle-wrapper.jar
+* gradle\wrapper\gradle-wrapper.properties
+* gradlew
+* gradlew.bat
+* ic_launcher-web.png
+* proguard-project.txt
+* zxing-source\
+* zxing-source\com\
+* zxing-source\com\google\
+* zxing-source\com\google\zxing\
+* zxing-source\com\google\zxing\client\
+* zxing-source\com\google\zxing\client\android\
+* zxing-source\com\google\zxing\client\android\BeepManager.java
+* zxing-source\com\google\zxing\client\android\CaptureActivity.java
+* zxing-source\com\google\zxing\client\android\CaptureActivityHandler.java
+* zxing-source\com\google\zxing\client\android\Contents.java
+* zxing-source\com\google\zxing\client\android\DecodeFormatManager.java
+* zxing-source\com\google\zxing\client\android\DecodeHandler.java
+* zxing-source\com\google\zxing\client\android\DecodeThread.java
+* zxing-source\com\google\zxing\client\android\FinishListener.java
+* zxing-source\com\google\zxing\client\android\HelpActivity.java
+* zxing-source\com\google\zxing\client\android\HttpHelper.java
+* zxing-source\com\google\zxing\client\android\InactivityTimer.java
+* zxing-source\com\google\zxing\client\android\IntentSource.java
+* zxing-source\com\google\zxing\client\android\Intents.java
+* zxing-source\com\google\zxing\client\android\LocaleManager.java
+* zxing-source\com\google\zxing\client\android\PreferencesActivity.java
+* zxing-source\com\google\zxing\client\android\ViewfinderResultPointCallback.java
+* zxing-source\com\google\zxing\client\android\ViewfinderView.java
+* zxing-source\com\google\zxing\client\android\book\
+* zxing-source\com\google\zxing\client\android\book\BrowseBookListener.java
+* zxing-source\com\google\zxing\client\android\book\SearchBookContentsActivity.java
+* zxing-source\com\google\zxing\client\android\book\SearchBookContentsAdapter.java
+* zxing-source\com\google\zxing\client\android\book\SearchBookContentsListItem.java
+* zxing-source\com\google\zxing\client\android\book\SearchBookContentsResult.java
+* zxing-source\com\google\zxing\client\android\camera\
+* zxing-source\com\google\zxing\client\android\camera\AutoFocusManager.java
+* zxing-source\com\google\zxing\client\android\camera\CameraConfigurationManager.java
+* zxing-source\com\google\zxing\client\android\camera\CameraManager.java
+* zxing-source\com\google\zxing\client\android\camera\PreviewCallback.java
+* zxing-source\com\google\zxing\client\android\camera\exposure\
+* zxing-source\com\google\zxing\client\android\camera\exposure\DefaultExposureInterface.java
+* zxing-source\com\google\zxing\client\android\camera\exposure\ExposureInterface.java
+* zxing-source\com\google\zxing\client\android\camera\exposure\ExposureManager.java
+* zxing-source\com\google\zxing\client\android\camera\exposure\FroyoExposureInterface.java
+* zxing-source\com\google\zxing\client\android\camera\open\
+* zxing-source\com\google\zxing\client\android\camera\open\DefaultOpenCameraInterface.java
+* zxing-source\com\google\zxing\client\android\camera\open\GingerbreadOpenCameraInterface.java
+* zxing-source\com\google\zxing\client\android\camera\open\OpenCameraInterface.java
+* zxing-source\com\google\zxing\client\android\camera\open\OpenCameraManager.java
+* zxing-source\com\google\zxing\client\android\common\
+* zxing-source\com\google\zxing\client\android\common\PlatformSupportManager.java
+* zxing-source\com\google\zxing\client\android\common\executor\
+* zxing-source\com\google\zxing\client\android\common\executor\AsyncTaskExecInterface.java
+* zxing-source\com\google\zxing\client\android\common\executor\AsyncTaskExecManager.java
+* zxing-source\com\google\zxing\client\android\common\executor\DefaultAsyncTaskExecInterface.java
+* zxing-source\com\google\zxing\client\android\common\executor\HoneycombAsyncTaskExecInterface.java
+* zxing-source\com\google\zxing\client\android\encode\
+* zxing-source\com\google\zxing\client\android\encode\ContactEncoder.java
+* zxing-source\com\google\zxing\client\android\encode\EncodeActivity.java
+* zxing-source\com\google\zxing\client\android\encode\Formatter.java
+* zxing-source\com\google\zxing\client\android\encode\MECARDContactEncoder.java
+* zxing-source\com\google\zxing\client\android\encode\QRCodeEncoder.java
+* zxing-source\com\google\zxing\client\android\encode\VCardContactEncoder.java
+* zxing-source\com\google\zxing\client\android\history\
+* zxing-source\com\google\zxing\client\android\history\DBHelper.java
+* zxing-source\com\google\zxing\client\android\history\HistoryActivity.java
+* zxing-source\com\google\zxing\client\android\history\HistoryItem.java
+* zxing-source\com\google\zxing\client\android\history\HistoryItemAdapter.java
+* zxing-source\com\google\zxing\client\android\history\HistoryManager.java
+* zxing-source\com\google\zxing\client\android\pref\
+* zxing-source\com\google\zxing\client\android\pref\BSPlusPreference.java
+* zxing-source\com\google\zxing\client\android\result\
+* zxing-source\com\google\zxing\client\android\result\AddressBookResultHandler.java
+* zxing-source\com\google\zxing\client\android\result\CalendarResultHandler.java
+* zxing-source\com\google\zxing\client\android\result\EmailAddressResultHandler.java
+* zxing-source\com\google\zxing\client\android\result\GeoResultHandler.java
+* zxing-source\com\google\zxing\client\android\result\ISBNResultHandler.java
+* zxing-source\com\google\zxing\client\android\result\ProductResultHandler.java
+* zxing-source\com\google\zxing\client\android\result\ResultButtonListener.java
+* zxing-source\com\google\zxing\client\android\result\ResultHandler.java
+* zxing-source\com\google\zxing\client\android\result\ResultHandlerFactory.java
+* zxing-source\com\google\zxing\client\android\result\SMSResultHandler.java
+* zxing-source\com\google\zxing\client\android\result\TelResultHandler.java
+* zxing-source\com\google\zxing\client\android\result\TextResultHandler.java
+* zxing-source\com\google\zxing\client\android\result\URIResultHandler.java
+* zxing-source\com\google\zxing\client\android\result\WifiResultHandler.java
+* zxing-source\com\google\zxing\client\android\result\supplement\
+* zxing-source\com\google\zxing\client\android\result\supplement\BookResultInfoRetriever.java
+* zxing-source\com\google\zxing\client\android\result\supplement\ProductResultInfoRetriever.java
+* zxing-source\com\google\zxing\client\android\result\supplement\SupplementalInfoRetriever.java
+* zxing-source\com\google\zxing\client\android\result\supplement\TitleRetriever.java
+* zxing-source\com\google\zxing\client\android\result\supplement\URIResultInfoRetriever.java
+* zxing-source\com\google\zxing\client\android\share\
+* zxing-source\com\google\zxing\client\android\share\AppPickerActivity.java
+* zxing-source\com\google\zxing\client\android\share\BookmarkAdapter.java
+* zxing-source\com\google\zxing\client\android\share\BookmarkPickerActivity.java
+* zxing-source\com\google\zxing\client\android\share\LoadPackagesAsyncTask.java
+* zxing-source\com\google\zxing\client\android\share\ShareActivity.java
+* zxing-source\com\google\zxing\client\android\wifi\
+* zxing-source\com\google\zxing\client\android\wifi\NetworkType.java
+* zxing-source\com\google\zxing\client\android\wifi\WifiConfigManager.java
+
+Replaced Jars with Dependencies:
+--------------------------------
+The importer recognized the following .jar files as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the .jar file in your project was of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the jar replacement in the import wizard and try again:
+
+android-support-v4.jar => com.android.support:support-v4:18.0.0
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => app\src\main\AndroidManifest.xml
+* assets\ => app\src\main\assets
+* libs\core.jar => app\libs\core.jar
+* libs\ksoap2-android-assembly-2.6.2-jar-with-dependencies.jar => app\libs\ksoap2-android-assembly-2.6.2-jar-with-dependencies.jar
+* libs\sqljdbc4.jar => app\libs\sqljdbc4.jar
+* libs\ZSDK_API.jar => app\libs\ZSDK_API.jar
+* res\ => app\src\main\res\
+* src\ => app\src\main\java\
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)

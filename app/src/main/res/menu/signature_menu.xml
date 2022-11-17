@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+     <item
+        android:id="@+id/sign_mnu_clear"
+        android:icon="@drawable/mnu_clear"
+        android:title="Clear"/>
+    <item
+        android:id="@+id/sign_mnu_save"
+        android:icon="@drawable/mnu_save"
+        android:title="Save"/>
+
+    <item
+        android:id="@+id/sign_mnu_cancel"
+        android:icon="@drawable/mnu_cancel"
+        android:title="Cancel"/>
+
+</menu>

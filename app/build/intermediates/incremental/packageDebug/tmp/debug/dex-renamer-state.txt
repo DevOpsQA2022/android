@@ -1,0 +1,4 @@
+#Fri Oct 14 16:17:42 IST 2022
+base.0=D\:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

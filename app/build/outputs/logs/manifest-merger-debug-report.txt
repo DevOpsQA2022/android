@@ -1,0 +1,583 @@
+-- Merging decision tree log ---
+provider#android.support.v4.content.FileProvider
+INJECTED from D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:51:9-59:20
+	android:grantUriPermissions
+		ADDED from D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:55:13-47
+	android:authorities
+		INJECTED from D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml
+		ADDED from D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:53:13-60
+	android:exported
+		ADDED from D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:54:13-37
+	android:name
+		ADDED from D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:52:13-67
+manifest
+ADDED from D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:1:1-258:12
+INJECTED from D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:1:1-258:12
+INJECTED from D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:1:1-258:12
+INJECTED from D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:1:1-258:12
+MERGED from [com.android.support:support-v4:28.0.0] C:\Users\matheswaran.e\.gradle\caches\transforms-2\files-2.1\c009a5722a0be9476b5b3db7ef172e15\support-v4-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.tbruyelle.rxpermissions2:rxpermissions:0.9.5] C:\Users\matheswaran.e\.gradle\caches\transforms-2\files-2.1\483979f1220365f3acbab508816e1d46\rxpermissions-0.9.5\AndroidManifest.xml:2:1-13:12
+MERGED from [io.reactivex.rxjava2:rxandroid:2.0.1] C:\Users\matheswaran.e\.gradle\caches\transforms-2\files-2.1\8b29bee2b0b418a0a1f16cc535c7c0d6\rxandroid-2.0.1\AndroidManifest.xml:15:1-21:12
+MERGED from [com.android.support:support-media-compat:28.0.0] C:\Users\matheswaran.e\.gradle\caches\transforms-2\files-2.1\69a5a1de08dfe08bfe2a8b98a051a6f6\support-media-compat-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\matheswaran.e\.gradle\caches\transforms-2\files-2.1\7c6a262b4f50579ecad6b3724ebe08d9\support-fragment-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\matheswaran.e\.gradle\caches\transforms-2\files-2.1\b72fa9ed369d9858d0fb5986bb7236fe\support-core-ui-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\matheswaran.e\.gradle\caches\transforms-2\files-2.1\b625545188a320e0d23b3e969019b092\support-core-utils-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] C:\Users\matheswaran.e\.gradle\caches\transforms-2\files-2.1\e6f4a04e02163bf11ecda043117f3475\loader-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\matheswaran.e\.gradle\caches\transforms-2\files-2.1\799752f7ab5f42ed6349356992c384fc\viewpager-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\matheswaran.e\.gradle\caches\transforms-2\files-2.1\5929825c857518f2798a6a55425fb08f\coordinatorlayout-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\matheswaran.e\.gradle\caches\transforms-2\files-2.1\20678bdc8e9825d9276479d130c67d2a\drawerlayout-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\matheswaran.e\.gradle\caches\transforms-2\files-2.1\08e734783fefb2b47d7d06e73aba0ffc\slidingpanelayout-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] C:\Users\matheswaran.e\.gradle\caches\transforms-2\files-2.1\e9cc0f0e0dd2503b113a6576aef0520c\customview-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\matheswaran.e\.gradle\caches\transforms-2\files-2.1\04e6b76b6ad86ad2089fb68021b94ebc\swiperefreshlayout-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\matheswaran.e\.gradle\caches\transforms-2\files-2.1\3331232a1d0540faeecd5909d3ddf883\asynclayoutinflater-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\matheswaran.e\.gradle\caches\transforms-2\files-2.1\2a6c121eda6c2cbe33230f54b72bbbd4\support-compat-28.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\matheswaran.e\.gradle\caches\transforms-2\files-2.1\e02f1a1ec5b55e7809581065612f1348\versionedparcelable-28.0.0\AndroidManifest.xml:17:1-25:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\matheswaran.e\.gradle\caches\transforms-2\files-2.1\47a6a4cbe650527abafad251a3895de1\runtime-1.1.1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\matheswaran.e\.gradle\caches\transforms-2\files-2.1\b29536638db7292f2819422afa21694f\documentfile-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\matheswaran.e\.gradle\caches\transforms-2\files-2.1\75a0fb48320195389de42f99e74f0605\localbroadcastmanager-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] C:\Users\matheswaran.e\.gradle\caches\transforms-2\files-2.1\097f413583d095274abac7a6ab27aa97\print-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\matheswaran.e\.gradle\caches\transforms-2\files-2.1\5c13844dbd3b484f42417ccecca0e693\interpolator-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\matheswaran.e\.gradle\caches\transforms-2\files-2.1\20dfc6e575b6f0806a233fe16bf403a6\cursoradapter-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\matheswaran.e\.gradle\caches\transforms-2\files-2.1\4f0233fffabe21144e50178f9cde4274\viewmodel-1.1.1\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\matheswaran.e\.gradle\caches\transforms-2\files-2.1\3ff1dcd229f05d3ed6ea73e9bcec5fe8\livedata-1.1.1\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\matheswaran.e\.gradle\caches\transforms-2\files-2.1\8dca7e011b2c99528440907406c0541e\livedata-core-1.1.1\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\matheswaran.e\.gradle\caches\transforms-2\files-2.1\6798853c956e78fbccb8ca635a9e6671\runtime-1.1.1\AndroidManifest.xml:17:1-22:12
+INJECTED from D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:1:1-258:12
+INJECTED from D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:1:1-258:12
+INJECTED from D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:1:1-258:12
+	package
+		ADDED from D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:2:5-47
+		INJECTED from D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml
+		INJECTED from D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:5:5-30
+		INJECTED from D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml
+		INJECTED from D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:1:11-69
+	android:versionCode
+		ADDED from D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:4:5-28
+		INJECTED from D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml
+		INJECTED from D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml
+	android:installLocation
+		ADDED from D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:3:5-35
+uses-sdk
+ADDED from D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:7:5-9:41
+INJECTED from D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:7:5-9:41
+INJECTED from D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:support-v4:28.0.0] C:\Users\matheswaran.e\.gradle\caches\transforms-2\files-2.1\c009a5722a0be9476b5b3db7ef172e15\support-v4-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:28.0.0] C:\Users\matheswaran.e\.gradle\caches\transforms-2\files-2.1\c009a5722a0be9476b5b3db7ef172e15\support-v4-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.tbruyelle.rxpermissions2:rxpermissions:0.9.5] C:\Users\matheswaran.e\.gradle\caches\transforms-2\files-2.1\483979f1220365f3acbab508816e1d46\rxpermissions-0.9.5\AndroidManifest.xml:7:5-9:41
+MERGED from [com.tbruyelle.rxpermissions2:rxpermissions:0.9.5] C:\Users\matheswaran.e\.gradle\caches\transforms-2\files-2.1\483979f1220365f3acbab508816e1d46\rxpermissions-0.9.5\AndroidManifest.xml:7:5-9:41
+MERGED from [io.reactivex.rxjava2:rxandroid:2.0.1] C:\Users\matheswaran.e\.gradle\caches\transforms-2\files-2.1\8b29bee2b0b418a0a1f16cc535c7c0d6\rxandroid-2.0.1\AndroidManifest.xml:19:5-43
+MERGED from [io.reactivex.rxjava2:rxandroid:2.0.1] C:\Users\matheswaran.e\.gradle\caches\transforms-2\files-2.1\8b29bee2b0b418a0a1f16cc535c7c0d6\rxandroid-2.0.1\AndroidManifest.xml:19:5-43
+MERGED from [com.android.support:support-media-compat:28.0.0] C:\Users\matheswaran.e\.gradle\caches\transforms-2\files-2.1\69a5a1de08dfe08bfe2a8b98a051a6f6\support-media-compat-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0] C:\Users\matheswaran.e\.gradle\caches\transforms-2\files-2.1\69a5a1de08dfe08bfe2a8b98a051a6f6\support-media-compat-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\matheswaran.e\.gradle\caches\transforms-2\files-2.1\7c6a262b4f50579ecad6b3724ebe08d9\support-fragment-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\matheswaran.e\.gradle\caches\transforms-2\files-2.1\7c6a262b4f50579ecad6b3724ebe08d9\support-fragment-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\matheswaran.e\.gradle\caches\transforms-2\files-2.1\b72fa9ed369d9858d0fb5986bb7236fe\support-core-ui-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\matheswaran.e\.gradle\caches\transforms-2\files-2.1\b72fa9ed369d9858d0fb5986bb7236fe\support-core-ui-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\matheswaran.e\.gradle\caches\transforms-2\files-2.1\b625545188a320e0d23b3e969019b092\support-core-utils-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\matheswaran.e\.gradle\caches\transforms-2\files-2.1\b625545188a320e0d23b3e969019b092\support-core-utils-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\matheswaran.e\.gradle\caches\transforms-2\files-2.1\e6f4a04e02163bf11ecda043117f3475\loader-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\matheswaran.e\.gradle\caches\transforms-2\files-2.1\e6f4a04e02163bf11ecda043117f3475\loader-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\matheswaran.e\.gradle\caches\transforms-2\files-2.1\799752f7ab5f42ed6349356992c384fc\viewpager-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\matheswaran.e\.gradle\caches\transforms-2\files-2.1\799752f7ab5f42ed6349356992c384fc\viewpager-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\matheswaran.e\.gradle\caches\transforms-2\files-2.1\5929825c857518f2798a6a55425fb08f\coordinatorlayout-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\matheswaran.e\.gradle\caches\transforms-2\files-2.1\5929825c857518f2798a6a55425fb08f\coordinatorlayout-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\matheswaran.e\.gradle\caches\transforms-2\files-2.1\20678bdc8e9825d9276479d130c67d2a\drawerlayout-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\matheswaran.e\.gradle\caches\transforms-2\files-2.1\20678bdc8e9825d9276479d130c67d2a\drawerlayout-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\matheswaran.e\.gradle\caches\transforms-2\files-2.1\08e734783fefb2b47d7d06e73aba0ffc\slidingpanelayout-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\matheswaran.e\.gradle\caches\transforms-2\files-2.1\08e734783fefb2b47d7d06e73aba0ffc\slidingpanelayout-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\matheswaran.e\.gradle\caches\transforms-2\files-2.1\e9cc0f0e0dd2503b113a6576aef0520c\customview-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\matheswaran.e\.gradle\caches\transforms-2\files-2.1\e9cc0f0e0dd2503b113a6576aef0520c\customview-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\matheswaran.e\.gradle\caches\transforms-2\files-2.1\04e6b76b6ad86ad2089fb68021b94ebc\swiperefreshlayout-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\matheswaran.e\.gradle\caches\transforms-2\files-2.1\04e6b76b6ad86ad2089fb68021b94ebc\swiperefreshlayout-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\matheswaran.e\.gradle\caches\transforms-2\files-2.1\3331232a1d0540faeecd5909d3ddf883\asynclayoutinflater-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\matheswaran.e\.gradle\caches\transforms-2\files-2.1\3331232a1d0540faeecd5909d3ddf883\asynclayoutinflater-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\matheswaran.e\.gradle\caches\transforms-2\files-2.1\2a6c121eda6c2cbe33230f54b72bbbd4\support-compat-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\matheswaran.e\.gradle\caches\transforms-2\files-2.1\2a6c121eda6c2cbe33230f54b72bbbd4\support-compat-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\matheswaran.e\.gradle\caches\transforms-2\files-2.1\e02f1a1ec5b55e7809581065612f1348\versionedparcelable-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\matheswaran.e\.gradle\caches\transforms-2\files-2.1\e02f1a1ec5b55e7809581065612f1348\versionedparcelable-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\matheswaran.e\.gradle\caches\transforms-2\files-2.1\47a6a4cbe650527abafad251a3895de1\runtime-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\matheswaran.e\.gradle\caches\transforms-2\files-2.1\47a6a4cbe650527abafad251a3895de1\runtime-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\matheswaran.e\.gradle\caches\transforms-2\files-2.1\b29536638db7292f2819422afa21694f\documentfile-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\matheswaran.e\.gradle\caches\transforms-2\files-2.1\b29536638db7292f2819422afa21694f\documentfile-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\matheswaran.e\.gradle\caches\transforms-2\files-2.1\75a0fb48320195389de42f99e74f0605\localbroadcastmanager-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\matheswaran.e\.gradle\caches\transforms-2\files-2.1\75a0fb48320195389de42f99e74f0605\localbroadcastmanager-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\matheswaran.e\.gradle\caches\transforms-2\files-2.1\097f413583d095274abac7a6ab27aa97\print-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\matheswaran.e\.gradle\caches\transforms-2\files-2.1\097f413583d095274abac7a6ab27aa97\print-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\matheswaran.e\.gradle\caches\transforms-2\files-2.1\5c13844dbd3b484f42417ccecca0e693\interpolator-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\matheswaran.e\.gradle\caches\transforms-2\files-2.1\5c13844dbd3b484f42417ccecca0e693\interpolator-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\matheswaran.e\.gradle\caches\transforms-2\files-2.1\20dfc6e575b6f0806a233fe16bf403a6\cursoradapter-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\matheswaran.e\.gradle\caches\transforms-2\files-2.1\20dfc6e575b6f0806a233fe16bf403a6\cursoradapter-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\matheswaran.e\.gradle\caches\transforms-2\files-2.1\4f0233fffabe21144e50178f9cde4274\viewmodel-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\matheswaran.e\.gradle\caches\transforms-2\files-2.1\4f0233fffabe21144e50178f9cde4274\viewmodel-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\matheswaran.e\.gradle\caches\transforms-2\files-2.1\3ff1dcd229f05d3ed6ea73e9bcec5fe8\livedata-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\matheswaran.e\.gradle\caches\transforms-2\files-2.1\3ff1dcd229f05d3ed6ea73e9bcec5fe8\livedata-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\matheswaran.e\.gradle\caches\transforms-2\files-2.1\8dca7e011b2c99528440907406c0541e\livedata-core-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\matheswaran.e\.gradle\caches\transforms-2\files-2.1\8dca7e011b2c99528440907406c0541e\livedata-core-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\matheswaran.e\.gradle\caches\transforms-2\files-2.1\6798853c956e78fbccb8ca635a9e6671\runtime-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\matheswaran.e\.gradle\caches\transforms-2\files-2.1\6798853c956e78fbccb8ca635a9e6671\runtime-1.1.1\AndroidManifest.xml:20:5-44
+INJECTED from D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:7:5-9:41
+INJECTED from D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:7:5-9:41
+	android:targetSdkVersion
+		ADDED from D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:9:9-38
+		INJECTED from D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml
+		INJECTED from D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:8:9-35
+		INJECTED from D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml
+		INJECTED from D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml
+permission#in.wptrafficanalyzer.locationmarkerpreferences.permission.MAPS_RECEIVE
+ADDED from D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:11:5-13:47
+	android:protectionLevel
+		ADDED from D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:13:9-44
+	android:name
+		ADDED from D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:12:9-94
+uses-permission#com.google.android.providers.gsf.permission.READ_GSERVICES
+ADDED from D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:15:5-98
+	android:name
+		ADDED from D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:15:22-95
+uses-permission#in.wptrafficanalyzer.locationmarkerpreferences.permission.MAPS_RECEIVE
+ADDED from D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:16:5-110
+	android:name
+		ADDED from D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:16:22-107
+uses-feature#0x00020000
+ADDED from D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:18:5-20:35
+	android:glEsVersion
+		ADDED from D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:19:9-41
+	android:required
+		ADDED from D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:20:9-32
+uses-permission#android.permission.INTERNET
+ADDED from D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:22:5-67
+	android:name
+		ADDED from D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:22:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:23:5-79
+	android:name
+		ADDED from D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:23:22-76
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:24:5-81
+	android:name
+		ADDED from D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:24:22-78
+uses-permission#android.permission.BLUETOOTH_ADMIN
+ADDED from D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:25:5-74
+	android:name
+		ADDED from D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:25:22-71
+uses-permission#android.permission.BLUETOOTH
+ADDED from D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:26:5-68
+	android:name
+		ADDED from D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:26:22-65
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:27:5-75
+	android:name
+		ADDED from D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:27:22-72
+uses-permission#android.permission.CAMERA
+ADDED from D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:28:5-65
+	android:name
+		ADDED from D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:28:22-62
+uses-permission#android.permission.FLASHLIGHT
+ADDED from D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:29:5-69
+	android:name
+		ADDED from D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:29:22-66
+uses-permission#android.permission.WRITE_SETTINGS
+ADDED from D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:30:5-73
+	android:name
+		ADDED from D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:30:22-70
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:31:5-79
+	android:name
+		ADDED from D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:31:22-76
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:32:5-81
+	android:name
+		ADDED from D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:32:22-78
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:33:5-34:23
+	android:name
+		ADDED from D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:33:22-73
+supports-screens
+ADDED from D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:36:5-40:39
+	android:largeScreens
+		ADDED from D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:38:9-36
+	android:smallScreens
+		ADDED from D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:40:9-36
+	android:normalScreens
+		ADDED from D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:39:9-37
+	android:anyDensity
+		ADDED from D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:37:9-34
+application
+ADDED from D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:42:5-256:19
+MERGED from [com.tbruyelle.rxpermissions2:rxpermissions:0.9.5] C:\Users\matheswaran.e\.gradle\caches\transforms-2\files-2.1\483979f1220365f3acbab508816e1d46\rxpermissions-0.9.5\AndroidManifest.xml:11:5-20
+MERGED from [com.tbruyelle.rxpermissions2:rxpermissions:0.9.5] C:\Users\matheswaran.e\.gradle\caches\transforms-2\files-2.1\483979f1220365f3acbab508816e1d46\rxpermissions-0.9.5\AndroidManifest.xml:11:5-20
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\matheswaran.e\.gradle\caches\transforms-2\files-2.1\2a6c121eda6c2cbe33230f54b72bbbd4\support-compat-28.0.0\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\matheswaran.e\.gradle\caches\transforms-2\files-2.1\2a6c121eda6c2cbe33230f54b72bbbd4\support-compat-28.0.0\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\matheswaran.e\.gradle\caches\transforms-2\files-2.1\e02f1a1ec5b55e7809581065612f1348\versionedparcelable-28.0.0\AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\matheswaran.e\.gradle\caches\transforms-2\files-2.1\e02f1a1ec5b55e7809581065612f1348\versionedparcelable-28.0.0\AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0] C:\Users\matheswaran.e\.gradle\caches\transforms-2\files-2.1\2a6c121eda6c2cbe33230f54b72bbbd4\support-compat-28.0.0\AndroidManifest.xml:22:18-91
+	android:textSize
+		ADDED from D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:45:9-32
+	android:label
+		ADDED from D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:43:9-43
+	android:largeHeap
+		ADDED from D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:44:9-33
+	android:theme
+		ADDED from D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:47:9-45
+	android:usesCleartextTraffic
+		ADDED from D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:46:9-44
+activity#com.mobilesalesperson.controller.PermissionChecking
+ADDED from D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:60:9-67:20
+	android:screenOrientation
+		ADDED from D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:61:13-55
+	android:windowSoftInputMode
+		ADDED from D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:62:13-54
+	android:name
+		ADDED from D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:60:19-53
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:63:13-66:25
+action#android.intent.action.MAIN
+ADDED from D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:64:29-81
+	android:name
+		ADDED from D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:64:37-78
+category#android.intent.category.LAUNCHER
+ADDED from D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:65:25-85
+	android:name
+		ADDED from D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:65:35-82
+activity#com.mobilesalesperson.controller.Login
+ADDED from D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:69:12-77:20
+	android:screenOrientation
+		ADDED from D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:71:13-55
+	android:label
+		ADDED from D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:70:13-56
+	android:windowSoftInputMode
+		ADDED from D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:72:13-54
+	android:name
+		ADDED from D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:69:23-44
+activity#com.mobilesalesperson.controller.Aboutus
+ADDED from D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:78:9-81:57
+	android:screenOrientation
+		ADDED from D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:80:13-55
+	android:windowSoftInputMode
+		ADDED from D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:81:13-54
+	android:name
+		ADDED from D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:79:13-36
+activity#com.mobilesalesperson.controller.MainMenu
+ADDED from D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:82:9-85:57
+	android:screenOrientation
+		ADDED from D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:84:13-55
+	android:windowSoftInputMode
+		ADDED from D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:85:13-54
+	android:name
+		ADDED from D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:83:13-37
+activity#com.mobilesalesperson.controller.CompanyInfo
+ADDED from D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:86:9-89:57
+	android:screenOrientation
+		ADDED from D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:88:13-55
+	android:windowSoftInputMode
+		ADDED from D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:89:13-54
+	android:name
+		ADDED from D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:87:13-40
+activity#com.mobilesalesperson.controller.CustomerSelection
+ADDED from D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:90:9-93:57
+	android:screenOrientation
+		ADDED from D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:92:13-55
+	android:windowSoftInputMode
+		ADDED from D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:93:13-54
+	android:name
+		ADDED from D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:91:13-46
+activity#com.mobilesalesperson.controller.CustomerInfo
+ADDED from D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:94:9-97:57
+	android:screenOrientation
+		ADDED from D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:96:13-55
+	android:windowSoftInputMode
+		ADDED from D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:97:13-54
+	android:name
+		ADDED from D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:95:13-41
+activity#com.mobilesalesperson.controller.ItemSelection
+ADDED from D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:98:9-101:57
+	android:screenOrientation
+		ADDED from D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:100:13-55
+	android:windowSoftInputMode
+		ADDED from D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:101:13-54
+	android:name
+		ADDED from D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:99:13-42
+activity#com.mobilesalesperson.controller.ItemInfo
+ADDED from D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:102:9-105:57
+	android:screenOrientation
+		ADDED from D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:104:13-55
+	android:windowSoftInputMode
+		ADDED from D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:105:13-54
+	android:name
+		ADDED from D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:103:13-37
+activity#com.mobilesalesperson.controller.SalesPersonInfo
+ADDED from D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:106:9-109:57
+	android:screenOrientation
+		ADDED from D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:108:13-55
+	android:windowSoftInputMode
+		ADDED from D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:109:13-54
+	android:name
+		ADDED from D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:107:13-44
+activity#com.mobilesalesperson.controller.AddCustomer
+ADDED from D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:110:9-113:57
+	android:screenOrientation
+		ADDED from D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:112:13-55
+	android:windowSoftInputMode
+		ADDED from D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:113:13-54
+	android:name
+		ADDED from D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:111:13-40
+activity#com.mobilesalesperson.controller.SetTax
+ADDED from D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:114:9-117:57
+	android:screenOrientation
+		ADDED from D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:116:13-55
+	android:windowSoftInputMode
+		ADDED from D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:117:13-54
+	android:name
+		ADDED from D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:115:13-35
+activity#com.mobilesalesperson.controller.ShipTo
+ADDED from D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:118:9-121:57
+	android:screenOrientation
+		ADDED from D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:120:13-55
+	android:windowSoftInputMode
+		ADDED from D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:121:13-54
+	android:name
+		ADDED from D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:119:13-35
+activity#com.mobilesalesperson.controller.ItemEntry
+ADDED from D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:122:9-125:57
+	android:screenOrientation
+		ADDED from D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:124:13-55
+	android:windowSoftInputMode
+		ADDED from D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:125:13-54
+	android:name
+		ADDED from D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:123:13-38
+activity#com.mobilesalesperson.controller.Transaction
+ADDED from D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:126:9-129:57
+	android:screenOrientation
+		ADDED from D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:128:13-55
+	android:windowSoftInputMode
+		ADDED from D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:129:13-54
+	android:name
+		ADDED from D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:127:13-40
+activity#com.mobilesalesperson.controller.Sign
+ADDED from D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:130:9-133:57
+	android:screenOrientation
+		ADDED from D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:132:13-55
+	android:windowSoftInputMode
+		ADDED from D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:133:13-54
+	android:name
+		ADDED from D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:131:13-33
+activity#com.mobilesalesperson.controller.OrderSelection
+ADDED from D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:134:9-137:57
+	android:screenOrientation
+		ADDED from D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:136:13-55
+	android:windowSoftInputMode
+		ADDED from D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:137:13-54
+	android:name
+		ADDED from D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:135:13-43
+activity#com.mobilesalesperson.controller.Receipt
+ADDED from D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:138:9-141:57
+	android:screenOrientation
+		ADDED from D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:140:13-55
+	android:windowSoftInputMode
+		ADDED from D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:141:13-54
+	android:name
+		ADDED from D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:139:13-36
+activity#com.mobilesalesperson.controller.Prepayment
+ADDED from D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:142:9-145:57
+	android:screenOrientation
+		ADDED from D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:144:13-55
+	android:windowSoftInputMode
+		ADDED from D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:145:13-54
+	android:name
+		ADDED from D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:143:13-39
+activity#com.mobilesalesperson.controller.TransactionSummary
+ADDED from D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:146:9-149:57
+	android:screenOrientation
+		ADDED from D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:148:13-55
+	android:windowSoftInputMode
+		ADDED from D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:149:13-54
+	android:name
+		ADDED from D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:147:13-47
+activity#com.mobilesalesperson.controller.Inventory
+ADDED from D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:150:9-153:57
+	android:screenOrientation
+		ADDED from D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:152:13-55
+	android:windowSoftInputMode
+		ADDED from D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:153:13-54
+	android:name
+		ADDED from D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:151:13-38
+activity#com.mobilesalesperson.controller.ReceiptSummary
+ADDED from D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:154:9-157:57
+	android:screenOrientation
+		ADDED from D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:156:13-55
+	android:windowSoftInputMode
+		ADDED from D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:157:13-54
+	android:name
+		ADDED from D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:155:13-43
+activity#com.mobilesalesperson.controller.ReceiptSelection
+ADDED from D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:158:9-161:57
+	android:screenOrientation
+		ADDED from D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:160:13-55
+	android:windowSoftInputMode
+		ADDED from D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:161:13-54
+	android:name
+		ADDED from D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:159:13-45
+activity#com.mobilesalesperson.controller.ReceiptDetail
+ADDED from D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:162:9-165:57
+	android:screenOrientation
+		ADDED from D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:164:13-55
+	android:windowSoftInputMode
+		ADDED from D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:165:13-54
+	android:name
+		ADDED from D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:163:13-42
+activity#com.mobilesalesperson.controller.SalesSummary
+ADDED from D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:166:9-169:57
+	android:screenOrientation
+		ADDED from D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:168:13-55
+	android:windowSoftInputMode
+		ADDED from D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:169:13-54
+	android:name
+		ADDED from D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:167:13-41
+activity#com.mobilesalesperson.controller.Settings
+ADDED from D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:170:9-173:57
+	android:screenOrientation
+		ADDED from D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:172:13-55
+	android:windowSoftInputMode
+		ADDED from D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:173:13-54
+	android:name
+		ADDED from D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:171:13-37
+activity#com.mobilesalesperson.controller.WebViewActivity
+ADDED from D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:174:9-177:57
+	android:screenOrientation
+		ADDED from D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:176:13-55
+	android:windowSoftInputMode
+		ADDED from D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:177:13-54
+	android:name
+		ADDED from D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:175:13-44
+activity#com.mobilesalesperson.controller.TransactionDetail
+ADDED from D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:178:9-181:57
+	android:screenOrientation
+		ADDED from D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:180:13-55
+	android:windowSoftInputMode
+		ADDED from D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:181:13-54
+	android:name
+		ADDED from D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:179:13-46
+activity#com.mobilesalesperson.controller.Themes
+ADDED from D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:182:9-185:57
+	android:screenOrientation
+		ADDED from D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:184:13-55
+	android:windowSoftInputMode
+		ADDED from D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:185:13-54
+	android:name
+		ADDED from D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:183:13-35
+activity#com.mobilesalesperson.controller.Export
+ADDED from D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:186:9-189:57
+	android:screenOrientation
+		ADDED from D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:188:13-55
+	android:windowSoftInputMode
+		ADDED from D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:189:13-54
+	android:name
+		ADDED from D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:187:13-35
+activity#com.mobilesalesperson.controller.AdminLogin
+ADDED from D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:190:9-193:57
+	android:screenOrientation
+		ADDED from D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:192:13-55
+	android:windowSoftInputMode
+		ADDED from D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:193:13-54
+	android:name
+		ADDED from D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:191:13-39
+activity#com.mobilesalesperson.controller.TransPDFCreate
+ADDED from D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:194:9-197:57
+	android:screenOrientation
+		ADDED from D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:196:13-55
+	android:windowSoftInputMode
+		ADDED from D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:197:13-54
+	android:name
+		ADDED from D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:195:13-43
+activity#com.mobilesalesperson.controller.ReceiptPDFCreate
+ADDED from D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:199:9-202:57
+	android:screenOrientation
+		ADDED from D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:201:13-55
+	android:windowSoftInputMode
+		ADDED from D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:202:13-54
+	android:name
+		ADDED from D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:200:13-45
+activity#com.mobilesalesperson.controller.ImportSummary
+ADDED from D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:204:9-207:57
+	android:screenOrientation
+		ADDED from D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:206:13-55
+	android:windowSoftInputMode
+		ADDED from D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:207:13-54
+	android:name
+		ADDED from D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:205:13-42
+activity#com.mobilesalesperson.controller.CurrencyCounter
+ADDED from D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:208:9-211:55
+	android:screenOrientation
+		ADDED from D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:210:13-55
+	android:windowSoftInputMode
+		ADDED from D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:211:13-52
+	android:name
+		ADDED from D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:209:13-44
+activity#com.mobilesalesperson.controller.EmailSettings
+ADDED from D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:212:9-215:57
+	android:screenOrientation
+		ADDED from D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:214:13-55
+	android:windowSoftInputMode
+		ADDED from D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:215:13-54
+	android:name
+		ADDED from D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:213:13-42
+activity#com.mobilesalesperson.controller.CurrencyCounterSettings
+ADDED from D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:216:9-219:57
+	android:screenOrientation
+		ADDED from D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:218:13-55
+	android:windowSoftInputMode
+		ADDED from D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:219:13-54
+	android:name
+		ADDED from D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:217:13-52
+activity#com.mobilesalesperson.controller.AppBaseActivity
+ADDED from D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:220:9-221:20
+	android:name
+		ADDED from D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:220:19-50
+activity#com.mobilesalesperson.controller.DisplayLocation
+ADDED from D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:222:9-225:57
+	android:screenOrientation
+		ADDED from D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:224:13-55
+	android:windowSoftInputMode
+		ADDED from D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:225:13-54
+	android:name
+		ADDED from D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:223:13-44
+activity#com.mobilesalesperson.controller.EmailPage
+ADDED from D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:226:9-228:20
+	android:name
+		ADDED from D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:226:19-44
+activity#com.google.zxing.client.android.CaptureActivity
+ADDED from D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:231:9-247:20
+	android:screenOrientation
+		ADDED from D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:234:13-50
+	android:windowSoftInputMode
+		ADDED from D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:236:13-60
+	android:configChanges
+		ADDED from D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:233:13-63
+	android:theme
+		ADDED from D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:235:13-71
+	android:name
+		ADDED from D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:232:13-75
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.DEFAULT
+ADDED from D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:237:13-241:29
+category#android.intent.category.DEFAULT
+ADDED from D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:240:17-76
+	android:name
+		ADDED from D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:240:27-73
+intent-filter#action:name:com.google.zxing.client.android.SCAN+category:name:android.intent.category.DEFAULT
+ADDED from D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:242:13-246:29
+action#com.google.zxing.client.android.SCAN
+ADDED from D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:243:17-79
+	android:name
+		ADDED from D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:243:25-76
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:56:13-58:57
+	android:resource
+		ADDED from D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:58:17-55
+	android:name
+		ADDED from D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:57:17-67

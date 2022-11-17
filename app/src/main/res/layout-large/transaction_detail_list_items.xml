@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="8dp" >
+
+    <TextView
+        android:id="@+id/txt_TransDetailSerialNum"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        style="?textRetriever"
+        android:layout_weight="20"
+        android:text=""
+        android:textAppearance="?android:attr/textAppearanceSmall">
+    </TextView>
+
+    <TextView
+        android:id="@+id/txt_TransDetailListItem"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="30"
+        style="?textRetriever"
+        android:gravity="center|left"
+        android:text=""
+        android:textAppearance="?android:attr/textAppearanceSmall">
+    </TextView>
+
+    <TextView
+        android:id="@+id/txt_TransDetailListPrize"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="25"
+        style="?textRetriever"
+        android:gravity="center|left"
+        android:paddingLeft="5dp"
+        android:textAppearance="?android:attr/textAppearanceSmall">
+    </TextView>
+
+    <TextView
+        android:id="@+id/txt_TransDetailListQty"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="25"
+        style="?textRetriever"
+        android:gravity="center"
+        android:text=""
+        android:textAppearance="?android:attr/textAppearanceSmall">
+    </TextView>
+
+</LinearLayout>

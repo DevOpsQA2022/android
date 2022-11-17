@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    style="?pageBackground"
+    android:padding="10dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="To:"
+
+        android:textSize="32sp"
+        />
+    <EditText
+        android:id="@+id/to_address_email"
+        style="@style/EditTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:ems="20"
+        android:hint="To"
+        android:inputType="textEmailAddress"
+        android:maxLength="50"
+        android:typeface="sans" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Subject:"
+
+        android:textSize="32sp"
+        />
+    <EditText
+        android:id="@+id/to_subject_email"
+        style="@style/EditTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       android:padding="5dp"
+        android:layout_marginTop="30dp"
+        android:ems="20"
+        android:layout_gravity="center"
+        android:hint="Subject"
+        android:inputType="textEmailSubject"
+        android:maxLength="50"
+        android:typeface="sans" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Message:"
+
+        android:textSize="32sp"
+        />
+    <EditText
+        android:id="@+id/to_message_email"
+        style="@style/EditTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:layout_marginTop="30dp"
+        android:ems="20"
+        android:layout_gravity="center"
+        android:lines="10"
+        android:hint="Message"
+        android:inputType="textEmailSubject"
+        android:maxLength="200"
+        android:typeface="sans" />
+    <Button
+        android:id="@+id/btn_send_email"
+
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:ems="20"
+        android:text="Send mail"/>
+
+</LinearLayout>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="D:\Mobile Team\Universal\Work In Progress\Source Code\Mobile Sales Person\Android\MobileSalesPerson\app\libs\ZSDK_API.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="91c4a16feb97b986ccc088ed2388b8a21cbef330">
+        <dex dex="D:\Mobile Team\Universal\Work In Progress\Source Code\Mobile Sales Person\Android\MobileSalesPerson\app\build\intermediates\pre-dexed\debug\ZSDK_API_6a20e041efac7846f7666e64daa30078fae599e9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Android\Sdk\extras\android\m2repository\com\android\support\support-v4\18.0.0\support-v4-18.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="44ec51e9d395a47aab135e5e1b556c0007442156">
+        <dex dex="D:\Mobile Team\Universal\Work In Progress\Source Code\Mobile Sales Person\Android\MobileSalesPerson\app\build\intermediates\pre-dexed\debug\support-v4-18.0.0_be7cc06ffb44614abde513072e196737875ee0a9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Mobile Team\Universal\Work In Progress\Source Code\Mobile Sales Person\Android\MobileSalesPerson\app\libs\itextg-5.5.8.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b4776ad88a90a2cf10ca37c454c5520c7d5466f7">
+        <dex dex="D:\Mobile Team\Universal\Work In Progress\Source Code\Mobile Sales Person\Android\MobileSalesPerson\app\build\intermediates\pre-dexed\debug\itextg-5.5.8_0508ffb3f8df44513e9e1a142cdae7da1e70ad9f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Mobile Team\Universal\Work In Progress\Source Code\Mobile Sales Person\Android\MobileSalesPerson\app\libs\core.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="69ab751723c7f7c8a01fddb1d169a93160fadca7">
+        <dex dex="D:\Mobile Team\Universal\Work In Progress\Source Code\Mobile Sales Person\Android\MobileSalesPerson\app\build\intermediates\pre-dexed\debug\core_79bfbefb47b96d8d4bcf1cbe56d4fde805c4b3b5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Mobile Team\Universal\Work In Progress\Source Code\Mobile Sales Person\Android\MobileSalesPerson\app\libs\activation.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d1257cbff6faa44c1f325ae0d9413522d4644383">
+        <dex dex="D:\Mobile Team\Universal\Work In Progress\Source Code\Mobile Sales Person\Android\MobileSalesPerson\app\build\intermediates\pre-dexed\debug\activation_bcc13ecf70ff2c904776fbb94144389e50f1f6e8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Mobile Team\Universal\Work In Progress\Source Code\Mobile Sales Person\Android\MobileSalesPerson\app\libs\sqljdbc4.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="7c34c3a05707ae897d1b8fe4319736aef38670c6">
+        <dex dex="D:\Mobile Team\Universal\Work In Progress\Source Code\Mobile Sales Person\Android\MobileSalesPerson\app\build\intermediates\pre-dexed\debug\sqljdbc4_2459415af39ce703821117eb2db38402ca9aeb64.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Mobile Team\Universal\Work In Progress\Source Code\Mobile Sales Person\Android\MobileSalesPerson\app\libs\mail.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="428e267abff0d10802ccde86b915da2c20471160">
+        <dex dex="D:\Mobile Team\Universal\Work In Progress\Source Code\Mobile Sales Person\Android\MobileSalesPerson\app\build\intermediates\pre-dexed\debug\mail_ade68d7e707065b33d7ddc72f4db72f1ae21fec2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Mobile Team\Universal\Work In Progress\Source Code\Mobile Sales Person\Android\MobileSalesPerson\app\libs\ksoap2-android-assembly-2.6.2-jar-with-dependencies.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b619a8ddb45bd12ae6a889c0ed1b21b8a908b2bd">
+        <dex dex="D:\Mobile Team\Universal\Work In Progress\Source Code\Mobile Sales Person\Android\MobileSalesPerson\app\build\intermediates\pre-dexed\debug\ksoap2-android-assembly-2.6.2-jar-with-dependencies_1956ab8797a9f4c627201b74068b50d7fce6a7f2.jar" />
+    </item>
+
+</items>

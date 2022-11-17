@@ -1,0 +1,15 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:layout_width="wrap_content"
+    android:layout_gravity="center|center_vertical"
+    android:layout_height="wrap_content" >
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"        
+        android:clickable="false"
+        android:layout_margin="5dp"
+        android:scaleType="center"
+        android:contentDescription="@string/imgDesc"
+        android:src="@drawable/msplogo" />
+
+</LinearLayout>

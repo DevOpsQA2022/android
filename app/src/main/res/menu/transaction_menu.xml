@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+     <item
+        android:id="@+id/trans_mnu_add"
+        android:icon="@drawable/add_menu"
+        android:title="Add"/>
+    <item
+        android:id="@+id/trans_mnu_sign"
+        android:icon="@drawable/signature_menu"
+        android:title="Sign"/>
+    
+</menu>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item
+        android:id="@+id/trans_detail_mnu_print"
+        android:icon="@drawable/print_menu"
+        android:title="Print"/>
+	
+    <item
+        android:id="@+id/trans_detail_delete"
+        android:icon="@drawable/delete"
+        android:title="Delete"/>   
+	
+    <item
+        android:id="@+id/trans_detail_mnu_sign"
+        android:icon="@drawable/signature_menu"
+        android:title="Sign"/>
+
+</menu>

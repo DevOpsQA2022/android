@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- @designed by T.SARAVANAN -->
+
+<!-- Parent Relative layout with vertical orientation -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="?pageBackground"
+    android:id="@+id/lay_export"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <TextView
+        android:id="@+id/txt_exportTitle"
+        style="?pageTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="@string/txtExportTitle" />
+
+    <!-- Line between title and Table layout -->
+
+    <View
+        android:id="@+id/export_view_line1"
+        style="?PageLine"
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/txt_exportTitle"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="10dp" />
+    <!-- Child linear layout with horizontal orientation -->
+
+    <LinearLayout
+        android:id="@+id/export_lay_SelectCompany"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/export_view_line1"
+        android:layout_gravity="center"
+        android:layout_margin="15dp"
+        android:gravity="center_horizontal" >
+
+        <TextView
+            style="?textRegular"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|center_horizontal"
+            android:layout_weight="0.5"
+            android:text="@string/companyNameTxtStr" />
+
+        <TextView
+            android:id="@+id/txt_cmpnyName"
+            style="?textLongRetriever"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5" 
+            android:layout_gravity="left"
+            android:layout_marginLeft="5dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/export_lay_SelectTypes"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/export_lay_SelectCompany"
+        android:layout_gravity="center"
+        android:layout_margin="15dp"
+        android:gravity="center_horizontal" >
+
+        <TextView
+            style="?textRegular"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|center_horizontal"
+            android:layout_weight="0.5"
+            android:text="@string/txtSelectExportTypes" />
+
+        <Spinner
+            android:id="@+id/export_spn_types"
+            style="@style/SpinnerStyle"
+            android:layout_width="0dip"
+            android:layout_height="54dp"
+            android:layout_margin="2dp"
+            android:layout_weight="0.5" />
+    </LinearLayout>
+
+    <CheckBox
+        android:id="@+id/chk_selectAll"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/export_lay_SelectCompany"
+        android:layout_below="@+id/export_lay_SelectTypes"
+        android:layout_marginTop="10dp"
+        android:button="@drawable/checkbox_selector"
+        android:text="@string/txtExportSelectAll" />
+
+    <CheckBox
+        android:id="@+id/chk_posted"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/export_lay_SelectCompany"
+        android:layout_below="@+id/export_lay_SelectTypes"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="5dp"
+        android:button="@drawable/checkbox_selector"
+        android:text="@string/txtExported" />
+
+    <!-- Child linear layout5 with horizontal orientation -->
+    <!--mathes edited-->
+    <LinearLayout
+        android:id="@+id/EXPFromDate"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/chk_selectAll"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+        android:visibility="invisible"
+        android:gravity="center_horizontal" >
+
+        <TextView
+            style="?textRegular"
+            android:id="@+id/txt_frmdate"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|center_horizontal"
+            android:layout_weight="0.5"
+            android:text="FromDate" />
+
+        <EditText
+            android:id="@+id/edt_ExportFromDate"
+            style="@style/EditTxt"
+            android:layout_width="0dip"
+            android:layout_height="54dp"
+            android:layout_gravity="left"
+            android:paddingLeft="5dp"
+            android:layout_marginLeft="3dp"
+            android:layout_weight="0.40"
+            android:focusable="false"
+            android:inputType="date"
+            android:text="" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/EXPTODate"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/EXPFromDate"
+        android:visibility="invisible"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+
+        android:gravity="center_horizontal" >
+
+        <TextView
+            style="?textRegular"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|center_horizontal"
+            android:id="@+id/txt_Todate"
+            android:layout_weight="0.5"
+            android:text="ToDate" />
+
+        <EditText
+            android:id="@+id/edt_ExportToDate"
+            style="@style/EditTxt"
+            android:layout_width="0dip"
+            android:layout_height="54dp"
+            android:layout_gravity="left"
+            android:paddingLeft="5dp"
+            android:layout_marginLeft="3dp"
+            android:layout_weight="0.40"
+            android:focusable="false"
+            android:inputType="date"
+            android:text="" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/EXPButton"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/EXPTODate"
+        android:layout_gravity="center"
+        android:visibility="invisible"
+        android:layout_margin="5dp"
+        android:gravity="center_horizontal" >
+        <Button
+            android:id="@+id/btn_loadTransummary"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:text="@string/loadSummary"
+            android:layout_gravity="center"
+            style="?buttonStyle"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="0.25"/>
+    </LinearLayout>
+
+
+    <!--mathes edited-->
+    <LinearLayout
+        android:id="@+id/listTitle"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/EXPButton"
+        android:background="#267ad4"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:padding="5dp" >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="50"
+            android:text="@string/txtExportOrdNo"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textSize="32sp"
+            android:textStyle="bold" >
+        </TextView>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="30"
+            android:gravity="center|left"
+            android:text="@string/txtTransDate"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textSize="32sp"
+            android:textStyle="bold" >
+        </TextView>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="20"
+            android:gravity="center|left"
+            android:text="@string/txtTransDetailStatus"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textSize="32sp"
+            android:textStyle="bold" >
+        </TextView>
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/lst_ExportItems"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/listTitle"
+        android:cacheColorHint="@color/transparent"
+        android:background="@drawable/aboutus_border" >
+    </ListView> 
+   
+    
+</RelativeLayout>

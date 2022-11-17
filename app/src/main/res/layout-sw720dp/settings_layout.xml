@@ -1,0 +1,586 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--     @designed by T.SARAVANAN 
+ -->
+
+<!-- Parent Relative layout with vertical orientation -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="?pageBackground"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/txt_settingTitle"
+        style="?pageTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:textSize="36sp"
+        android:textColor="#E3474F"
+        android:textStyle="bold"
+        android:text="@string/txtSettingTitle" />
+
+    <!-- Line between title and Table layout -->
+
+    <View
+        android:id="@+id/set_view_line1"
+        style="?PageLine"
+        android:layout_width="fill_parent"
+        android:layout_height="2dp"
+        android:layout_below="@id/txt_settingTitle"
+        android:layout_marginTop="10dp" />
+
+    <!-- Child Table layout -->
+
+    <TableLayout
+        android:id="@+id/tbl_settingHeadSec"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/set_view_line1"
+        android:layout_gravity="center"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="40dp" >
+
+        <!-- Row 1: Setting number of print Field -->
+
+        <TableRow
+            android:id="@+id/row_noOfPrint"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="1dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1" >
+
+            <TextView
+                style="?textRegular"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|left"
+                android:layout_weight="0.50"
+                android:gravity="left"
+                android:textSize="32sp"
+                android:text="@string/txtSettingPrint" />
+
+            <EditText
+                android:id="@+id/edt_setNoOfPrint"
+                style="@style/EditTxt"
+                android:layout_width="0dip"
+                android:layout_height="70dp"
+                android:layout_weight="0.50"
+                android:gravity="left"
+                android:padding="15dp"
+                android:textSize="32sp"
+                android:inputType="number"
+                android:focusable="false" /> <!-- this focusable false only for alfred customer -->
+        </TableRow>
+
+        <!-- Row 2: Setting Number of Item autosave Field -->
+
+        <TableRow
+            android:id="@+id/row_autoSave"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="1dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1" >
+
+            <TextView
+                style="?textRegular"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|left"
+                android:layout_weight="0.50"
+                android:gravity="left"
+                android:textSize="32sp"
+                android:text="@string/txtSettingAutoSave" />
+
+            <EditText
+                android:id="@+id/edt_setNoOfItmSave"
+                style="@style/EditTxt"
+                android:layout_width="0dip"
+                android:layout_height="50dp"
+                android:layout_weight="0.50"
+                android:gravity="right"
+                android:inputType="number"
+                android:focusable="false" />
+        </TableRow>
+
+        <!-- Row 3: Setting Total Piece Discount Field -->
+
+        <TableRow
+            android:id="@+id/row_totPiece"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="1dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1" >
+
+            <TextView
+                style="?textRegular"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|left"
+                android:layout_weight="0.50"
+                android:gravity="left"
+                android:textSize="32sp"
+                android:text="@string/txtSettingTotalPieceDisc" />
+
+            <EditText
+                android:id="@+id/edt_setTotPieceDiscount"
+                style="@style/EditTxt"
+                android:layout_width="0dip"
+                android:layout_height="50dp"
+                android:layout_weight="0.50"
+                android:gravity="right"
+                android:inputType="number"
+                android:focusable="false" />
+        </TableRow>
+
+        <!-- Row 4: Setting Discount price Field -->
+
+        <TableRow
+            android:id="@+id/row_discPrice"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="1dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1" >
+
+            <TextView
+                style="?textRegular"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|left"
+                android:layout_weight="0.50"
+                android:gravity="left"
+                android:textSize="32sp"
+                android:text="@string/txtSettingDiscPrice" />
+
+            <EditText
+                android:id="@+id/edt_setDiscountPrice"
+                style="@style/EditTxt"
+                android:layout_width="0dip"
+                android:layout_height="50dp"
+                android:layout_weight="0.50"
+                android:gravity="right"
+                android:inputType="number"
+                android:focusable="false"/>
+        </TableRow>
+
+        <!-- Row 5: Setting date format Field -->
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="1dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1" >
+
+            <TextView
+                style="?textRegular"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|left"
+                android:layout_weight="0.50"
+                android:gravity="left"
+                android:textSize="32sp"
+                android:text="@string/txtSettingDateFormat" />
+
+            <Spinner
+                android:id="@+id/spn_setDateFormat"
+                style="@style/SpinnerStyle"
+                android:layout_width="0dip"
+                android:layout_height="50dp"
+                android:layout_weight="0.50"
+                android:gravity="right" />
+        </TableRow>
+
+        <!-- Row 6: Setting decimal format Field -->
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1" >
+
+            <TextView
+                style="?textRegular"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|left"
+                android:layout_weight="0.50"
+                android:gravity="left"
+                android:textSize="32sp"
+                android:text="@string/txtSettingDecimalFormat" />
+
+            <Spinner
+                android:id="@+id/spn_setDecimalFormat"
+                style="@style/SpinnerStyle"
+                android:layout_width="0dip"
+                android:layout_height="50dp"
+                android:layout_weight="0.50"
+                android:gravity="right" />
+        </TableRow>
+    </TableLayout>
+
+    <!-- Line between setting head section and setting middle section Table layout -->
+
+    <View
+        android:id="@+id/view_line1"
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/tbl_settingHeadSec"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="20dp"
+        android:background="#6495ED" />
+
+    <!-- Child Table layout 2 -->
+
+    <TableLayout
+        android:id="@+id/tbl_settingMidSec"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/view_line1"
+        android:layout_gravity="center"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="20dp" >
+
+        <!-- Row 1: Setting data transfer account Field -->
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1" >
+
+            <TextView
+                style="?textRegular"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|left"
+                android:layout_weight="0.45"
+                android:textSize="32sp"
+                android:text="@string/txtSettingSyncAccnt" />
+
+            <Spinner
+                android:id="@+id/spn_emailAccnt"
+                style="@style/SpinnerStyle"
+                android:layout_width="0dip"
+                android:layout_height="50dp"
+                android:layout_weight="0.45" />
+
+            <TextView
+                style="?textRegular"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|left"
+                android:layout_weight="0.10" />
+        </TableRow>
+
+        <!-- Row 2: Setting msp server path Field -->
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1" >
+
+            <TextView
+                style="?textRegular"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|left"
+                android:layout_weight="0.45"
+                android:textSize="32sp"
+                android:text="@string/txtSettingMspServerPath" />
+
+            <EditText
+                android:id="@+id/edt_setServerPath"
+                style="@style/EditTxt"
+                android:layout_width="0dip"
+                android:layout_height="70dp"
+                android:textSize="32sp"
+                android:layout_marginTop="5dp"
+                android:padding="15dp"
+                android:text="192"
+                android:layout_weight="0.45"
+                android:gravity="left" />
+
+            <ImageView
+                android:id="@+id/btn_setTC"
+                android:layout_width="0dip"
+                android:layout_height="50dp"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="0.10"
+                android:contentDescription="@string/imgDesc"
+                android:gravity="center"
+                android:src="@drawable/networks" />
+        </TableRow>
+    </TableLayout>
+
+    <!-- Line between setting middle section and select printer section -->
+
+    <View
+        android:id="@+id/view_line2"
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/tbl_settingMidSec"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="20dp"
+        android:background="#6495ED" />
+
+    <!-- Child linear layout with horizontal orientation -->
+
+    <LinearLayout
+        android:id="@+id/lay_selectPrinter"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/view_line2"
+        android:layout_gravity="center"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            style="?textRegular"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|left"
+            android:layout_weight="30"
+            android:layout_marginLeft="10dp"
+            android:textSize="32sp"
+            android:text="@string/txtSettingSelectPrinter" />
+
+        <Spinner
+            android:id="@+id/spn_printerName"
+            style="@style/SpinnerStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_weight="35" />
+
+        <Spinner
+            android:id="@+id/spn_printerModel"
+            style="@style/SpinnerStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp"
+            android:layout_weight="35" />
+    </LinearLayout>
+
+    <!-- Child Table layout 3 -->
+
+    <TableLayout
+        android:id="@+id/tbl_settingEndSec"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/lay_selectPrinter"
+        android:layout_gravity="center"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="20dp" >
+
+        <!-- Row 1: Setting show shipment screen Field -->
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="2dp" >
+
+            <TextView
+                style="?textRegular"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|left"
+                android:layout_weight="20"
+                android:textSize="32sp"
+                android:text="@string/txtSettingShowShipment" />
+
+            <CheckBox
+                android:id="@+id/chk_Shipment"
+                android:layout_width="37dp"
+                android:layout_height="50dp"
+                android:layout_weight="10"
+                android:button="@drawable/checkbox_selector"
+                android:focusable="false" />
+
+            <TextView
+                style="?textRegular"
+                android:layout_width="wrap_content"
+                android:textSize="32sp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|left"
+                android:layout_weight="70" />
+        </TableRow>
+
+        <!-- Row 2: Setting show prepayment Field -->
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="1dp" >
+
+            <TextView
+                style="?textRegular"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|left"
+                android:layout_weight="20"
+                android:textSize="32sp"
+                android:text="@string/txtSettingShowPrepayment" />
+
+            <CheckBox
+                android:id="@+id/chk_Prepayment"
+                android:layout_width="37dp"
+                android:layout_height="50dp"
+                android:layout_weight="10"
+                android:button="@drawable/checkbox_selector"
+                android:focusable="false" />
+
+            <TextView
+                style="?textRegular"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|left"
+                android:layout_weight="70" />
+        </TableRow>
+
+        <!-- Row 3: Setting auto report generation Field -->
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="1dp" >
+
+            <TextView
+                style="?textRegular"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|left"
+                android:layout_weight="20"
+                android:textSize="32sp"
+                android:text="@string/txtSettingAutoReport" />
+
+            <CheckBox
+                android:id="@+id/chk_AutoReport"
+                android:layout_width="37dp"
+                android:layout_height="50dp"
+                android:layout_weight="10"
+                android:button="@drawable/checkbox_selector"
+                android:focusable="false" />
+
+            <TextView
+                style="?textRegular"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|left"
+                android:layout_weight="70" />
+        </TableRow>
+
+         <!-- Row 4: Setting Allow Non-Stock Item Field -->
+
+        <TableRow
+            android:id="@+id/row_AllowNonStockItem"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="1dp" >
+
+            <TextView
+                style="?textRegular"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|left"
+                android:layout_weight="20"
+                android:textSize="32sp"
+                android:text="@string/txtSettingNonStockItem" />
+
+            <CheckBox
+                android:id="@+id/chk_NonStockItem"
+                android:layout_width="37dp"
+                android:layout_height="50dp"
+                android:layout_weight="10"
+                android:button="@drawable/checkbox_selector"
+                android:focusable="false" />
+
+            <TextView
+                style="?textRegular"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|left"
+                android:layout_weight="70" />
+        </TableRow>
+
+        <!-- Row 5: Setting customer name editable during print Field -->
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="1dp" >
+
+            <TextView
+                style="?textRegular"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|left"
+                android:layout_weight="20"
+                android:textSize="32sp"
+                android:text="@string/txtSettingCustomerNameEdit" />
+
+            <CheckBox
+                android:id="@+id/chk_CusNameEdit"
+                android:layout_width="37dp"
+                android:layout_height="50dp"
+                android:layout_weight="10"
+                android:button="@drawable/checkbox_selector"
+                android:focusable="false" />
+
+            <TextView
+                style="?textRegular"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|left"
+                android:layout_weight="70" />
+        </TableRow>
+    </TableLayout>
+
+    <ImageView
+        android:id="@+id/img_settingsShowMenu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignBottom="@+id/tbl_settingEndSec"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:contentDescription="@string/imgDesc"
+        android:src="@drawable/upmenu_gray" />
+</RelativeLayout>

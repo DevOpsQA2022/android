@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--      @designed by T.SARAVANAN 
+ -->
+
+<!-- Parent Relative layout with vertical orientation -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/lay_mainLogin"
+    style="?pageBackground"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <RelativeLayout
+        android:id="@+id/relativeLayout1"
+        style="?logingPageBorder"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_margin="15dp"
+        android:gravity="center|center_vertical"
+        android:orientation="vertical" >
+
+        <EditText
+            android:id="@+id/edtTxt_UserName"
+            style="@style/EditTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imageView1"
+            android:layout_marginTop="30dp"
+            android:ems="15"
+            android:hint="@string/userNameHint"
+            android:inputType="text|textCapCharacters"
+            android:maxLength="8"
+            android:typeface="sans" />
+
+        <EditText
+            android:id="@+id/edtTxt_Pswd"
+            style="@style/EditTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/edtTxt_UserName"
+            android:layout_alignRight="@+id/edtTxt_UserName"
+            android:layout_below="@+id/edtTxt_UserName"
+            android:layout_marginTop="10dp"
+            android:ems="15"
+            android:hint="@string/pswdHint"
+            android:inputType="text|textCapCharacters"
+            android:maxLength="8"
+            android:singleLine="true"
+            android:typeface="sans" />
+
+        <Spinner
+            android:id="@+id/spn_Company"
+            style="@style/SpinnerStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_alignLeft="@+id/edtTxt_Pswd"
+            android:layout_alignRight="@+id/edtTxt_Pswd"
+            android:layout_below="@+id/edtTxt_Pswd"
+            android:layout_marginTop="10dp"
+            android:ems="15" />
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/edtTxt_UserName"
+            android:layout_marginLeft="36dp"
+            android:contentDescription="@string/imgDesc"
+            android:src="@drawable/msplogo" />
+
+        <Button
+            android:id="@+id/btn_Login"
+            style="?buttonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignRight="@+id/spn_Company"
+            android:layout_below="@+id/spn_Company"
+            android:layout_marginTop="20dp"
+            android:drawableRight="@drawable/login"
+            android:text="@string/loginBtnStr" />
+
+        
+
+    </RelativeLayout>
+
+</RelativeLayout>

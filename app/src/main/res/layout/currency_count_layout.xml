@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+ 
+ <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" style="?pageBackground" 
+     android:layout_width="match_parent" 
+     android:layout_height="match_parent">
+     
+  <TextView 
+      android:id="@+id/txt_CurrencyCountTitle" 
+      style="?pageTitle" 
+      android:layout_width="wrap_content" 
+      android:layout_height="wrap_content" 
+      android:layout_alignParentTop="true" 
+      android:layout_centerHorizontal="true" 
+      android:layout_marginTop="10dp" 
+      android:text="@string/txtCurrCount" /> 
+      
+  <View 
+      android:id="@+id/currencyCount_view_line1" 
+      style="?PageLine" 
+      android:layout_width="fill_parent" 
+      android:layout_height="1dp" 
+      android:layout_below="@+id/txt_CurrencyCountTitle" 
+      android:layout_marginBottom="5dp" 
+      android:layout_marginTop="10dp" /> 
+      
+ <TableLayout 
+	  android:id="@+id/lay_CurrCount_1" 
+      android:layout_width="fill_parent" 
+	  android:layout_height="wrap_content" 
+	  android:layout_below="@+id/currencyCount_view_line1" 
+	  android:layout_gravity="center">
+	  
+ <TableRow 
+	  android:layout_width="fill_parent" 
+	  android:layout_height="wrap_content" 
+	  android:layout_marginBottom="1dp" 
+	  android:layout_marginLeft="5dp" 
+	  android:layout_marginRight="5dp" 
+	  android:layout_weight="1">
+	  
+  <EditText 
+      android:id="@+id/edtTxt_CurrCountTotal" 
+      style="@style/EditTxt" 
+      android:layout_width="0dip" 
+      android:layout_height="35dp" 
+      android:layout_weight="0.60" /> 
+      
+  <EditText 
+      android:id="@+id/edtTxt_CurrCountGrandTotal" 
+      style="@style/EditTxt" 
+      android:layout_width="0dip" 
+      android:layout_height="35dp" 
+      android:layout_weight="0.60" /> 
+      
+  </TableRow>
+  </TableLayout>
+  
+- <LinearLayout 
+	  android:id="@+id/lay_CurrCount_2" 
+	  android:layout_width="fill_parent" 
+	  android:layout_height="200dp" 
+	  android:layout_below="@+id/lay_CurrCount_1" 
+	  android:layout_centerHorizontal="true" 
+	  android:layout_marginLeft="10dp" 
+	  android:layout_marginRight="10dp" 
+	  android:layout_marginTop="10dp" 
+	  android:background="@drawable/aboutus_border" 
+	  android:orientation="vertical">
+ 
+  <ListView 
+      android:id="@+id/listView_CurrCount" 
+      android:layout_width="fill_parent" 
+      android:layout_height="fill_parent" /> 
+      
+  </LinearLayout>
+  
+ <TableLayout 
+	  android:id="@+id/lay_CurrCount_3" 
+	  android:layout_width="fill_parent" 
+	  android:layout_height="wrap_content" 
+	  android:layout_below="@+id/lay_CurrCount_2" 
+	  android:layout_gravity="center" 
+	  android:stretchColumns="*">
+  
+ <TableRow 
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content" 
+     android:layout_gravity="center" 
+     android:layout_marginBottom="1dp" 
+     android:layout_marginLeft="5dp" 
+     android:layout_marginRight="5dp" 
+     android:layout_marginTop="5dp" 
+     android:layout_weight="1">
+  
+ <TableLayout 
+     android:id="@+id/lay_CurrCount_4" 
+     android:layout_width="fill_parent" 
+     android:layout_height="wrap_content" 
+     android:stretchColumns="*">
+     
+ <TableRow 
+     android:layout_width="fill_parent" 
+     android:layout_height="wrap_content" 
+     android:layout_marginBottom="1dp" 
+     android:layout_marginLeft="5dp" 
+     android:layout_marginRight="5dp" 
+     android:layout_marginTop="5dp" 
+     android:layout_weight="1">
+     
+  <TextView 
+      style="?textRegular" 
+      android:layout_width="0dip" 
+      android:layout_height="wrap_content" 
+      android:layout_gravity="center|center_vertical" 
+      android:layout_marginRight="5dp" 
+      android:layout_weight="0.40" 
+      android:gravity="right" 
+      android:text="@string/txtCurrCount_Cheque" /> 
+      
+  <EditText 
+      android:id="@+id/edtTxt_Cheque" 
+      style="@style/EditTxt" 
+      android:layout_width="0dip" 
+      android:layout_height="35dp" 
+      android:layout_weight="0.60" /> 
+      
+  </TableRow>
+ <TableRow android:layout_width="fill_parent" 
+     android:layout_height="wrap_content" 
+     android:layout_marginBottom="1dp" 
+     android:layout_marginLeft="5dp" 
+     android:layout_marginRight="5dp" 
+     android:layout_marginTop="5dp" 
+     android:layout_weight="1">
+  
+  <TextView 
+      style="?textRegular" 
+      android:layout_width="0dip" 
+      android:layout_height="wrap_content" 
+      android:layout_gravity="center|center_vertical" 
+      android:layout_marginRight="5dp" 
+      android:layout_weight="0.40" 
+      android:gravity="right" 
+      android:text="@string/txtCurrCount_CreditCard" /> 
+      
+  <EditText 
+      android:id="@+id/edtTxt_CreditCard" 
+      style="@style/EditTxt" 
+      android:layout_width="0dip" 
+      android:layout_height="35dp" 
+      android:layout_weight="0.60" /> 
+      
+ </TableRow>
+ <TableRow 
+     android:layout_width="fill_parent" 
+     android:layout_height="wrap_content" 
+     android:layout_marginBottom="1dp" 
+     android:layout_marginLeft="5dp" 
+     android:layout_marginRight="5dp" 
+     android:layout_marginTop="5dp" 
+     android:layout_weight="1">
+  
+  <TextView 
+      style="?textRegular" 
+      android:layout_width="0dip" 
+      android:layout_height="wrap_content" 
+      android:layout_gravity="center|center_vertical" 
+      android:layout_marginRight="5dp" 
+      android:layout_weight="0.40" 
+      android:gravity="right" 
+      android:text="@string/txtCurrCount_DebitCard" /> 
+      
+  <EditText 
+      android:id="@+id/edtTxt_DebitCard" 
+      style="@style/EditTxt" 
+      android:layout_width="0dip" 
+      android:layout_height="35dp" 
+      android:layout_weight="0.60" /> 
+      
+  </TableRow>
+- <!--  <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="1dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_weight="1" >
+
+                    <Button
+                        android:id="@+id/btn_CurrCountTotal"
+                        style="?buttonStyle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/txtCurrCount_Total" />
+                </TableRow> 
+  --> 
+  </TableLayout>
+ <LinearLayout 
+     android:layout_width="match_parent" 
+     android:layout_height="match_parent" 
+     android:layout_gravity="center" 
+     android:gravity="center" 
+     android:orientation="vertical">
+ 
+  <Button 
+      android:id="@+id/btn_CurrCountGrandTotal" 
+      style="?buttonStyle" 
+      android:layout_width="120dp" 
+      android:layout_height="wrap_content" 
+      android:text="@string/txtCurrCount_GrandTotal" /> 
+      
+  <Button 
+      android:id="@+id/btn_CurrCountReset" 
+      style="?buttonStyle" 
+      android:layout_width="120dp" 
+      android:layout_height="wrap_content" 
+      android:text="@string/txtCurrCount_Reset" /> 
+      
+  </LinearLayout>
+  </TableRow>
+  </TableLayout>
+ <TableLayout 
+     android:id="@+id/lay_CurrCount_5" 
+     android:layout_width="fill_parent" 
+     android:layout_height="wrap_content" 
+     android:layout_below="@+id/lay_CurrCount_3" 
+     android:layout_gravity="center" 
+     android:stretchColumns="*">
+ 
+ <TableRow 
+     android:layout_width="fill_parent" 
+     android:layout_height="wrap_content" 
+     android:layout_marginBottom="1dp" 
+     android:layout_marginLeft="5dp" 
+     android:layout_marginRight="5dp" 
+     android:layout_marginTop="5dp" 
+     android:layout_weight="1">
+ 
+  <Button 
+      android:id="@+id/btn_CurrCountSettings" style="?buttonStyle" 
+      android:layout_width="120dp" 
+      android:layout_height="wrap_content" 
+      android:text="@string/txtCurrCount_Settings" /> 
+      
+  <Button 
+      android:id="@+id/btn_CurrCountPrint" style="?buttonStyle" 
+      android:layout_width="120dp" 
+      android:layout_height="wrap_content" 
+      android:text="@string/txtCurrCount_Print" /> 
+  </TableRow>
+  </TableLayout>
+  </RelativeLayout>

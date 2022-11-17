@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="8dp" >
+
+    <TextView
+        android:id="@+id/txt_TransSummarySerialNum"
+        android:layout_width="70dp"
+        android:paddingLeft="10dp"
+        android:textSize="32sp"
+        android:layout_height="wrap_content"
+        android:gravity="center|left"
+        style="?textRetriever"
+        android:text=""
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:paddingStart="10dp">
+    </TextView>
+
+    <TextView
+        android:id="@+id/txt_TransSummaryListDate"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        style="?textRetriever"
+        android:gravity="center|left"
+        android:text=""
+        android:textSize="32sp"
+        android:textAppearance="?android:attr/textAppearanceSmall" >
+    </TextView>
+
+    <TextView
+        android:id="@+id/txt_TransSummaryListDocRefNo"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:gravity="center|left"
+        style="?textRetriever"
+        android:paddingLeft="1dp"
+        android:text=""
+        android:textSize="32sp"
+        android:textAppearance="?android:attr/textAppearanceSmall">
+    </TextView>
+    
+    <TextView
+        android:id="@+id/txt_TransSummaryCusNo"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:gravity="center|left"
+        style="?textRetriever"
+        android:paddingLeft="5dp"
+        android:text=""
+        android:textSize="32sp"
+        android:textAppearance="?android:attr/textAppearanceSmall">
+    </TextView>
+    
+    <TextView
+        android:id="@+id/txt_TransSummaryCusName"
+        android:layout_width="310dp"
+        android:layout_height="wrap_content"
+        android:gravity="center|left"
+        style="?textRetriever"
+        android:paddingLeft="5dp"
+        android:text=""
+        android:textSize="32sp"
+        android:textAppearance="?android:attr/textAppearanceSmall">
+    </TextView>
+    
+    <TextView
+        android:id="@+id/txt_TransSummaryNetAmt"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:gravity="center|left"
+        style="?textRetriever"
+        android:layout_marginLeft="6dp"
+        android:text=""
+        android:textSize="32sp"
+        android:textAppearance="?android:attr/textAppearanceSmall">
+    </TextView>
+    
+    <TextView
+        android:id="@+id/txt_TransSummaryStatus"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:gravity="center|left"
+        style="?textRetriever"
+        android:textSize="32sp"
+        android:layout_marginLeft="8dp"
+        android:text=""
+        android:textAppearance="?android:attr/textAppearanceSmall">
+    </TextView>
+
+</LinearLayout>

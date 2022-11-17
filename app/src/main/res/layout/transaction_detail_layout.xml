@@ -1,0 +1,496 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    @designed by T.SARAVANAN 
+-->
+
+<!-- Parent Relative layout with vertical orientation -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    style="?pageBackground"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/txt_transDetailTitle"
+        style="?pageTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="" />
+
+    <!-- Line between title and Table layout -->
+    <View
+        android:id="@+id/transDetail_view_line1"
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        style="?PageLine"
+        android:layout_below="@+id/txt_transDetailTitle"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="10dp" />
+
+    <!-- Child Table layout -->	
+    <TableLayout
+        android:id="@+id/lay_transDetailSec"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/transDetail_view_line1"
+        android:layout_gravity="center"
+        android:layout_margin="3dp" >
+
+        <!-- Row 1: Transaction Ref. Number Field -->
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" >
+
+            <TextView
+                android:id="@+id/txt_RefNoTitle"
+                style="?textRegular"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_weight="0.20"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/txt_TransDetailRefNo"
+                style="?textRetriever"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_weight="0.40" />
+
+            <TextView
+                style="?textRegular"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_weight="0.20"
+                android:paddingLeft="3dp"
+                android:text="@string/txtTransNo" />
+
+            <TextView
+                android:id="@+id/txt_TransDetailNo"
+                style="?textRetriever"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_weight="0.20" />
+        </TableRow>
+
+        <!-- Row 2: Transaction Date Field -->
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:layout_weight="1" >
+
+            <TextView
+                style="?textRegular"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_weight="0.20"
+                android:text="@string/txtTransDate" />
+
+            <TextView
+                android:id="@+id/txt_transDetailDate"
+                style="?textRetriever"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_weight="0.40"
+                android:text="" />
+
+            <TextView
+                style="?textRegular"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginLeft="3dp"
+                android:layout_weight="0.20"
+                android:text="@string/txtTransTerms" />
+
+            <TextView
+                android:id="@+id/txt_TransDetailTerms"
+                style="?textRetriever"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_weight="0.20" />
+        </TableRow>
+
+        <!-- Row 3: Transaction Customer Number Field -->
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:layout_weight="1" >
+
+            <TextView
+                style="?textRegular"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_weight="0.20"
+                android:singleLine="false"
+                android:text="@string/txtTransDetailCustNo" />
+
+            <TextView
+                android:id="@+id/txt_transDetailCusNo"
+                style="?textRetriever"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_weight="0.40" />
+
+            <TextView
+                android:id="@+id/txt_ShipInfo"
+                style="?textRegular"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginLeft="3dp"
+                android:layout_weight="0.20" />
+
+            <TextView
+                style="?textRetriever"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_weight="0.20" />
+        </TableRow>
+
+        <!-- Row 4: Transaction Sales person code Field -->
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" >
+
+            <TextView
+                style="?textRegular"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|left"
+                android:layout_weight="0.20"
+                android:singleLine="false"
+                android:text="@string/txtTransSalesPerson" />
+
+            <TextView
+                android:id="@+id/txt_transDetailSB"
+                style="?textRetriever"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|left"
+                android:layout_weight="0.30" />
+
+            <TextView
+                android:id="@+id/txt_transDetailMailTo"
+                style="?textRegular"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|left"
+                android:layout_marginLeft="3dp"
+                android:layout_weight="0.20"
+                android:text="@string/txtTransMailTo" />
+
+            <Spinner
+                android:id="@+id/spn_transDetailMailTo"
+                style="@style/SpinnerStyle"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.30"
+                android:ems="8" />
+        </TableRow>
+    </TableLayout>
+	
+     <!-- Child linear layout with horizontal orientation -->
+    <LinearLayout
+        android:id="@+id/lay_TransDetaillistTitle"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lay_transDetailSec"
+        android:background="#267ad4"
+        android:orientation="horizontal"
+        android:padding="5dp" >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="20"
+            android:gravity="center"
+            android:text="@string/txtTransDetailTableSNo"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textStyle="bold" >
+        </TextView>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="30"
+            android:gravity="center|left"
+            android:text="@string/itmEntryTxtNumber"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textStyle="bold" >
+        </TextView>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="25"
+            android:gravity="center|left"            
+            android:text="@string/itmPrcTxtStr"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textStyle="bold" >
+        </TextView>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="25"
+            android:gravity="center"
+            android:text="@string/itmEntryTxtQty"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textStyle="bold" >
+        </TextView>
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/lst_TransDetailItems"
+        android:layout_width="fill_parent"
+        android:layout_height="120dp"
+        android:layout_below="@+id/lay_TransDetaillistTitle"
+        android:background="@drawable/aboutus_border" >
+    </ListView>
+
+     <!-- Child Table layout 2 -->
+    <TableLayout
+        android:id="@+id/lay_transDetailPaymentSec"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lst_TransDetailItems"
+        android:layout_gravity="center"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="10dp" >
+
+        <!-- Row 1: Transaction Total price Field -->
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" >
+
+            <TextView
+                style="?textRegular"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_weight="0.30"
+                android:text="@string/txtPayOrdTotal" />
+
+            <TextView
+                style="?textRetriever"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_weight="0.20" />
+
+            <TextView
+                style="?textRegular"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginLeft="3dp"
+                android:layout_weight="0.30" />
+
+            <TextView
+                android:id="@+id/txt_TransDetailTotal"
+                style="?textRetriever"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.20"
+                android:gravity="right"
+                android:text="" />
+        </TableRow>
+
+        <!-- Row 2: Transaction Total Quantity Field -->
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:layout_weight="1" >
+
+            <TextView
+                style="?textRegular"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_weight="0.30"
+                android:text="@string/txtTransTotalQty" />
+
+            <TextView
+                android:id="@+id/txt_transDetailTotalQty"
+                style="?textRetriever"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.20"
+                android:gravity="right"
+                android:paddingRight="5dp"
+                android:text="" />
+
+            <TextView
+                style="?textRegular"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_weight="0.30"
+                android:paddingLeft="5dp"
+                android:text="@string/txtTransDetailDiscAmt" />
+
+            <TextView
+                android:id="@+id/txt_TransDetailDiscAmt"
+                style="?textRetriever"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.20"
+                android:gravity="right"
+                android:text="" />
+        </TableRow>
+
+        <!-- Row 3: Transaction pretax and tax Field -->
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:layout_weight="1" >
+
+            <TextView
+                android:id="@+id/lbl_transDetPreTax"
+                style="?textRegular"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_weight="0.30"
+                android:singleLine="false"
+                android:text="@string/txtTransPreTax" />
+
+            <TextView
+                android:id="@+id/txt_transDetailPreTax"
+                style="?textRetriever"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.20"
+                android:gravity="right"
+                android:paddingRight="5dp"
+                android:text="" />
+
+            <TextView
+                style="?textRegular"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_weight="0.30"
+                android:paddingLeft="5dp"
+                android:text="@string/txtTransTax" />
+
+            <TextView
+                android:id="@+id/txt_transDetailTax"
+                style="?textRetriever"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.20"
+                android:gravity="right"
+                android:text="" />
+        </TableRow>
+
+        <!-- Row 4: Transaction Net amount Field -->
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:layout_weight="1" >
+
+            <TextView
+                style="?textRegular"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_weight="0.30"
+                android:singleLine="false"
+                android:text="@string/txtTransNetAmt" />
+
+            <TextView
+                style="?textRetriever"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_weight="0.20" />
+
+            <TextView
+                style="?textRegular"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginLeft="3dp"
+                android:layout_weight="0.30" />
+
+            <TextView
+                android:id="@+id/txt_transDetailNetAmt"
+                style="?textRetriever"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.20"
+                android:gravity="right"
+                android:text="" />
+        </TableRow>
+
+        <!-- Row 5: Transaction status Field -->
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:layout_weight="1" >
+
+            <TextView
+                style="?textRegular"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_weight="0.30"
+                android:singleLine="false"
+                android:text="@string/txtPayTitle" />
+
+            <TextView
+                android:id="@+id/txt_transDetailPrepayment"
+                style="?textRetriever"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.20"
+                android:gravity="right"
+                android:paddingRight="5dp"
+                android:text="" />
+
+            <TextView
+                style="?textRegular"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_weight="0.20"
+                android:paddingLeft="5dp"
+                android:text="@string/txtTransDetailStatus" />
+
+            <TextView
+                android:id="@+id/txt_transDetailStatus"
+                style="?textRetriever"
+                android:layout_width="0dip"
+                android:textStyle="bold"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.30"
+                android:gravity="center|right"
+                android:paddingRight="5dp"
+                android:text="" />
+        </TableRow>
+    </TableLayout>
+</RelativeLayout>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="?pageBackground"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/txt_SalesSummaryTitle"
+        style="?pageTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="@string/txtTransactionTitle" />
+
+    <!-- Line between title and Table layout -->
+
+    <View
+        android:id="@+id/salesSummary_view_line1"
+        style="?PageLine"
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/txt_SalesSummaryTitle"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="10dp" />
+
+    <!-- Child Table Layout -->
+
+    <TableLayout
+        android:id="@+id/lay_salesSummaryDateSec"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/salesSummary_view_line1"
+        android:layout_gravity="center"
+        android:layout_margin="5dp" >
+
+        <!-- Row 1: Transaction Summary From Date Field -->
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight="1" >
+
+            <TextView
+                style="?textRegular"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|right"
+                android:layout_weight="0.35"
+                android:gravity="right"
+                android:text="@string/txtTransLocation" />
+
+            <EditText
+                android:id="@+id/edt_SalesSummaryFromDate"
+                style="@style/EditTxt"
+                android:layout_width="0dip"
+                android:layout_height="60dp"
+                android:layout_gravity="left"
+                android:layout_marginLeft="3dp"
+                android:layout_weight="0.40"
+                android:focusable="false"
+                android:inputType="date"
+                android:paddingLeft="5dp"
+                android:text="" />
+
+            <TextView
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.25" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tbl_btn"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight="1" >
+
+            <Button
+                android:id="@+id/btn_loadSalessummary"
+                style="?buttonStyle"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="0.25"
+                android:text="@string/loadSummary" />
+        </TableRow>
+    </TableLayout>
+
+    <fragment
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/lay_salesSummaryDateSec"
+        android:layout_margin="10dp" />
+
+</RelativeLayout>

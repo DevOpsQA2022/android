@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+    @designed by T.SARAVANAN 
+-->
+
+<!-- Parent Relative layout with vertical orientation -->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="?pageBackground"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/txt_aboutTitle"
+        style="@style/aboutPageTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:text="@string/aboutTitle" />
+
+    <TextView
+        android:id="@+id/txt_OrdMove"
+        style="?textWarning"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_aboutTitle"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="@string/ordEntryMove" />
+	
+    <!-- Child linear layout with vertical orientation -->
+    
+    <LinearLayout
+        android:id="@+id/lay_aboutContent"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_OrdMove"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="80dp"
+        android:layout_marginRight="80dp"
+        android:layout_marginTop="80dp"
+        android:background="@drawable/aboutus_border"
+        android:orientation="vertical" >
+
+        <TextView
+            style="?textWarning"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:text="@string/aboutContent1" />
+
+        <TextView
+            style="?textWarning"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="@string/aboutContent2" />
+
+        <TextView
+            style="?textWarning"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="30dp"
+            android:text="Version    - 1.0" />
+        
+        <TextView
+            style="?textWarning"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:text="License    - CI.COM (P) LTD" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/txt_warning"     
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="?textWarningMsg"
+        android:typeface="normal"
+        android:layout_below="@+id/lay_aboutContent"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginRight="80dp"        
+        android:text="@string/warning" />
+    
+	<TextView  
+	    android:id="@+id/releaseDate"   
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_warning"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="80dp"
+        android:gravity="bottom"
+        android:layout_marginBottom="10dp"
+        android:layout_alignParentBottom="true" 
+        android:layout_alignParentLeft="true"               
+        style="?textReleaseDate"
+        android:text="@string/txtBuildDate" /> 
+</RelativeLayout>

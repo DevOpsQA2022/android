@@ -1,0 +1,10 @@
+<resources>
+
+    <dimen name="padding_small">8dp</dimen>
+    <dimen name="padding_medium">8dp</dimen>
+    <dimen name="padding_large">16dp</dimen>
+
+    <!-- for barcode -->
+    <dimen name="standard_padding">8dip</dimen>
+  	<dimen name="half_padding">4dip</dimen>
+</resources>

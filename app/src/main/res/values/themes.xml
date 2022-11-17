@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<style name="Theme" parent="android:Theme">
+		<item name="android:windowTitleSize">20dip</item>
+	</style>
+	
+	<style name="Theme_Black_Stone">
+	    <item name="pageBackground">@style/page_background_bstone</item>
+	    <item name="logingPageBorder">@style/loginpage_border_bstone</item>
+	    <item name="pageTitle">@style/pageTitle_BS</item>
+	    <item name="MenuListBackground">@style/MenuListBackground_BS</item>
+	    <item name="MenuListImageBackground">@style/MenuListImageBackground_BS</item>
+	    <item name="PageLine">@style/pageLine_BS</item>
+	    <item name="textRegular">@style/textRegular_BS</item>
+	    <item name="textRetriever">@style/textRetriever_BS</item>
+	    <item name="textListItemRetriever">@style/textListItemRetriever_BS</item>
+	    <item name="textLongRetriever">@style/textLongRetriever_BS</item>
+	    <item name="MenuName">@style/textMenuName_BS</item> 
+	    <item name="textWarning">@style/textWarning_BS</item>
+	    <item name="textWarningMsg">@style/textWarningMsg_BS</item>
+	    <item name="buttonStyle">@style/buttonStyle_BS</item>
+	    <item name="dividerStyle">@style/dividerStyle_Transparent</item>
+	    <item name="textReleaseDate">@style/textReleaseDate_BS</item>
+	    <item name="textTableValue">@style/textTableValue_BS</item>
+	    <item name="textToast">@style/textToast_BS</item>
+	</style>
+	
+	
+	<style name="Theme_Blue_Swirl">
+		<item name="pageBackground">@style/page_background_bswirl</item>
+		<item name="logingPageBorder">@style/loginpage_border_bswirl</item>
+		<item name="pageTitle">@style/pageTitle_BSL</item>
+		<item name="MenuListBackground">@style/MenuListBackground_BSL</item>
+		<item name="MenuListImageBackground">@style/MenuListImageBackground_BSL</item>
+		<item name="MenuName">@style/textMenuName_BSL</item>
+		<item name="PageLine">@style/pageLine_BSL</item>
+		<item name="textRegular">@style/textRegular_BSL</item>
+		<item name="textRetriever">@style/textRetriever_BSL</item>
+		<item name="textListItemRetriever">@style/textListItemRetriever_BSL</item>
+		<item name="textLongRetriever">@style/textLongRetriever_BSL</item>
+		<item name="textWarning">@style/textWarning_BSL</item>
+		<item name="textWarningMsg">@style/textWarningMsg_BSL</item>
+		<item name="buttonStyle">@style/buttonStyle_BS</item>
+		<item name="dividerStyle">@style/dividerStyle_Transparent</item>
+		<item name="textReleaseDate">@style/textReleaseDate_BSL</item>
+		<item name="textTableValue">@style/textTableValue_BSL</item>
+		<item name="textToast">@style/textToast_BSL</item>
+	</style>
+		
+	<style name="Theme_Plain">
+	    <item name="pageBackground">@style/page_background_plain</item>
+	    <item name="logingPageBorder">@style/loginpage_border_plain</item>
+	    <item name="pageTitle">@style/pageTitle_plain</item>
+		<item name="MenuListBackground">@style/MenuListBackground_plain</item>
+		<item name="MenuListImageBackground">@style/MenuListImageBackground_plain</item>
+		<item name="MenuName">@style/textMenuName_plain</item>
+		<item name="PageLine">@style/pageLine_plain</item>
+		<item name="textRegular">@style/textRegular_plain</item>
+		<item name="textRetriever">@style/textRetriever_plain</item>
+		<item name="textListItemRetriever">@style/textListItemRetriever_plain</item>
+		<item name="textLongRetriever">@style/textLongRetriever_plain</item>
+		<item name="textWarning">@style/textWarning_plain</item>
+		<item name="textWarningMsg">@style/textWarningMsg_plain</item>
+		<item name="buttonStyle">@style/buttonStyle_plain</item>
+		<item name="dividerStyle">@style/dividerStyle_Transparent</item>
+		<item name="textReleaseDate">@style/textReleaseDate_plain</item>
+		<item name="textTableValue">@style/textTableValue_plain</item>
+		<item name="textToast">@style/textToast_plain</item>
+	</style>
+
+<!--	<style name="CustomActionBarTheme" parent="Theme_Plain">
+		<item name="primaryColour">#E3474F</item>
+		<item name="colorAccent">#E3474F</item>
+	</style>-->
+	
+</resources>

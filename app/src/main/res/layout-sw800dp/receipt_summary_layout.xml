@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--     @designed by T.SARAVANAN 
+ -->
+
+<!-- Parent Relative layout with vertical orientation -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="?pageBackground"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/txt_reciptSummaryTitle"
+        style="?pageTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="@string/txtReceiptSummaryTitle" />
+
+    <!-- Line between title and Table layout -->
+
+    <View
+        android:id="@+id/reciptSummary_view_line1"
+        style="?PageLine"
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/txt_reciptSummaryTitle"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="10dp" />
+
+    <!-- Child Table Layout -->
+
+    <TableLayout
+        android:id="@+id/lay_reciptSummaryDateSec"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/reciptSummary_view_line1"
+        android:layout_gravity="center"
+        android:layout_margin="5dp" >
+
+        <!-- Row 1: Transaction Summary From Date Field -->
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight="1" >
+
+            <TextView
+                style="?textRegular"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|right"
+                android:layout_weight="0.35"
+                android:gravity="right"
+                android:text="@string/txtTransSummaryFrom" />
+
+            <EditText
+                android:id="@+id/edt_ReciptSummaryFromDate"
+                style="@style/EditTxt"
+                android:layout_width="0dip"
+                android:layout_height="60dp"
+                android:layout_gravity="left"
+                android:layout_marginLeft="3dp"
+                android:paddingLeft="5dp"
+                android:layout_weight="0.40"
+                android:focusable="false"
+                android:inputType="date"
+                android:text="" />
+
+            <TextView
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.25" />
+        </TableRow>
+
+        <!-- Row 2: Transaction Summary To Date Field -->
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight="1" >
+
+            <TextView
+                style="?textRegular"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|right"
+                android:layout_weight="0.35"
+                android:gravity="right"
+                android:text="@string/txtTransSummaryTo" />
+
+            <EditText
+                android:id="@+id/edt_ReciptSummaryToDate"
+                style="@style/EditTxt"
+                android:layout_width="0dip"
+                android:layout_height="60dp"
+                android:layout_gravity="left"
+                android:paddingLeft="5dp"
+                android:layout_marginLeft="3dp"
+                android:layout_weight="0.40"
+                android:focusable="false"
+                android:inputType="date"
+                android:text="" />
+
+            <Button
+                android:id="@+id/btn_loadReciptsummary"
+                style="?buttonStyle"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="0.25"
+                android:layout_marginLeft="10dp"
+                android:text="@string/loadSummary" />
+        </TableRow>
+
+        <!-- Row 3: Sales Person Name Field -->
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight="1" >
+
+            <TextView
+                style="?textRegular"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.35"
+                android:gravity="right"
+                android:text="@string/txtTransSalesPerson" />
+
+            <TextView
+                android:id="@+id/txt_salesPersonNameRecipt"
+                style="?textRetriever"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.40"
+                android:gravity="left"
+                android:paddingLeft="5dp"
+                android:text="" />
+            
+            <TextView
+                style="?textRegular"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.25" />
+        </TableRow>
+
+        <!-- Row 1: Transaction Summary Currency and MailTo Field -->
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp" 
+             android:layout_weight="1" >
+
+            <TextView
+                style="?textRegular"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.35"
+                android:gravity="right"
+                android:text="@string/itmCrncyTxtStr" />
+
+            <TextView
+                android:id="@+id/txt_ReciptSummaryCurrency"
+                style="?textRetriever"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|left"
+                android:layout_weight="0.40"
+                android:paddingLeft="5dp"
+                android:text="" />
+             <TextView
+                style="?textRegular"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.25" />
+        </TableRow>        
+    </TableLayout>
+
+    <HorizontalScrollView
+        android:id="@+id/scroll_summaryView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lay_reciptSummaryDateSec" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:id="@+id/lay_ReceiptSummarylistTitle"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_weight="1"
+                android:background="#267ad4"
+                android:orientation="horizontal"
+                android:padding="5dp" >
+
+                <TextView
+                    android:id="@+id/txt_TitleSNo"
+                    android:layout_width="60dp"
+                    android:layout_height="fill_parent"                    
+                    android:text="@string/txtTransDetailTableSNo"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textSize="32sp"
+                    android:textStyle="bold" >
+                </TextView>
+
+                <TextView
+                    android:id="@+id/txt_TitleDate"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="12dp"
+                    android:gravity="center|left"
+                    android:text="@string/txtTransDate"
+                    android:textSize="32sp"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textStyle="bold" >
+                </TextView>
+
+                <TextView
+                    android:id="@+id/txt_TitleRcptNo"
+                    android:layout_width="160dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:gravity="center|left"
+                    android:text="@string/txtReciptNumbr"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textSize="32sp"
+                    android:textStyle="bold" >
+                </TextView>
+
+                <TextView
+                    android:id="@+id/txt_TitleCusNo"
+                    android:layout_width="160dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="4dp"
+                    android:gravity="center|left"
+                    android:text="@string/txtReciptCusNo"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textSize="32sp"
+                    android:textStyle="bold" >
+                </TextView>
+				
+                <TextView
+                    android:id="@+id/txt_TitleCusName"
+                    android:layout_width="310dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="4dp"
+                    android:gravity="center|left"
+                    android:text="@string/txtReciptCusName"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textSize="32sp"
+                    android:textStyle="bold" >
+                </TextView>
+                
+                <TextView
+                    android:id="@+id/txt_TitleReceiptType"
+                    android:layout_width="170dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="6dp"
+                    android:gravity="center|left"
+                    android:text="@string/txtReciptType"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textSize="32sp"
+                    android:textStyle="bold" >
+                </TextView>
+                
+                <TextView
+                    android:id="@+id/txt_TitleAmt"
+                    android:layout_width="140dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="4dp"
+                    android:gravity="center|left"
+                    android:text="@string/txtReciptAmount"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textSize="32sp"
+                    android:textStyle="bold" >
+                </TextView>
+
+                <TextView
+                    android:id="@+id/txt_TitleUnAmt"
+                    android:layout_width="210dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="2dp"
+                    android:gravity="center|left"
+                    android:text="@string/txtReciptUnAmount"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textSize="32sp"
+                    android:textStyle="bold" >
+                </TextView>
+                
+            </LinearLayout>
+
+            <ListView
+                android:id="@+id/lst_ReceiptSummaryItems"
+                android:layout_width="fill_parent"
+                android:layout_height="380dp"
+                android:background="@drawable/aboutus_border" >
+            </ListView>
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <!-- Child linear layout 2 with horizontal orientation -->
+
+    <LinearLayout
+        android:id="@+id/lay_sumTranTotal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/scroll_summaryView"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            style="?textRegular"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_weight="60"
+            android:gravity="right"
+            android:text="@string/txtTransSummaryTotal" />
+
+        <TextView
+            android:id="@+id/txt_reciptSummaryTotal"
+            style="?textRetriever"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="40"
+            android:gravity="center|right"
+            android:paddingRight="15dp" />
+    </LinearLayout>
+
+</RelativeLayout>

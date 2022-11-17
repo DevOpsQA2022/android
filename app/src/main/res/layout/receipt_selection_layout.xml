@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--     @designed by T.SARAVANAN 
+ -->
+
+<!-- Parent Relative layout with vertical orientation -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="?pageBackground"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <!-- Editext for Search -->
+
+    <EditText
+        android:id="@+id/edtTxt_ReciptSearch"
+        style="@style/EditTxt"
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="5dp"
+        android:hint="@string/sltReciptSearchHint"
+        android:inputType="text" />
+
+    <HorizontalScrollView
+        android:id="@+id/scroll_summaryView"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/edtTxt_ReciptSearch" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" >
+
+            <!-- Child linear layout with horizontal orientation for listview titles -->
+
+            <LinearLayout
+                android:id="@+id/reciptSelectionListTitle"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:background="#267ad4"
+                android:orientation="horizontal"
+                android:padding="5dp" >
+
+                <TextView
+                    style="@style/ListHeadTextStyle"
+                    android:layout_width="90dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center|left"
+                    android:singleLine="true"
+                    android:text="@string/txtReciptChkNo" >
+                </TextView>
+
+                <TextView
+                    style="@style/ListHeadTextStyle"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_gravity="center|center_vertical"
+                    android:text="@string/txtReciptCusNo"
+                    android:textAppearance="?android:attr/textAppearanceSmall" >
+                </TextView>
+
+                <TextView
+                    style="@style/ListHeadTextStyle"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center|left"
+                    android:layout_marginLeft="25dp"
+                    android:text="@string/txtReciptCusName"
+                    android:textAppearance="?android:attr/textAppearanceSmall" >
+                </TextView>
+                
+            </LinearLayout>
+
+            <ListView
+                android:id="@+id/lst_ReciptSelectionList"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="@drawable/aboutus_border" />
+            
+        </LinearLayout>
+    </HorizontalScrollView>
+
+</RelativeLayout>

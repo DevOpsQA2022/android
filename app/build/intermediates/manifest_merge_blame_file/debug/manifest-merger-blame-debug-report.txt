@@ -1,0 +1,505 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.mobilesalesperson.controller"
+4    android:installLocation="auto"
+5    android:versionCode="1"
+6    android:versionName="2.0" >
+7
+8    <uses-sdk
+8-->D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:7:5-9:41
+9        android:minSdkVersion="15"
+9-->D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:8:9-35
+10        android:targetSdkVersion="28" />
+10-->D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:9:9-38
+11
+12    <permission
+12-->D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:11:5-13:47
+13        android:name="in.wptrafficanalyzer.locationmarkerpreferences.permission.MAPS_RECEIVE"
+13-->D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:12:9-94
+14        android:protectionLevel="signature" />
+14-->D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:13:9-44
+15
+16    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+16-->D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:15:5-98
+16-->D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:15:22-95
+17    <uses-permission android:name="in.wptrafficanalyzer.locationmarkerpreferences.permission.MAPS_RECEIVE" />
+17-->D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:16:5-110
+17-->D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:16:22-107
+18
+19    <uses-feature
+19-->D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:18:5-20:35
+20        android:glEsVersion="0x00020000"
+20-->D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:19:9-41
+21        android:required="true" />
+21-->D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:20:9-32
+22
+23    <uses-permission android:name="android.permission.INTERNET" />
+23-->D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:22:5-67
+23-->D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:22:22-64
+24    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+24-->D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:23:5-79
+24-->D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:23:22-76
+25    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+25-->D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:24:5-81
+25-->D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:24:22-78
+26    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+26-->D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:25:5-74
+26-->D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:25:22-71
+27    <uses-permission android:name="android.permission.BLUETOOTH" />
+27-->D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:26:5-68
+27-->D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:26:22-65
+28    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+28-->D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:27:5-75
+28-->D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:27:22-72
+29    <uses-permission android:name="android.permission.CAMERA" />
+29-->D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:28:5-65
+29-->D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:28:22-62
+30    <uses-permission android:name="android.permission.FLASHLIGHT" />
+30-->D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:29:5-69
+30-->D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:29:22-66
+31    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+31-->D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:30:5-73
+31-->D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:30:22-70
+32    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+32-->D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:31:5-79
+32-->D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:31:22-76
+33    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+33-->D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:32:5-81
+33-->D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:32:22-78
+34    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" >
+34-->D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:33:5-34:23
+34-->D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:33:22-73
+35    </uses-permission>
+36
+37    <supports-screens
+37-->D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:36:5-40:39
+38        android:anyDensity="true"
+38-->D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:37:9-34
+39        android:largeScreens="true"
+39-->D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:38:9-36
+40        android:normalScreens="true"
+40-->D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:39:9-37
+41        android:smallScreens="true" />
+41-->D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:40:9-36
+42
+43    <application
+43-->D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:42:5-256:19
+44        android:appComponentFactory="android.support.v4.app.CoreComponentFactory"
+44-->[com.android.support:support-compat:28.0.0] C:\Users\matheswaran.e\.gradle\caches\transforms-2\files-2.1\2a6c121eda6c2cbe33230f54b72bbbd4\support-compat-28.0.0\AndroidManifest.xml:22:18-91
+45        android:debuggable="true"
+46        android:label="MOBILE SALESPERSON"
+46-->D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:43:9-43
+47        android:largeHeap="true"
+47-->D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:44:9-33
+48        android:testOnly="true"
+49        android:textSize="30sp"
+49-->D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:45:9-32
+50        android:theme="@style/MyCustomTheme"
+50-->D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:47:9-45
+51        android:usesCleartextTraffic="true" >
+51-->D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:46:9-44
+52
+53        <!-- android:theme="@style/MyCustomTheme" > -->
+54        <!-- android:theme="@android:style/Theme.WithActionBar" > -->
+55
+56        <provider
+57            android:name="android.support.v4.content.FileProvider"
+57-->D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:52:13-67
+58            android:authorities="com.mobilesalesperson.controller.provider"
+58-->D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:53:13-60
+59            android:exported="false"
+59-->D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:54:13-37
+60            android:grantUriPermissions="true" >
+60-->D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:55:13-47
+61            <meta-data
+61-->D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:56:13-58:57
+62                android:name="android.support.FILE_PROVIDER_PATHS"
+62-->D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:57:17-67
+63                android:resource="@xml/provider_paths" />
+63-->D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:58:17-55
+64        </provider>
+65
+66        <activity
+66-->D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:60:9-67:20
+67            android:name="com.mobilesalesperson.controller.PermissionChecking"
+67-->D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:60:19-53
+68            android:screenOrientation="sensorPortrait"
+68-->D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:61:13-55
+69            android:windowSoftInputMode="stateHidden" >
+69-->D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:62:13-54
+70            <intent-filter>
+70-->D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:63:13-66:25
+71                <action android:name="android.intent.action.MAIN" />
+71-->D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:64:29-81
+71-->D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:64:37-78
+72
+73                <category android:name="android.intent.category.LAUNCHER" />
+73-->D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:65:25-85
+73-->D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:65:35-82
+74            </intent-filter>
+75        </activity>
+76        <activity
+76-->D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:69:12-77:20
+77            android:name="com.mobilesalesperson.controller.Login"
+77-->D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:69:23-44
+78            android:label="@string/title_activity_main"
+78-->D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:70:13-56
+79            android:screenOrientation="sensorPortrait"
+79-->D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:71:13-55
+80            android:windowSoftInputMode="stateHidden" >
+80-->D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:72:13-54
+81            <intent-filter>
+81-->D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:63:13-66:25
+82                <action android:name="android.intent.action.MAIN" />
+82-->D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:64:29-81
+82-->D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:64:37-78
+83
+84                <category android:name="android.intent.category.LAUNCHER" />
+84-->D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:65:25-85
+84-->D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:65:35-82
+85            </intent-filter>
+86        </activity>
+87        <activity
+87-->D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:78:9-81:57
+88            android:name="com.mobilesalesperson.controller.Aboutus"
+88-->D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:79:13-36
+89            android:screenOrientation="sensorPortrait"
+89-->D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:80:13-55
+90            android:windowSoftInputMode="stateHidden" />
+90-->D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:81:13-54
+91        <activity
+91-->D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:82:9-85:57
+92            android:name="com.mobilesalesperson.controller.MainMenu"
+92-->D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:83:13-37
+93            android:screenOrientation="sensorPortrait"
+93-->D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:84:13-55
+94            android:windowSoftInputMode="stateHidden" />
+94-->D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:85:13-54
+95        <activity
+95-->D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:86:9-89:57
+96            android:name="com.mobilesalesperson.controller.CompanyInfo"
+96-->D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:87:13-40
+97            android:screenOrientation="sensorPortrait"
+97-->D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:88:13-55
+98            android:windowSoftInputMode="stateHidden" />
+98-->D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:89:13-54
+99        <activity
+99-->D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:90:9-93:57
+100            android:name="com.mobilesalesperson.controller.CustomerSelection"
+100-->D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:91:13-46
+101            android:screenOrientation="sensorPortrait"
+101-->D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:92:13-55
+102            android:windowSoftInputMode="stateHidden" />
+102-->D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:93:13-54
+103        <activity
+103-->D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:94:9-97:57
+104            android:name="com.mobilesalesperson.controller.CustomerInfo"
+104-->D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:95:13-41
+105            android:screenOrientation="sensorPortrait"
+105-->D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:96:13-55
+106            android:windowSoftInputMode="stateHidden" />
+106-->D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:97:13-54
+107        <activity
+107-->D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:98:9-101:57
+108            android:name="com.mobilesalesperson.controller.ItemSelection"
+108-->D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:99:13-42
+109            android:screenOrientation="sensorPortrait"
+109-->D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:100:13-55
+110            android:windowSoftInputMode="stateHidden" />
+110-->D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:101:13-54
+111        <activity
+111-->D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:102:9-105:57
+112            android:name="com.mobilesalesperson.controller.ItemInfo"
+112-->D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:103:13-37
+113            android:screenOrientation="sensorPortrait"
+113-->D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:104:13-55
+114            android:windowSoftInputMode="stateHidden" />
+114-->D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:105:13-54
+115        <activity
+115-->D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:106:9-109:57
+116            android:name="com.mobilesalesperson.controller.SalesPersonInfo"
+116-->D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:107:13-44
+117            android:screenOrientation="sensorPortrait"
+117-->D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:108:13-55
+118            android:windowSoftInputMode="stateHidden" />
+118-->D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:109:13-54
+119        <activity
+119-->D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:110:9-113:57
+120            android:name="com.mobilesalesperson.controller.AddCustomer"
+120-->D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:111:13-40
+121            android:screenOrientation="sensorPortrait"
+121-->D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:112:13-55
+122            android:windowSoftInputMode="stateHidden" />
+122-->D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:113:13-54
+123        <activity
+123-->D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:114:9-117:57
+124            android:name="com.mobilesalesperson.controller.SetTax"
+124-->D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:115:13-35
+125            android:screenOrientation="sensorPortrait"
+125-->D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:116:13-55
+126            android:windowSoftInputMode="stateHidden" />
+126-->D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:117:13-54
+127        <activity
+127-->D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:118:9-121:57
+128            android:name="com.mobilesalesperson.controller.ShipTo"
+128-->D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:119:13-35
+129            android:screenOrientation="sensorPortrait"
+129-->D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:120:13-55
+130            android:windowSoftInputMode="stateHidden" />
+130-->D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:121:13-54
+131        <activity
+131-->D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:122:9-125:57
+132            android:name="com.mobilesalesperson.controller.ItemEntry"
+132-->D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:123:13-38
+133            android:screenOrientation="sensorPortrait"
+133-->D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:124:13-55
+134            android:windowSoftInputMode="stateHidden" />
+134-->D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:125:13-54
+135        <activity
+135-->D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:126:9-129:57
+136            android:name="com.mobilesalesperson.controller.Transaction"
+136-->D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:127:13-40
+137            android:screenOrientation="sensorPortrait"
+137-->D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:128:13-55
+138            android:windowSoftInputMode="stateHidden" />
+138-->D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:129:13-54
+139        <activity
+139-->D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:130:9-133:57
+140            android:name="com.mobilesalesperson.controller.Sign"
+140-->D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:131:13-33
+141            android:screenOrientation="sensorPortrait"
+141-->D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:132:13-55
+142            android:windowSoftInputMode="stateHidden" />
+142-->D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:133:13-54
+143        <activity
+143-->D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:134:9-137:57
+144            android:name="com.mobilesalesperson.controller.OrderSelection"
+144-->D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:135:13-43
+145            android:screenOrientation="sensorPortrait"
+145-->D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:136:13-55
+146            android:windowSoftInputMode="stateHidden" />
+146-->D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:137:13-54
+147        <activity
+147-->D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:138:9-141:57
+148            android:name="com.mobilesalesperson.controller.Receipt"
+148-->D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:139:13-36
+149            android:screenOrientation="sensorPortrait"
+149-->D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:140:13-55
+150            android:windowSoftInputMode="stateHidden" />
+150-->D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:141:13-54
+151        <activity
+151-->D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:142:9-145:57
+152            android:name="com.mobilesalesperson.controller.Prepayment"
+152-->D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:143:13-39
+153            android:screenOrientation="sensorPortrait"
+153-->D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:144:13-55
+154            android:windowSoftInputMode="stateHidden" />
+154-->D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:145:13-54
+155        <activity
+155-->D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:146:9-149:57
+156            android:name="com.mobilesalesperson.controller.TransactionSummary"
+156-->D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:147:13-47
+157            android:screenOrientation="sensorPortrait"
+157-->D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:148:13-55
+158            android:windowSoftInputMode="stateHidden" />
+158-->D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:149:13-54
+159        <activity
+159-->D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:150:9-153:57
+160            android:name="com.mobilesalesperson.controller.Inventory"
+160-->D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:151:13-38
+161            android:screenOrientation="sensorPortrait"
+161-->D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:152:13-55
+162            android:windowSoftInputMode="stateHidden" />
+162-->D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:153:13-54
+163        <activity
+163-->D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:154:9-157:57
+164            android:name="com.mobilesalesperson.controller.ReceiptSummary"
+164-->D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:155:13-43
+165            android:screenOrientation="sensorPortrait"
+165-->D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:156:13-55
+166            android:windowSoftInputMode="stateHidden" />
+166-->D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:157:13-54
+167        <activity
+167-->D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:158:9-161:57
+168            android:name="com.mobilesalesperson.controller.ReceiptSelection"
+168-->D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:159:13-45
+169            android:screenOrientation="sensorPortrait"
+169-->D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:160:13-55
+170            android:windowSoftInputMode="stateHidden" />
+170-->D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:161:13-54
+171        <activity
+171-->D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:162:9-165:57
+172            android:name="com.mobilesalesperson.controller.ReceiptDetail"
+172-->D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:163:13-42
+173            android:screenOrientation="sensorPortrait"
+173-->D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:164:13-55
+174            android:windowSoftInputMode="stateHidden" />
+174-->D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:165:13-54
+175        <activity
+175-->D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:166:9-169:57
+176            android:name="com.mobilesalesperson.controller.SalesSummary"
+176-->D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:167:13-41
+177            android:screenOrientation="sensorPortrait"
+177-->D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:168:13-55
+178            android:windowSoftInputMode="stateHidden" />
+178-->D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:169:13-54
+179        <activity
+179-->D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:170:9-173:57
+180            android:name="com.mobilesalesperson.controller.Settings"
+180-->D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:171:13-37
+181            android:screenOrientation="sensorPortrait"
+181-->D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:172:13-55
+182            android:windowSoftInputMode="stateHidden" />
+182-->D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:173:13-54
+183        <activity
+183-->D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:174:9-177:57
+184            android:name="com.mobilesalesperson.controller.WebViewActivity"
+184-->D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:175:13-44
+185            android:screenOrientation="sensorPortrait"
+185-->D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:176:13-55
+186            android:windowSoftInputMode="stateHidden" />
+186-->D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:177:13-54
+187        <activity
+187-->D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:178:9-181:57
+188            android:name="com.mobilesalesperson.controller.TransactionDetail"
+188-->D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:179:13-46
+189            android:screenOrientation="sensorPortrait"
+189-->D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:180:13-55
+190            android:windowSoftInputMode="stateHidden" />
+190-->D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:181:13-54
+191        <activity
+191-->D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:182:9-185:57
+192            android:name="com.mobilesalesperson.controller.Themes"
+192-->D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:183:13-35
+193            android:screenOrientation="sensorPortrait"
+193-->D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:184:13-55
+194            android:windowSoftInputMode="stateHidden" />
+194-->D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:185:13-54
+195        <activity
+195-->D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:186:9-189:57
+196            android:name="com.mobilesalesperson.controller.Export"
+196-->D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:187:13-35
+197            android:screenOrientation="sensorPortrait"
+197-->D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:188:13-55
+198            android:windowSoftInputMode="stateHidden" />
+198-->D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:189:13-54
+199        <activity
+199-->D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:190:9-193:57
+200            android:name="com.mobilesalesperson.controller.AdminLogin"
+200-->D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:191:13-39
+201            android:screenOrientation="sensorPortrait"
+201-->D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:192:13-55
+202            android:windowSoftInputMode="stateHidden" />
+202-->D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:193:13-54
+203        <activity
+203-->D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:194:9-197:57
+204            android:name="com.mobilesalesperson.controller.TransPDFCreate"
+204-->D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:195:13-43
+205            android:screenOrientation="sensorPortrait"
+205-->D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:196:13-55
+206            android:windowSoftInputMode="stateHidden" />
+206-->D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:197:13-54
+207        <activity
+207-->D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:199:9-202:57
+208            android:name="com.mobilesalesperson.controller.ReceiptPDFCreate"
+208-->D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:200:13-45
+209            android:screenOrientation="sensorPortrait"
+209-->D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:201:13-55
+210            android:windowSoftInputMode="stateHidden" />
+210-->D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:202:13-54
+211        <activity
+211-->D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:204:9-207:57
+212            android:name="com.mobilesalesperson.controller.ImportSummary"
+212-->D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:205:13-42
+213            android:screenOrientation="sensorPortrait"
+213-->D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:206:13-55
+214            android:windowSoftInputMode="stateHidden" />
+214-->D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:207:13-54
+215        <activity
+215-->D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:208:9-211:55
+216            android:name="com.mobilesalesperson.controller.CurrencyCounter"
+216-->D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:209:13-44
+217            android:screenOrientation="sensorPortrait"
+217-->D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:210:13-55
+218            android:windowSoftInputMode="adjustPan" />
+218-->D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:211:13-52
+219        <activity
+219-->D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:212:9-215:57
+220            android:name="com.mobilesalesperson.controller.EmailSettings"
+220-->D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:213:13-42
+221            android:screenOrientation="sensorPortrait"
+221-->D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:214:13-55
+222            android:windowSoftInputMode="stateHidden" />
+222-->D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:215:13-54
+223        <activity
+223-->D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:216:9-219:57
+224            android:name="com.mobilesalesperson.controller.CurrencyCounterSettings"
+224-->D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:217:13-52
+225            android:screenOrientation="sensorPortrait"
+225-->D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:218:13-55
+226            android:windowSoftInputMode="stateHidden" />
+226-->D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:219:13-54
+227        <activity android:name="com.mobilesalesperson.controller.AppBaseActivity" >
+227-->D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:220:9-221:20
+227-->D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:220:19-50
+228        </activity>
+229        <activity
+229-->D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:222:9-225:57
+230            android:name="com.mobilesalesperson.controller.DisplayLocation"
+230-->D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:223:13-44
+231            android:screenOrientation="sensorPortrait"
+231-->D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:224:13-55
+232            android:windowSoftInputMode="stateHidden" />
+232-->D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:225:13-54
+233        <activity android:name="com.mobilesalesperson.controller.EmailPage" >
+233-->D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:226:9-228:20
+233-->D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:226:19-44
+234        </activity>
+235
+236        <!-- for barcode scanning -->
+237        <activity
+237-->D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:231:9-247:20
+238            android:name="com.google.zxing.client.android.CaptureActivity"
+238-->D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:232:13-75
+239            android:configChanges="orientation|keyboardHidden"
+239-->D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:233:13-63
+240            android:screenOrientation="landscape"
+240-->D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:234:13-50
+241            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+241-->D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:235:13-71
+242            android:windowSoftInputMode="stateAlwaysHidden" >
+242-->D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:236:13-60
+243            <intent-filter>
+243-->D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:237:13-241:29
+244                <action android:name="android.intent.action.MAIN" />
+244-->D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:64:29-81
+244-->D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:64:37-78
+245
+246                <category android:name="android.intent.category.DEFAULT" />
+246-->D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:240:17-76
+246-->D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:240:27-73
+247            </intent-filter>
+248            <intent-filter>
+248-->D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:242:13-246:29
+249                <action android:name="com.google.zxing.client.android.SCAN" />
+249-->D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:243:17-79
+249-->D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:243:25-76
+250
+251                <category android:name="android.intent.category.DEFAULT" />
+251-->D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:240:17-76
+251-->D:\MSPUnivDemoOrange\MSP Universal\app\src\main\AndroidManifest.xml:240:27-73
+252            </intent-filter>
+253        </activity>
+254
+255        <!-- GET API Key here: https://code.google.com/apis/console/ -->
+256        <!--
+257        <meta-data
+258            android:name="com.google.android.maps.v2.API_KEY"
+259            android:value="AIzaSyANmwzIw4IYT-G4_3bB0ae07TsA-A6uJBw" />
+260        <meta-data
+261            android:name="com.google.android.gms.version"
+262            android:value="@integer/google_play_services_version" />
+263        -->
+264    </application>
+265
+266</manifest>

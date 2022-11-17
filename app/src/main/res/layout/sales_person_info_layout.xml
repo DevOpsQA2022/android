@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    @designed by T.SARAVANAN 
+-->
+
+<!-- Parent Relative layout with vertical orientation -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    style="?pageBackground"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/txt_salesPersonInfoTitle"
+        style="?pageTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="@string/salesPersonInfoTxtStr" />
+    
+    <!-- Line between title and Table layout -->	
+	<View
+        android:id="@+id/salesPersonInfo_view_line1"
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/txt_salesPersonInfoTitle"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="10dp"
+        style="?PageLine" />
+	
+	<!-- Child Table layout -->	
+    <TableLayout
+        android:id="@+id/lay_spinfoSec"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/salesPersonInfo_view_line1"
+        android:stretchColumns="*"
+        android:layout_gravity="center"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="30dp" >
+        
+        <!-- Row 1: Sales Person Name Row -->
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="3dp">
+
+            <TextView
+                style="?textRegular"
+                android:layout_width="0dip"                
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:text="@string/custNameTxtStr" />
+
+            <TextView
+                android:id="@+id/txt_SalesManName"
+                style="?textLongRetriever"
+                android:layout_width="0dip"                
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginLeft="10dp"/>
+        </TableRow>
+        
+        <!-- Row 2: Sales Person Location Row -->
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp">
+
+            <TextView
+                style="?textRegular"
+                android:layout_width="0dip"                
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:text="@string/itmLocTxtStr" />
+
+            <TextView
+                android:id="@+id/txt_SalesManLocation"
+                style="?textRetriever"
+                android:layout_width="0dip"                
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginLeft="10dp"/>
+        </TableRow>
+        
+        <!-- Row 3: Sales Person E-Mail Row -->
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp">
+
+            <TextView
+                style="?textRegular"
+                android:layout_width="0dip"                
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:text="@string/custEmailTxtStr" />
+
+            <TextView
+                android:id="@+id/txt_SalesManEmail"
+                style="?textLongRetriever"
+                android:layout_width="0dip"                
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginLeft="10dp" />
+        </TableRow>
+        
+        <!-- Row 4: Sales Person Currency Row -->
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp" >
+
+            <TextView
+                style="?textRegular"
+                android:layout_width="0dip"                
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:text="@string/itmCrncyTxtStr" />
+
+            <TextView
+                android:id="@+id/txt_SalesManCurrency"
+                style="?textRetriever"
+                android:layout_width="0dip"                
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginLeft="10dp"/>
+        </TableRow>
+        
+    </TableLayout>
+   
+</RelativeLayout>

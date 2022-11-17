@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Parent Relative layout with vertical orientation -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="?pageBackground"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    
+    <TableLayout
+        android:id="@+id/lay_salesSummaryDateSec"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/salesSummary_view_line1"
+        android:layout_gravity="center"
+        android:layout_margin="5dp" >
+
+        <!-- Row 1: Location Date Field -->
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp" 
+             android:layout_weight="1" >
+
+
+            <EditText
+                android:id="@+id/edt_SalesSummaryFromDate"
+                style="@style/EditTxt"
+                android:layout_width="0dip"
+                android:layout_height="60dp"
+                android:layout_gravity="left"
+                android:paddingLeft="5dp"
+                android:layout_marginLeft="3dp"
+                android:layout_weight="0.75"
+                android:focusable="false"
+                android:inputType="date"
+                android:text="" />
+            
+            
+            <Button
+                android:id="@+id/btn_loadSalessummary"
+                style="?buttonStyle"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="0.25"
+                android:layout_marginLeft="5dp"
+                android:text="@string/loadSummary" 
+                android:visibility="gone"/>                 
+        </TableRow> 
+
+
+       
+        
+    </TableLayout>
+ <fragment
+     android:layout_below="@+id/lay_salesSummaryDateSec"
+        android:id="@+id/map"
+         android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_margin="10dp"
+        android:layout_height="match_parent" />
+   
+</RelativeLayout>
+

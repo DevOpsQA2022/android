@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+ <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+      style="?pageBackground" 
+      android:layout_width="match_parent" 
+      android:layout_height="match_parent" 
+      android:orientation="vertical">
+     	
+  <TextView 
+      android:id="@+id/txt_CurrencyCounterSettingTitle" 
+      style="?pageTitle" 
+      android:layout_width="wrap_content" 
+      android:layout_height="wrap_content" 
+      android:layout_alignParentTop="true" 
+      android:layout_centerHorizontal="true" 
+      android:layout_marginTop="10dp" 
+      android:text="@string/txtCurrencyCounterSettingTitle" /> 
+      
+  <View 
+      android:id="@+id/currencyCounterSetting_view_line1" 
+      style="?PageLine" 
+      android:layout_width="fill_parent" 
+      android:layout_height="1dp" 
+      android:layout_below="@+id/txt_CurrencyCounterSettingTitle" 
+      android:layout_marginBottom="5dp" 
+      android:layout_marginTop="10dp" /> 
+      
+ <TableLayout 
+     android:id="@+id/lay_CurrencyCounterSetting" 
+     android:layout_width="fill_parent" 
+     android:layout_height="wrap_content" 
+     android:layout_below="@+id/currencyCounterSetting_view_line1" 
+     android:layout_gravity="center">
+     
+ <TableRow 
+     android:layout_width="fill_parent" 
+     android:layout_height="wrap_content" 
+     android:layout_marginBottom="1dp" 
+     android:layout_marginLeft="5dp" 
+     android:layout_marginRight="5dp" 
+     android:layout_marginTop="5dp" 
+     android:layout_weight="1">
+     
+  <TextView 
+      style="?textRegular" 
+      android:layout_width="0dip" 
+      android:layout_height="wrap_content" 
+      android:layout_gravity="center|center_vertical" 
+      android:layout_marginRight="5dp" 
+      android:layout_weight="0.40" 
+      android:gravity="right" 
+      android:text="@string/txtCurrCountSet_Currency" /> 
+      
+  <EditText 
+      android:id="@+id/edtTxt_Currency" style="@style/EditTxt" 
+      android:layout_width="0dip" android:layout_height="60dp" 
+      android:layout_weight="0.60" android:paddingLeft="6dp" /> 
+      
+  </TableRow>
+ <TableRow 
+     android:layout_width="fill_parent" 
+     android:layout_height="wrap_content" 
+     android:layout_marginLeft="5dp" 
+     android:layout_marginRight="5dp" 
+     android:layout_marginTop="5dp" 
+     android:layout_weight="1">
+  
+  <TextView 
+     style="?textRegular" 
+     android:layout_width="0dip" 
+     android:layout_height="wrap_content" 
+     android:layout_gravity="center|center_vertical" 
+     android:layout_marginRight="5dp" 
+     android:layout_weight="0.40" 
+     android:gravity="right" 
+     android:text="@string/txtCurrCountSet_CurrSymbol" /> 
+     
+  <EditText 
+      android:id="@+id/edtTxt_CurrSymbol" 
+      style="@style/EditTxt" 
+      android:layout_width="0dip" 
+      android:layout_height="60dp" 
+      android:layout_weight="0.60" 
+      android:paddingLeft="6dp" /> 
+      
+  </TableRow>
+ <TableRow 
+     android:layout_width="fill_parent" 
+     android:layout_height="wrap_content" 
+     android:layout_marginLeft="5dp" 
+     android:layout_marginRight="5dp" 
+     android:layout_marginTop="5dp" 
+     android:layout_weight="1">
+  
+  <TextView 
+      style="?textRegular" 
+      android:layout_width="0dip" 
+      android:layout_height="wrap_content" 
+      android:layout_gravity="center|center_vertical" 
+      android:layout_marginRight="5dp" 
+      android:layout_weight="0.40" 
+      android:gravity="right" 
+      android:text="@string/txtCurrCountSet_CoinName" /> 
+  <EditText 
+      android:id="@+id/edtTxt_CoinName" 
+      style="@style/EditTxt" 
+      android:layout_width="0dip" 
+      android:layout_height="60dp" 
+      android:layout_weight="0.60" 
+      android:paddingLeft="6dp" /> 
+      
+  </TableRow>
+ <TableRow 
+      android:layout_width="fill_parent" 
+      android:layout_height="wrap_content" 
+      android:layout_marginLeft="5dp" 
+      android:layout_marginRight="5dp" 
+      android:layout_marginTop="5dp" 
+      android:layout_weight="1">
+  
+  <TextView 
+      style="?textRegular" 
+      android:layout_width="0dip" 
+      android:layout_height="wrap_content" 
+      android:layout_gravity="center|center_vertical" 
+      android:layout_marginRight="5dp" 
+      android:layout_weight="0.40" 
+      android:gravity="right" 
+      android:text="@string/txtCurrCountSet_CoinConv" /> 
+      
+  <EditText 
+      android:id="@+id/edtTxt_CurrConv" 
+      style="@style/EditTxt" 
+      android:layout_width="0dip" 
+      android:layout_height="60dp" 
+      android:layout_weight="0.60" 
+      android:paddingLeft="6dp" 
+      android:inputType="number" /> 
+      
+  </TableRow>
+  </TableLayout>
+ <TableLayout 
+     android:id="@+id/lay_CurrencyCounterSetting_2" 
+     android:layout_width="fill_parent" 
+     android:layout_height="wrap_content" 
+     android:layout_below="@+id/lay_CurrencyCounterSetting" 
+     android:layout_marginTop="30dp" 
+     android:gravity="center_horizontal" 
+     android:stretchColumns="*">
+ 
+ <TableRow>
+  <TextView 
+     style="?textRegular" 
+     android:layout_width="0dip" 
+     android:layout_height="wrap_content" 
+     android:layout_weight="0.5" 
+     android:gravity="center_horizontal" 
+     android:text="@string/txtCurrCountSet_Currency" /> 
+     
+  <TextView 
+      style="?textRegular" 
+      android:layout_width="0dip" 
+      android:layout_height="wrap_content" 
+      android:layout_weight="0.5" 
+      android:gravity="center_horizontal" 
+      android:text="@string/txtCurrCountSet_Coin" /> 
+      
+  </TableRow>
+ <TableRow>
+ <LinearLayout 
+     android:id="@+id/lay_Currency" 
+     android:layout_width="240dp" 
+     android:layout_height="320dp" 
+     android:layout_centerHorizontal="true" 
+     android:layout_marginLeft="10dp" 
+     android:layout_marginRight="10dp" 
+     android:layout_marginTop="10dp" 
+     android:background="@drawable/aboutus_border" 
+     android:orientation="vertical">
+     
+ <RelativeLayout 
+     android:layout_width="match_parent" 
+     android:layout_height="wrap_content" 
+     android:layout_marginLeft="10dp" 
+     android:layout_marginTop="10dp">
+     
+  <EditText 
+      android:id="@+id/edtTxt_AddCurrency" 
+      style="@style/EditTxt" 
+      android:layout_width="100dp" 
+      android:layout_height="45dp" 
+      android:layout_weight="0.60" 
+      android:paddingLeft="6dp" 
+      android:inputType="number" /> 
+      
+  <Button 
+      android:id="@+id/btn_AddCurrency" 
+      style="?buttonStyle" 
+      android:layout_width="wrap_content" 
+      android:layout_height="wrap_content" 
+      android:layout_toRightOf="@+id/edtTxt_AddCurrency" 
+      android:text="+" android:layout_marginLeft="5dp" /> 
+      
+  <Button 
+      android:id="@+id/btn_ClearCurrency" 
+      style="?buttonStyle" 
+      android:layout_width="wrap_content" 
+      android:layout_height="wrap_content" 
+      android:layout_toRightOf="@+id/btn_AddCurrency" 
+      android:text="-" 
+      android:layout_marginLeft="5dp" /> 
+      
+  </RelativeLayout>
+ <LinearLayout 
+      android:id="@+id/lay_Currency_2" 
+      android:layout_width="match_parent" 
+      android:layout_height="match_parent" 
+      android:layout_centerHorizontal="true" 
+      android:layout_marginLeft="10dp" 
+      android:layout_marginRight="10dp" 
+      android:layout_marginTop="10dp" 
+      android:layout_marginBottom="10dp" 
+      android:background="@drawable/aboutus_border" 
+      android:orientation="vertical">
+  
+  <ListView 
+      android:id="@+id/listView_Currency" 
+      android:layout_width="match_parent" 
+      android:layout_height="fill_parent" /> 
+      
+  </LinearLayout>
+  </LinearLayout>
+ <LinearLayout 
+     android:id="@+id/lay_Coin" 
+     android:layout_width="240dp" 
+     android:layout_height="320dp" 
+     android:layout_centerHorizontal="true" 
+     android:layout_marginLeft="10dp" 
+     android:layout_marginRight="10dp" 
+     android:layout_marginTop="10dp" 
+     android:background="@drawable/aboutus_border" 
+     android:orientation="vertical">
+ 
+ <RelativeLayout 
+     android:layout_width="match_parent" 
+     android:layout_height="wrap_content" 
+     android:layout_marginLeft="10dp" 
+     android:layout_marginTop="10dp">
+  <EditText 
+      android:id="@+id/edtTxt_AddCoin" 
+      style="@style/EditTxt" 
+      android:layout_width="100dp" 
+      android:layout_height="45dp" 
+      android:layout_weight="0.60" 
+      android:paddingLeft="6dp" 
+      android:inputType="number" /> 
+  <Button 
+      android:id="@+id/btn_AddCoin" 
+      style="?buttonStyle" 
+      android:layout_width="wrap_content" 
+      android:layout_height="wrap_content" 
+      android:layout_toRightOf="@+id/edtTxt_AddCoin" 
+      android:text="+" 
+      android:layout_marginLeft="5dp" /> 
+      
+  <Button 
+      android:id="@+id/btn_ClearCoin" 
+      style="?buttonStyle" 
+      android:layout_width="wrap_content" 
+      android:layout_height="wrap_content" 
+      android:layout_toRightOf="@+id/btn_AddCoin" 
+      android:text="-" 
+      android:layout_marginLeft="5dp" /> 
+      
+  </RelativeLayout>
+ <LinearLayout 
+     android:id="@+id/lay_Coin_2" 
+     android:layout_width="match_parent" 
+     android:layout_height="match_parent" 
+     android:layout_centerHorizontal="true" 
+     android:layout_marginLeft="10dp" 
+     android:layout_marginRight="10dp" 
+     android:layout_marginTop="10dp" 
+     android:layout_marginBottom="10dp" 
+     android:background="@drawable/aboutus_border" 
+     android:orientation="vertical">
+  
+  <ListView 
+      android:id="@+id/listView_Coin" 
+      android:layout_width="match_parent" 
+      android:layout_height="fill_parent" /> 
+      
+  </LinearLayout>
+  </LinearLayout>
+  </TableRow>
+  </TableLayout>
+- <!--          <Button
+        android:id="@+id/btn_SaveCurrencySetting"
+        style="?buttonStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lay_CurrencyCounterSetting_2"
+        android:layout_centerHorizontal="true"
+        android:text="@string/txtCurrCounSet_Save"
+		android:layout_alignParentBottom="true" />
+
+    
+  --> 
+ <TableLayout 
+     android:id="@+id/lay_CurrCount_1" 
+     android:layout_width="fill_parent" 
+     android:layout_height="wrap_content" 
+     android:layout_below="@+id/lay_CurrencyCounterSetting_2" 
+     android:layout_gravity="center" 
+     android:stretchColumns="*" 
+     android:layout_marginTop="30dp">
+ 
+ <TableRow 
+     android:layout_width="fill_parent" 
+     android:layout_height="wrap_content" 
+     android:layout_marginBottom="1dp" 
+     android:layout_marginLeft="5dp" 
+     android:layout_marginRight="5dp" 
+     android:layout_weight="1" 
+     android:gravity="center">
+ 
+  <Button 
+     android:id="@+id/btn_CurrSettingClearAll" 
+     style="?buttonStyle" 
+     android:layout_width="140dp" 
+     android:layout_height="wrap_content" 
+     android:layout_alignParentBottom="true" 
+     android:text="@string/txtCurrCountSet_ClearAll" 
+     android:layout_marginRight="10dp" android:layout_marginLeft="10dp" /> 
+     
+  <Button 
+      android:id="@+id/btn_SaveCurrencySetting" 
+      style="?buttonStyle" 
+      android:layout_width="140dp" 
+      android:layout_height="wrap_content" 
+      android:layout_alignParentBottom="true" 
+      android:text="@string/txtCurrCounSet_Save" 
+      android:layout_marginRight="10dp" 
+      android:layout_marginLeft="10dp" /> 
+      
+  </TableRow>
+  </TableLayout>
+  </RelativeLayout>

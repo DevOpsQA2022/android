@@ -1,0 +1,2042 @@
+[
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw800dp_receipt_detail_layout.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout-sw800dp\\receipt_detail_layout.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_info.png.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\drawable-xhdpi\\info.png"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\drawable_import_summary.png.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\drawable\\import_summary.png"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw800dp_help.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout-sw800dp\\help.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_currency_small.png.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\drawable-mdpi\\currency_small.png"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ord.png.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\drawable-mdpi\\ord.png"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw800dp_transaction_detail_layout.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout-sw800dp\\transaction_detail_layout.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\drawable_settings_new.png.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\drawable\\settings_new.png"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw720dp_customer_selection_layout.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout-sw720dp\\customer_selection_layout.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\drawable_radio.png.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\drawable\\radio.png"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_recipt.png.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\drawable-hdpi\\recipt.png"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw800dp_receipt_layout.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout-sw800dp\\receipt_layout.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout-large_shipto_layout.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout-large\\shipto_layout.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw800dp_export_layout.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout-sw800dp\\export_layout.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_msplogo.png.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\drawable-hdpi\\msplogo.png"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ie.png.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\drawable-hdpi\\ie.png"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout_currency_count_layout.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout\\currency_count_layout.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_report.png.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\drawable-hdpi\\report.png"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw720dp_email_settings_layout.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout-sw720dp\\email_settings_layout.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw720dp_item_selection_layout.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout-sw720dp\\item_selection_layout.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout_action_item_horizontal.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout\\action_item_horizontal.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout-large_sequence_layout.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout-large\\sequence_layout.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw720dp_row_layout.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout-sw720dp\\row_layout.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\drawable_border_transparent.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\drawable\\border_transparent.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout_receipt_layout.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout\\receipt_layout.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\drawable_action_item_selected.9.png.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\drawable\\action_item_selected.9.png"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\drawable_toast_shape.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\drawable\\toast_shape.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_export_menu.png.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\drawable-xhdpi\\export_menu.png"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout-large_inventory_report_layout.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout-large\\inventory_report_layout.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_listview.png.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\drawable-mdpi\\listview.png"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout_capture.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout\\capture.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_setting.png.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\drawable-hdpi\\setting.png"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\drawable_border_green.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\drawable\\border_green.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw720dp_share.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout-sw720dp\\share.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\anim_grow_from_bottomright_to_topleft.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\anim\\grow_from_bottomright_to_topleft.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw800dp_print_list_layout.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout-sw800dp\\print_list_layout.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout_customer_info_layout.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout\\customer_info_layout.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw720dp_transaction_order_item_list.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout-sw720dp\\transaction_order_item_list.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw800dp_receipt_summary_list_items.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout-sw800dp\\receipt_summary_list_items.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw800dp_currency_setting_layout.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout-sw800dp\\currency_setting_layout.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout-large_customer_name_edit_dialog_layout.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout-large\\customer_name_edit_dialog_layout.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_report.png.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\drawable-ldpi\\report.png"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw720dp_export_item_list.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout-sw720dp\\export_item_list.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout_order_selection_item_list.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout\\order_selection_item_list.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw800dp_email_settings_layout.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout-sw800dp\\email_settings_layout.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw720dp_shipto_layout.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout-sw720dp\\shipto_layout.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout_transaction_summary_list_items.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout\\transaction_summary_list_items.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\drawable_slim_spinner_normal.9.png.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\drawable\\slim_spinner_normal.9.png"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\drawable_login.png.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\drawable\\login.png"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw800dp_import_summary_layout.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout-sw800dp\\import_summary_layout.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout_print_list_layout.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout\\print_list_layout.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\drawable_checkbox_off.png.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\drawable\\checkbox_off.png"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\anim_grow_from_bottomleft_to_topright.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\anim\\grow_from_bottomleft_to_topright.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\drawable_bg.png.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\drawable\\bg.png"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout_email_activity.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout\\email_activity.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout-large_receipt_dialog_layout.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout-large\\receipt_dialog_layout.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw720dp_horiz_separator.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout-sw720dp\\horiz_separator.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw720dp_sales_summary_layout.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout-sw720dp\\sales_summary_layout.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout_currency_row.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout\\currency_row.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout-large_help.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout-large\\help.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw720dp_capture.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout-sw720dp\\capture.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout-large_signature_layout.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout-large\\signature_layout.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\drawable_radio_down.png.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\drawable\\radio_down.png"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\drawable_popup.9.png.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\drawable\\popup.9.png"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\drawable_order_new.png.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\drawable\\order_new.png"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout_prepayment_summary_list_item.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout\\prepayment_summary_list_item.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout_customer_name_edit_dialog_layout.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout\\customer_name_edit_dialog_layout.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_recipt.png.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\drawable-mdpi\\recipt.png"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_warehouse.png.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\drawable-xxhdpi\\warehouse.png"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw800dp_receipt_selection_item_list.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout-sw800dp\\receipt_selection_item_list.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw800dp_item_entry_layout.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout-sw800dp\\item_entry_layout.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\drawable_dialog_list_item.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\drawable\\dialog_list_item.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_dlg_delete.png.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\drawable-xhdpi\\dlg_delete.png"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_launcher.png.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\drawable-ldpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_lock_power_off.png.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\drawable-xhdpi\\ic_lock_power_off.png"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\drawable_customlistviewshape.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\drawable\\customlistviewshape.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw800dp_prepayment_layout.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout-sw800dp\\prepayment_layout.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_down.png.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\drawable-mdpi\\down.png"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw800dp_search_book_contents_header.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout-sw800dp\\search_book_contents_header.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw800dp_receipt_summary_layout.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout-sw800dp\\receipt_summary_layout.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw800dp_info_layout.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout-sw800dp\\info_layout.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw720dp_menu_listview_layout.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout-sw720dp\\menu_listview_layout.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_report.png.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\drawable-mdpi\\report.png"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_setting.png.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\drawable-mdpi\\setting.png"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\anim_shrink_from_bottom.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\anim\\shrink_from_bottom.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout_single_list_item.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout\\single_list_item.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw800dp_search_book_contents.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout-sw800dp\\search_book_contents.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw800dp_add_customer_layout.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout-sw800dp\\add_customer_layout.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout-large_admin_login_layout.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout-large\\admin_login_layout.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_cust.png.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\drawable-mdpi\\cust.png"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw800dp_customer_tax_layout.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout-sw800dp\\customer_tax_layout.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw720dp_menu_layout.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout-sw720dp\\menu_layout.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout_popup_horizontal.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout\\popup_horizontal.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\drawable_blue_swirl_listviewimageshape.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\drawable\\blue_swirl_listviewimageshape.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_settings_menu.png.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\drawable-xhdpi\\settings_menu.png"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw720dp_add_customer_layout.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout-sw720dp\\add_customer_layout.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout_comment_dialog_layout.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout\\comment_dialog_layout.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw800dp_location_map.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout-sw800dp\\location_map.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_info_layout.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout\\item_info_layout.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw720dp_bookmark_picker_list_item.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout-sw720dp\\bookmark_picker_list_item.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout_model_item.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout\\model_item.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\drawable_newinvoice.png.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\drawable\\newinvoice.png"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\raw_beep.ogg.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\raw\\beep.ogg"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout_history_layout.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout\\history_layout.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_msplogo.png.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\drawable-mdpi\\msplogo.png"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_tick.png.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\drawable-hdpi\\tick.png"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout_customer_selection_layout.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout\\customer_selection_layout.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_oe.png.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\drawable-mdpi\\oe.png"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout-large_bookmark_picker_list_item.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout-large\\bookmark_picker_list_item.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_aboutus.png.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\drawable-ldpi\\aboutus.png"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_recipt.png.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\drawable-ldpi\\recipt.png"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout_custom_prepaylist.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout\\custom_prepaylist.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout_history_list_item.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout\\history_list_item.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout-large_currency_count_layout.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout-large\\currency_count_layout.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw800dp_menu_layout.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout-sw800dp\\menu_layout.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout-large_imageview_grid.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout-large\\imageview_grid.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\anim_shrink_from_top.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\anim\\shrink_from_top.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_customer.png.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\drawable-ldpi\\customer.png"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\drawable_recipt_detail.png.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\drawable\\recipt_detail.png"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw720dp_settings_layout.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout-sw720dp\\settings_layout.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout-large_customgrid.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout-large\\customgrid.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout_encode.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout\\encode.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout-land_share.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout-land\\share.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw800dp_toast_custom_layout.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout-sw800dp\\toast_custom_layout.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\drawable_toast_icon.png.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\drawable\\toast_icon.png"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\drawable_finish.png.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\drawable\\finish.png"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_abt.png.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\drawable-mdpi\\abt.png"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\drawable_newcustomer.png.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\drawable\\newcustomer.png"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout_menu_listview_layout.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout\\menu_listview_layout.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw720dp_receipt_detail_list_items.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout-sw720dp\\receipt_detail_list_items.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw720dp_transaction_detail_layout.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout-sw720dp\\transaction_detail_layout.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\drawable_btn_bs.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\drawable\\btn_bs.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_save.png.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\drawable-hdpi\\save.png"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\drawable_edit.png.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\drawable\\edit.png"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw720dp_transaction_summary_list_items.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout-sw720dp\\transaction_summary_list_items.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\drawable_sales_summary.png.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\drawable\\sales_summary.png"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_customer.png.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\drawable-hdpi\\customer.png"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw800dp_customer_selection_layout.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout-sw800dp\\customer_selection_layout.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\drawable_receipts.png.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\drawable\\receipts.png"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout-large_print_list_layout.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout-large\\print_list_layout.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw720dp_currency_row.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout-sw720dp\\currency_row.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout_row.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout\\row.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\drawable_wrong_pwd_icon.png.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\drawable\\wrong_pwd_icon.png"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout-large_map_layout.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout-large\\map_layout.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\drawable_oe_grid.png.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\drawable\\oe_grid.png"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout_search_book_contents_list_item.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout\\search_book_contents_list_item.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout_receipt_list_items.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout\\receipt_list_items.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_production.png.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\drawable-xxhdpi\\production.png"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw800dp_single_list_item.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout-sw800dp\\single_list_item.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\menu_receipt_summary_menu.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\menu\\receipt_summary_menu.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw720dp_search_book_contents_list_item.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout-sw720dp\\search_book_contents_list_item.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\anim_disappear.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\anim\\disappear.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout-large_menu_listview_layout.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout-large\\menu_listview_layout.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\drawable_msp_menu_logo.png.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\drawable\\msp_menu_logo.png"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\drawable_slim_spinner_pressed.9.png.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\drawable\\slim_spinner_pressed.9.png"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_down.png.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\drawable-xxhdpi\\down.png"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout-large_add_customer_layout.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout-large\\add_customer_layout.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw720dp_receipt_summary_list_items.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout-sw720dp\\receipt_summary_list_items.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\drawable_del_selector.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\drawable\\del_selector.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw720dp_inventory_report_layout.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout-sw720dp\\inventory_report_layout.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout-large_order_selection_layout.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout-large\\order_selection_layout.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw800dp_bookmark_picker_list_item.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout-sw800dp\\bookmark_picker_list_item.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout-large_receipt_summary_layout.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout-large\\receipt_summary_layout.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\menu_trans_detail_menu.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\menu\\trans_detail_menu.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout-large_search_book_contents_list_item.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout-large\\search_book_contents_list_item.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_aboutus.png.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\drawable-hdpi\\aboutus.png"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_up.png.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\drawable-mdpi\\up.png"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout-large_toast_custom_layout.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout-large\\toast_custom_layout.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw720dp_customer_name_edit_dialog_layout.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout-sw720dp\\customer_name_edit_dialog_layout.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout_action_item_vertical.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout\\action_item_vertical.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout_listview_item_row.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout\\listview_item_row.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\drawable_new_settings_grid.png.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\drawable\\new_settings_grid.png"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout_popup_vertical.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout\\popup_vertical.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout-large_row_layout.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout-large\\row_layout.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout-large_action_item_vertical.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout-large\\action_item_vertical.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw720dp_import_summary_layout.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout-sw720dp\\import_summary_layout.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout_inventory_list_items.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout\\inventory_list_items.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw720dp_login_layout.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout-sw720dp\\login_layout.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\drawable_radiobutton_selector.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\drawable\\radiobutton_selector.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_shopper_icon.png.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\drawable-hdpi\\shopper_icon.png"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw800dp_theme_layout.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout-sw800dp\\theme_layout.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw800dp_currency_row.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout-sw800dp\\currency_row.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_themes.png.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\drawable-mdpi\\themes.png"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\drawable_newreport.png.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\drawable\\newreport.png"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_msplogo.png.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\drawable-xhdpi\\msplogo.png"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\menu_transaction_menu.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\menu\\transaction_menu.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\xml_preferences.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\xml\\preferences.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw800dp_settings_layout.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout-sw800dp\\settings_layout.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout-large_menu_layout.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout-large\\menu_layout.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout_share.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout\\share.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw800dp_spinner_item_layout.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout-sw800dp\\spinner_item_layout.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout_receipt_summary_list_items.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout\\receipt_summary_list_items.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\drawable_add_cust.png.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\drawable\\add_cust.png"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw720dp_currency_setting_layout.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout-sw720dp\\currency_setting_layout.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw720dp_customgrid.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout-sw720dp\\customgrid.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw720dp_search_book_contents_header.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout-sw720dp\\search_book_contents_header.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\anim_pump_top.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\anim\\pump_top.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_warning.png.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\drawable-xhdpi\\warning.png"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw720dp_receipt_detail_layout.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout-sw720dp\\receipt_detail_layout.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout-large_receipt_selection_item_list.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout-large\\receipt_selection_item_list.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\menu_trans_summary_menu.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\menu\\trans_summary_menu.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw720dp_item_info_layout.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout-sw720dp\\item_info_layout.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw800dp_receipt_selection_layout.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout-sw800dp\\receipt_selection_layout.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout-large_single_list_item.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout-large\\single_list_item.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout-large_import_summary_layout.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout-large\\import_summary_layout.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout_create_pdf.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout\\create_pdf.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout-large_receipt_layout.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout-large\\receipt_layout.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw720dp_spinner_item_layout.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout-sw720dp\\spinner_item_layout.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw800dp_action_item_vertical.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout-sw800dp\\action_item_vertical.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw800dp_capture.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout-sw800dp\\capture.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout-large_customer_selection_layout.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout-large\\customer_selection_layout.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw800dp_transaction_layout.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout-sw800dp\\transaction_layout.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout_signature_layout.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout\\signature_layout.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout-large_aboutus_layout.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout-large\\aboutus_layout.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw720dp_receipt_list_items.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout-sw720dp\\receipt_list_items.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_sortby_menu.png.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\drawable-xhdpi\\sortby_menu.png"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ie.png.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\drawable-ldpi\\ie.png"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout_export_layout.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout\\export_layout.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout_sales_summary_list_items.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout\\sales_summary_list_items.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_import_menu.png.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\drawable-xhdpi\\import_menu.png"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw800dp_history_list_item.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout-sw800dp\\history_list_item.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\drawable_arrow_down.png.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\drawable\\arrow_down.png"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw800dp_search_book_contents_list_item.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout-sw800dp\\search_book_contents_list_item.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_settings_new.png.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\drawable-mdpi\\settings_new.png"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_selection_layout.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout\\item_selection_layout.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw720dp_theme_layout.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout-sw720dp\\theme_layout.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_theme.png.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\drawable-hdpi\\theme.png"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_theme.png.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\drawable-ldpi\\theme.png"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_launcher.png.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\drawable-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout_custom_marker_layout.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout\\custom_marker_layout.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_upmenu_gray.png.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\drawable-hdpi\\upmenu_gray.png"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw720dp_receipt_layout.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout-sw720dp\\receipt_layout.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\drawable_scancologo.png.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\drawable\\scancologo.png"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_mnu_cancel.png.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\drawable-xhdpi\\mnu_cancel.png"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\drawable_selector_slim_spinner.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\drawable\\selector_slim_spinner.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout-large_transaction_detail_layout.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout-large\\transaction_detail_layout.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout-large_transaction_layout.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout-large\\transaction_layout.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw800dp_receipt_dialog_layout.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout-sw800dp\\receipt_dialog_layout.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout-large_spinner_item_layout.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout-large\\spinner_item_layout.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout_menu_layout.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout\\menu_layout.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout_import_summary_layout.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout\\import_summary_layout.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout-large_theme_layout.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout-large\\theme_layout.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\drawable_edit_delete_icon.png.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\drawable\\edit_delete_icon.png"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_invs.png.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\drawable-mdpi\\invs.png"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\drawable_reports.png.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\drawable\\reports.png"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout-large_export_layout.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout-large\\export_layout.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw800dp_currency_count_layout.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout-sw800dp\\currency_count_layout.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout_settings_tab_layout.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout\\settings_tab_layout.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw720dp_map_layout.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout-sw720dp\\map_layout.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_oe.png.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\drawable-hdpi\\oe.png"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\menu_capture.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\menu\\capture.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout_receipt_summary_layout.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout\\receipt_summary_layout.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw800dp_horiz_separator.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout-sw800dp\\horiz_separator.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout_prepayment_summary_layout.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout\\prepayment_summary_layout.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout_currency_list_item.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout\\currency_list_item.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw720dp_action_item_vertical.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout-sw720dp\\action_item_vertical.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\drawable_black_stone_listviewimageshape.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\drawable\\black_stone_listviewimageshape.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_action_search.png.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\drawable-mdpi\\ic_action_search.png"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_currency.png.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\drawable-hdpi\\currency.png"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout-large_receipt_summary_list_items.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout-large\\receipt_summary_list_items.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout_receipt_detail_layout.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout\\receipt_detail_layout.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw720dp_customer_tax_layout.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout-sw720dp\\customer_tax_layout.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\drawable_plain_listviewshape.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\drawable\\plain_listviewshape.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\drawable_add_selector.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\drawable\\add_selector.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\drawable_red_ball.png.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\drawable\\red_ball.png"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw800dp_receipt_detail_list_items.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout-sw800dp\\receipt_detail_list_items.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\drawable_aboutus_border.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\drawable\\aboutus_border.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_mnu_clear.png.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\drawable-xhdpi\\mnu_clear.png"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_map.png.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\drawable-hdpi\\map.png"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw800dp_login_layout.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout-sw800dp\\login_layout.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_map.png.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\drawable-mdpi\\map.png"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw720dp_toast_custom_layout.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout-sw720dp\\toast_custom_layout.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\drawable_plain_listviewimageshape.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\drawable\\plain_listviewimageshape.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\anim_grow_from_bottom.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\anim\\grow_from_bottom.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw720dp_aboutus_layout.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout-sw720dp\\aboutus_layout.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\drawable_green_ball.png.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\drawable\\green_ball.png"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw720dp_single_list_item.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout-sw720dp\\single_list_item.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\drawable_reports_new.png.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\drawable\\reports_new.png"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw800dp_transaction_order_item_list.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout-sw800dp\\transaction_order_item_list.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_up1.png.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\drawable-mdpi\\up1.png"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout_prepayment_selection_layout.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout\\prepayment_selection_layout.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_cus_edit_dlg.png.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\drawable-xhdpi\\cus_edit_dlg.png"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout_settings_layout.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout\\settings_layout.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout_sales_person_info_layout.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout\\sales_person_info_layout.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw800dp_map_layout.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout-sw800dp\\map_layout.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout_customer_tax_layout.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout\\customer_tax_layout.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout-large_transaction_summary_list_items.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout-large\\transaction_summary_list_items.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\drawable_share_via_barcode.png.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\drawable\\share_via_barcode.png"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw720dp_item_entry_layout.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout-sw720dp\\item_entry_layout.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout-large_transaction_summary_layout.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout-large\\transaction_summary_layout.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_reprt.png.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\drawable-mdpi\\reprt.png"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\drawable_next.png.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\drawable\\next.png"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\drawable_networks.png.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\drawable\\networks.png"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout_sort_layout.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout\\sort_layout.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\drawable_order_invoice.png.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\drawable\\order_invoice.png"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\menu_login_menu.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\menu\\login_menu.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout_comments_view_layout.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout\\comments_view_layout.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\drawable_customborder.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\drawable\\customborder.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw800dp_sales_summary_list_items.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout-sw800dp\\sales_summary_list_items.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_dispatch.png.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\drawable-xxhdpi\\dispatch.png"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\menu_history.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\menu\\history.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_mnu_save.png.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\drawable-xhdpi\\mnu_save.png"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw720dp_search_book_contents.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout-sw720dp\\search_book_contents.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\drawable_order.png.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\drawable\\order.png"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\anim_rail.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\anim\\rail.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\drawable_menu_ok.png.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\drawable\\menu_ok.png"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout-large_receipt_selection_layout.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout-large\\receipt_selection_layout.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\drawable_inventory_report.png.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\drawable\\inventory_report.png"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout_export_item_list.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout\\export_item_list.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout_shipto_layout.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout\\shipto_layout.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_customer.png.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\drawable-mdpi\\customer.png"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw720dp_transaction_layout.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout-sw720dp\\transaction_layout.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout-large_item_entry_layout.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout-large\\item_entry_layout.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout_receipt_selection_item_list.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout\\receipt_selection_item_list.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_launcher.png.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\drawable-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout-large_share.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout-large\\share.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout_transaction_detail_layout.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout\\transaction_detail_layout.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw800dp_action_item_horizontal.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout-sw800dp\\action_item_horizontal.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw720dp_listview_item_row.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout-sw720dp\\listview_item_row.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout-large_receipt_detail_list_items.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout-large\\receipt_detail_list_items.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout_theme_layout.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout\\theme_layout.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_upmenu_gray.png.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\drawable-mdpi\\upmenu_gray.png"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout_order_selection_layout.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout\\order_selection_layout.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw800dp_transaction_summary_list_items.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout-sw800dp\\transaction_summary_list_items.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\drawable_newsettings.png.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\drawable\\newsettings.png"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_launcher.png.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\drawable-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw720dp_transaction_summary_layout.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout-sw720dp\\transaction_summary_layout.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout-large_transaction_detail_list_items.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout-large\\transaction_detail_list_items.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ie.png.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\drawable-mdpi\\ie.png"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw720dp_print_list_layout.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout-sw720dp\\print_list_layout.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout-large_settings_layout.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout-large\\settings_layout.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\drawable_border_red.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\drawable\\border_red.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_increment_menu.png.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\drawable-xhdpi\\increment_menu.png"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\drawable_imageview_border.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\drawable\\imageview_border.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_map.png.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\drawable-xxhdpi\\map.png"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw720dp_imageview_grid.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout-sw720dp\\imageview_grid.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\drawable_order_grid.png.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\drawable\\order_grid.png"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout_search_book_contents_header.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout\\search_book_contents_header.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\drawable_customlistviewimageshape.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\drawable\\customlistviewimageshape.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw800dp_customer_name_edit_dialog_layout.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout-sw800dp\\customer_name_edit_dialog_layout.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout_admin_login_layout.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout\\admin_login_layout.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_action_search.png.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\drawable-hdpi\\ic_action_search.png"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw800dp_signature_layout.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout-sw800dp\\signature_layout.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout_test_connection_layout.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout\\test_connection_layout.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw800dp_transaction_detail_list_items.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout-sw800dp\\transaction_detail_list_items.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout_horiz_separator.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout\\horiz_separator.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout-large_action_item_horizontal.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout-large\\action_item_horizontal.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw720dp_info_layout.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout-sw720dp\\info_layout.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ok_menu.png.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\drawable-xhdpi\\ok_menu.png"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw720dp_prepayment_layout.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout-sw720dp\\prepayment_layout.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw720dp_export_layout.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout-sw720dp\\export_layout.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout_login_layout.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout\\login_layout.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw720dp_receipt_selection_layout.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout-sw720dp\\receipt_selection_layout.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\anim_grow_from_topleft_to_bottomright.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\anim\\grow_from_topleft_to_bottomright.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_import_inventory_menu.png.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\drawable-xhdpi\\import_inventory_menu.png"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\anim_grow_from_top.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\anim\\grow_from_top.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw800dp_aboutus_layout.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout-sw800dp\\aboutus_layout.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout-large_item_selection_layout.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout-large\\item_selection_layout.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout-large_listview_item_row.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout-large\\listview_item_row.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw800dp_admin_login_layout.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout-sw800dp\\admin_login_layout.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw800dp_export_item_list.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout-sw800dp\\export_item_list.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout_prepayment_detail_layout.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout\\prepayment_detail_layout.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout-large_login_layout.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout-large\\login_layout.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw720dp_signature_layout.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout-sw720dp\\signature_layout.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw720dp_action_item_horizontal.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout-sw720dp\\action_item_horizontal.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout_imageview_grid.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout\\imageview_grid.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_signature_menu.png.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\drawable-xhdpi\\signature_menu.png"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout_login_permission_layout.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout\\login_permission_layout.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\drawable_blue_swirl_listviewshape.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\drawable\\blue_swirl_listviewshape.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\menu_encode.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\menu\\encode.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout_currency_setting_layout.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout\\currency_setting_layout.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout-large_currency_list_item.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout-large\\currency_list_item.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\drawable_delete.png.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\drawable\\delete.png"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw800dp_shipto_layout.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout-sw800dp\\shipto_layout.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\menu_receipt_menu.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\menu\\receipt_menu.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout-large_transaction_order_item_list.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout-large\\transaction_order_item_list.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw800dp_inventory_report_layout.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout-sw800dp\\inventory_report_layout.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\drawable_black_stone_listviewshape.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\drawable\\black_stone_listviewshape.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout-large_receipt_detail_layout.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout-large\\receipt_detail_layout.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw800dp_currency_list_item.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout-sw800dp\\currency_list_item.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout-large_prepayment_layout.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout-large\\prepayment_layout.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_settings_new.png.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\drawable-xxhdpi\\settings_new.png"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout_sales_summary_layout.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout\\sales_summary_layout.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout-large_item_info_layout.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout-large\\item_info_layout.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout_help.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout\\help.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout-large_export_item_list.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout-large\\export_item_list.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\anim_shrink_from_topleft_to_bottomright.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\anim\\shrink_from_topleft_to_bottomright.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\drawable_edittext_custom.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\drawable\\edittext_custom.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\anim_shrink_from_bottomright_to_topleft.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\anim\\shrink_from_bottomright_to_topleft.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\drawable_new_settings.png.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\drawable\\new_settings.png"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout-large_currency_row.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout-large\\currency_row.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout_transaction_layout.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout\\transaction_layout.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw800dp_receipt_list_items.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout-sw800dp\\receipt_list_items.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\drawable_msplogo.png.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\drawable\\msplogo.png"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw800dp_customgrid.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout-sw800dp\\customgrid.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout_info_layout.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout\\info_layout.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\anim_shrink_from_bottomleft_to_topright.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\anim\\shrink_from_bottomleft_to_topright.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\drawable_newlogo.png.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\drawable\\newlogo.png"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw720dp_location_map.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout-sw720dp\\location_map.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw800dp_menu_listview_layout.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout-sw800dp\\menu_listview_layout.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_tick.png.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\drawable-xhdpi\\tick.png"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_launcher.png.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\drawable-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout-land_encode.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout-land\\encode.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw800dp_share.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout-sw800dp\\share.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout_receipt_selection_layout.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout\\receipt_selection_layout.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_seting.png.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\drawable-mdpi\\seting.png"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\anim_shrink_from_topright_to_bottomleft.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\anim\\shrink_from_topright_to_bottomleft.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout-large_sales_summary_layout.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout-large\\sales_summary_layout.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\drawable_edituser.png.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\drawable\\edituser.png"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout_spinner_item_layout.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout\\spinner_item_layout.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\menu_signature_menu.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\menu\\signature_menu.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout_aboutus_layout.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout\\aboutus_layout.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout_sequence_layout.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout\\sequence_layout.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout_add_customer_layout.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout\\add_customer_layout.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\menu_inventory_menu.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\menu\\inventory_menu.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout_transaction_detail_list_items.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout\\transaction_detail_list_items.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw800dp_order_selection_layout.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout-sw800dp\\order_selection_layout.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw720dp_receipt_summary_layout.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout-sw720dp\\receipt_summary_layout.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw800dp_sequence_layout.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout-sw800dp\\sequence_layout.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout-large_sales_summary_list_items.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout-large\\sales_summary_list_items.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw800dp_listview_item_row.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout-sw800dp\\listview_item_row.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\drawable_plain.png.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\drawable\\plain.png"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout_sequenceno_layout.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout\\sequenceno_layout.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\drawable_checkbox_selector.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\drawable\\checkbox_selector.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_map.png.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\drawable-xhdpi\\map.png"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_oe.png.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\drawable-ldpi\\oe.png"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout-large_email_settings_layout.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout-large\\email_settings_layout.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_gridview.png.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\drawable-mdpi\\gridview.png"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\drawable_btn_plain.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\drawable\\btn_plain.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw720dp_order_selection_layout.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout-sw720dp\\order_selection_layout.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_currency.png.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\drawable-mdpi\\currency.png"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw720dp_transaction_detail_list_items.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout-sw720dp\\transaction_detail_list_items.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_service.png.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\drawable-xxhdpi\\service.png"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw800dp_transaction_summary_layout.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout-sw800dp\\transaction_summary_layout.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\menu_currency_counter_menu.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\menu\\currency_counter_menu.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\drawable_action_item_btn.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\drawable\\action_item_btn.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout_inventory_report_layout.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout\\inventory_report_layout.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_print_menu.png.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\drawable-xhdpi\\print_menu.png"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\drawable_arrow_up.png.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\drawable\\arrow_up.png"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\menu_setting_menu.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\menu\\setting_menu.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\anim_pump_bottom.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\anim\\pump_bottom.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout_receipt_detail_list_items.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout\\receipt_detail_list_items.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw720dp_currency_list_item.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout-sw720dp\\currency_list_item.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\drawable_recipt_summary.png.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\drawable\\recipt_summary.png"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout-large_customer_tax_layout.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout-large\\customer_tax_layout.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout-ldpi_capture.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout-ldpi\\capture.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw800dp_item_info_layout.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout-sw800dp\\item_info_layout.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout_row_layout.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout\\row_layout.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout_company_info_layout.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout\\company_info_layout.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout-large_horiz_separator.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout-large\\horiz_separator.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout-large_search_book_contents_header.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout-large\\search_book_contents_header.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_launcher.png.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\drawable\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout-large_location_map.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout-large\\location_map.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\drawable_border_gray.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\drawable\\border_gray.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw720dp_admin_login_layout.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout-sw720dp\\admin_login_layout.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_entry_layout.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout\\item_entry_layout.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw720dp_receipt_dialog_layout.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout-sw720dp\\receipt_dialog_layout.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_returning.png.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\drawable-xxhdpi\\returning.png"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout_customer_selection.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout\\customer_selection.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\anim_grow_from_topright_to_bottomleft.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\anim\\grow_from_topright_to_bottomleft.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout-large_receipt_list_items.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout-large\\receipt_list_items.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw720dp_receipt_selection_item_list.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout-sw720dp\\receipt_selection_item_list.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout_toast_custom_layout.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout\\toast_custom_layout.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\drawable_summary.png.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\drawable\\summary.png"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout-large_search_book_contents.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout-large\\search_book_contents.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\xml_provider_paths.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\xml\\provider_paths.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_theme.png.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\drawable-mdpi\\theme.png"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout_prepayment_layout.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout\\prepayment_layout.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw800dp_row_layout.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout-sw800dp\\row_layout.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout_email_settings_layout.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout\\email_settings_layout.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw720dp_history_list_item.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout-sw720dp\\history_list_item.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout_search_book_contents.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout\\search_book_contents.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout_transaction_order_item_list.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout\\transaction_order_item_list.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_rept.png.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\drawable-mdpi\\rept.png"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\drawable_search.png.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\drawable\\search.png"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_up.png.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\drawable-xxhdpi\\up.png"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\drawable_dlg_info.png.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\drawable\\dlg_info.png"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\drawable_invoice.png.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\drawable\\invoice.png"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_aboutus.png.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\drawable-mdpi\\aboutus.png"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw720dp_help.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout-sw720dp\\help.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\drawable_checkbox_on.png.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\drawable\\checkbox_on.png"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout-large_history_list_item.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout-large\\history_list_item.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_mail_menu.png.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\drawable-xhdpi\\mail_menu.png"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout-large_capture.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout-large\\capture.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw720dp_currency_count_layout.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout-sw720dp\\currency_count_layout.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_msplogo.png.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\drawable-ldpi\\msplogo.png"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\drawable_custom_bg_1.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\drawable\\custom_bg_1.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\drawable_shopper_icon.png.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\drawable\\shopper_icon.png"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_down1.png.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\drawable-mdpi\\down1.png"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\menu_mainmenu_menu.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\menu\\mainmenu_menu.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_add_menu.png.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\drawable-xhdpi\\add_menu.png"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_dlg_delete.png.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\drawable-hdpi\\dlg_delete.png"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\drawable_menu_selector.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\drawable\\menu_selector.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout_location_map.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout\\location_map.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout_customgrid.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout\\customgrid.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout_bookmark_picker_list_item.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout\\bookmark_picker_list_item.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout_transaction_summary_layout.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout\\transaction_summary_layout.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw720dp_sequence_layout.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout-sw720dp\\sequence_layout.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw800dp_sales_summary_layout.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout-sw800dp\\sales_summary_layout.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\drawable_blueswirl.png.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\drawable\\blueswirl.png"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw800dp_item_selection_layout.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout-sw800dp\\item_selection_layout.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout_sign_view_layout.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout\\sign_view_layout.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_setting.png.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\drawable-ldpi\\setting.png"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\menu_export_menu.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\menu\\export_menu.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw720dp_sales_summary_list_items.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout-sw720dp\\sales_summary_list_items.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw800dp_imageview_grid.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout-sw800dp\\imageview_grid.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout_receipt_dialog_layout.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout\\receipt_dialog_layout.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout-large_currency_setting_layout.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout-large\\currency_setting_layout.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout-large_info_layout.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout-large\\info_layout.xml"
+    },
+    {
+        "merged": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\build\\intermediates\\res\\merged\\debug\\layout_actionbar_layout.xml.flat",
+        "source": "D:\\MSPUnivDemoOrange\\MSP Universal\\app\\src\\main\\res\\layout\\actionbar_layout.xml"
+    }
+]

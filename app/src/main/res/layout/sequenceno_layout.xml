@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- @designed by T.SARAVANAN -->
+
+<!-- Parent Relative layout with vertical orientation -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="?pageBackground"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >      
+
+    <LinearLayout
+        android:id="@+id/lay_seqLogin"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical"
+        android:paddingBottom="20dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginRight="60dp"
+        android:paddingTop="20dp" >
+
+        <EditText
+            android:id="@+id/edtTxt_admin_Pswd"
+            android:layout_width="fill_parent"
+            android:layout_height="35dp"
+            style="@style/editBoxStyle"
+            android:ems="15"
+            android:hint="@string/adminPswdHint"
+            android:inputType="textPassword"
+            android:paddingLeft="5dp"
+            android:maxLength="15"
+            android:singleLine="true" >
+        </EditText>
+
+        <Spinner
+            android:id="@+id/spn_admin_Company"
+            android:layout_width="fill_parent"            
+            android:layout_height="35dp"
+            style="@style/SpinnerStyle"
+            android:layout_marginTop="10dp"
+            android:ems="12" />
+
+        <Button
+            android:id="@+id/btn_admin_Login"
+            style="?buttonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_gravity="right"
+            android:layout_marginTop="10dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:text="@string/loginBtnStr" />
+    </LinearLayout>
+
+    <!-- Line between title and Table layout -->
+
+    <View
+        android:id="@+id/seq_view_line2"
+        style="?PageLine"
+        android:layout_width="fill_parent"
+        android:layout_height="2dp"
+        android:layout_below="@+id/lay_seqLogin"
+        android:layout_marginBottom="2dp"
+        android:layout_marginTop="10dp" />
+
+    <RelativeLayout
+        android:id="@+id/lay_sequence"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/seq_view_line2"
+        android:layout_marginBottom="30dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal" >
+
+        <EditText
+            android:id="@+id/edtTxt_NxtReceiptNo"
+            style="@style/editBoxStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="23dp"
+            android:layout_toRightOf="@+id/txtReceiptNo"
+            android:ems="10"
+            android:gravity="center|right"
+            android:inputType="number"            
+            android:maxLength="4"
+            android:paddingRight="5dp" >
+        </EditText>
+
+        <TextView
+            android:id="@+id/txtReceiptNo"
+            style="?textRegular"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_alignBaseline="@+id/edtTxt_NxtReceiptNo"
+            android:layout_alignBottom="@+id/edtTxt_NxtReceiptNo"
+            android:layout_alignParentLeft="true"
+            android:gravity="center|right"
+            android:paddingRight="3dp"
+            android:text="@string/txtSequenceReceiptNo" />
+
+        <Button
+            android:id="@+id/btn_sequUpdate"
+            style="?buttonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/txtReceiptNo"
+            android:layout_marginTop="79dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:text="@string/txtSequenceUpdate" />
+
+        <TextView
+            android:id="@+id/txtPrepaymentNo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/txtReceiptNo"
+            android:layout_marginTop="24dp"
+            android:text="@string/txtSequencePrepaymentNo" />
+         <EditText
+            android:id="@+id/edtTxt_NxtPrepaymentNo"
+            style="@style/editBoxStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_alignBaseline="@+id/txtPrepaymentNo"
+            android:layout_alignBottom="@+id/txtPrepaymentNo"
+            android:layout_alignParentRight="true"
+            android:layout_toRightOf="@+id/txtPrepaymentNo"
+            android:ems="10"
+            android:inputType="number" />
+        
+    </RelativeLayout>
+
+</RelativeLayout>

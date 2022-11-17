@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="?pageBackground"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/txt_emailSettingTitle"
+        style="?pageTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="@string/txtEmailSettingTitle" />
+
+    <View
+        android:id="@+id/emailset_view_line1"
+        style="?PageLine"
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/txt_emailSettingTitle"
+        android:layout_marginTop="5dp" />
+
+    <TableLayout
+        android:id="@+id/tbl_emailSettingHeadSec"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/emailset_view_line1"
+        android:layout_gravity="center"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="50dp" >
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                style="?textRegular"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/txtSalespersonEmail" />
+
+            <EditText
+                android:id="@+id/edt_emailSettingSalespersonEmail"
+                style="@style/EditTxt"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:paddingLeft="5dp"
+                android:ems="8"
+                android:inputType="textEmailAddress" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp" >
+
+            <TextView
+                style="?textRegular"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/txtSalespersonPassword" />
+
+            <EditText
+                android:id="@+id/edt_emailSettingSalespersonPassword"
+                style="@style/EditTxt"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:paddingLeft="5dp"
+                android:inputType="textPassword" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp" >
+
+            <TextView
+                style="?textRegular"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/txtCompanyEmail" />
+
+            <EditText
+                android:id="@+id/edt_emailSettingCompanyEmail"
+                style="@style/EditTxt"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:paddingLeft="5dp"
+                android:inputType="textEmailAddress" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp" >
+
+            <TextView
+                style="?textRegular"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/txtSalespersonHostName" />
+
+            <EditText
+                android:id="@+id/edt_emailSettingSalespersonHostName"
+                style="@style/EditTxt"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:paddingLeft="5dp"
+                android:inputType="textWebEmailAddress" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp" >
+
+            <TextView
+                style="?textRegular"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/txtSalespersonPortNo" />
+
+            <EditText
+                android:id="@+id/edt_emailSettingSalespersonPortNo"
+                style="@style/EditTxt"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:paddingLeft="5dp"
+                android:inputType="number" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp" >
+
+            <TextView
+                style="?textRegular"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/txtCompanyPortNo" />
+
+            <EditText
+                android:id="@+id/edt_emailSettingCompanyPortNo"
+                style="@style/EditTxt"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:paddingLeft="5dp"
+                android:inputType="number" />
+        </TableRow>
+    </TableLayout>
+
+    <Button
+        android:id="@+id/btn_emailSettingSave"
+        style="?buttonStyle"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tbl_emailSettingHeadSec"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:text="@string/emailSave" />
+
+</RelativeLayout>

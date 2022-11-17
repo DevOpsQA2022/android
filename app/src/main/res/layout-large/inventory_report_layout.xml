@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+    @designed by T.SARAVANAN 
+-->
+
+<!-- Parent Relative layout with vertical orientation -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"    
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    style="?pageBackground" >
+
+    <TextView
+        android:id="@+id/txt_transSummaryTitle"
+        style="?pageTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="@string/txtInventoryTitle" />
+
+    <!-- Line between title and Table layout -->
+    <View
+        android:id="@+id/inventory_view_line1"
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/txt_transSummaryTitle"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="10dp" 
+        style="?PageLine"/>
+
+    <!-- Child linear layout with horizontal orientation -->
+    <LinearLayout
+        android:id="@+id/lay_inventLocation"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/inventory_view_line1"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal" >
+
+        <TextView
+            style="?textRegular"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|center_vertical"
+            android:layout_weight="20"
+            android:gravity="center|right"
+            android:paddingRight="10dp"
+            android:text="@string/txtInventoryLocation" />
+
+        <Spinner
+            android:id="@+id/spn_inventoryLoc"
+            style="@style/SpinnerStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="54dp"
+            android:layout_weight="80"
+            android:layout_marginRight="20dp"
+            android:ems="8" />
+    </LinearLayout>
+	
+    <!-- Child linear layout with horizontal orientation -->
+    <LinearLayout
+        android:id="@+id/lay_InventorylistTitle"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lay_inventLocation"
+        android:background="#267ad4"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        android:padding="5dp" >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="15"
+            android:layout_gravity="center|center_vertical"
+            android:text="@string/txtTransDetailTableSNo"
+            android:singleLine="true"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            style="@style/ListHeadTextStyle" >
+        </TextView>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="20"
+            android:layout_gravity="center|center_vertical"
+            android:text="@string/txtInventoryItemNo"
+            android:singleLine="true"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            style="@style/ListHeadTextStyle" >
+        </TextView>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="35"
+            android:layout_gravity="center|center_vertical"
+            android:text="@string/txtPayCodeDesc"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            style="@style/ListHeadTextStyle" >
+        </TextView>
+        
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="15"
+            android:gravity="center|left"
+            android:text="@string/itmEntryTxtQtyHand"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            style="@style/ListHeadTextStyle" >
+        </TextView>
+        
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="15"
+            android:layout_gravity="center|center_vertical"
+            android:gravity="center"
+            android:text="@string/itmPrcTxtStr"
+            android:singleLine="true"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            style="@style/ListHeadTextStyle" >
+        </TextView>
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/lst_InventoryItems"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/lay_InventorylistTitle"
+        android:cacheColorHint="@color/transparent"
+        android:background="@drawable/aboutus_border" >
+    </ListView>	
+    
+</RelativeLayout>

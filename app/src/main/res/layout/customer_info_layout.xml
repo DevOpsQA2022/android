@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+    @designed by T.SARAVANAN 
+-->
+
+<!-- Parent Relative layout with vertical orientation -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    style="?pageBackground"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/txt_cusInfoTitle"
+        style="?pageTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="@string/custInfoTxtStr" />
+    
+    <!-- Line between title and Table layout -->	
+	<View
+        android:id="@+id/cusInfo_view_line1"
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/txt_cusInfoTitle"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="10dp"
+        style="?PageLine" />
+	
+	<!-- Child Table layout -->	
+    <TableLayout
+        android:id="@+id/lay_infoSec"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cusInfo_view_line1"
+        android:layout_gravity="center"
+        android:stretchColumns="*"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="30dp" >
+
+        <!-- Customer Number Row -->
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="3dp"
+            android:layout_marginTop="3dp" >
+
+            <TextView
+                style="?textRegular"
+                android:layout_width="0dip"                
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:text="@string/custNumTxtStr" />
+
+            <TextView
+                android:id="@+id/txt_CustomerNumber"
+                style="?textRetriever"
+                android:layout_width="0dip"                
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginLeft="10dp" />
+        </TableRow>
+        
+        <!-- Customer Name Row -->
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="3dp"
+            android:layout_marginTop="3dp">
+
+            <TextView
+                style="?textRegular"
+                android:layout_width="0dip"                
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:text="@string/custNameTxtStr" />
+
+            <TextView
+                android:id="@+id/txt_CustomerName"
+                style="?textLongRetriever"
+                android:layout_width="0dip"                
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginLeft="10dp" />
+        </TableRow>
+        
+        <!-- Customer Address Row -->
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="3dp"
+            android:layout_marginTop="3dp">
+
+            <TextView
+                style="?textRegular"
+                android:layout_width="0dip"                
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:text="@string/custAddTxtStr" />
+
+            <TextView
+                android:id="@+id/txt_CustomerAddress"
+                style="?textLongRetriever"
+                android:maxLines="3"
+                android:layout_width="0dip"                
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginLeft="10dp" />
+        </TableRow>
+        
+        <!-- Customer City Row -->
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="3dp"
+            android:layout_marginTop="3dp">
+
+            <TextView
+                style="?textRegular"
+                android:layout_width="0dip"                
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:text="@string/custCityTxtStr" />
+
+            <TextView
+                android:id="@+id/txt_CustomerCity"
+                style="?textRetriever"
+                android:layout_width="0dip"                
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginLeft="10dp"  />
+        </TableRow>
+        
+        <!-- Customer State Row -->
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="3dp"
+            android:layout_marginTop="3dp" >
+
+            <TextView
+                style="?textRegular"
+                android:layout_width="0dip"                
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:gravity="right"                
+                android:text="@string/custStateTxtStr" />
+
+            <TextView
+                android:id="@+id/txt_CustomerState"
+                style="?textRetriever"
+                android:layout_width="0dip"                
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginLeft="10dp"/>
+        </TableRow>
+        
+        <!-- Customer postal code Row -->
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="3dp"
+            android:layout_marginTop="3dp" >
+
+            <TextView
+                style="?textRegular"
+                android:layout_width="0dip"                
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:text="@string/custZipTxtStr" />
+
+            <TextView
+                android:id="@+id/txt_CustomerZip"
+                style="?textRetriever"
+                android:layout_width="0dip"                
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+               android:layout_marginLeft="10dp" />
+        </TableRow>
+        
+        <!-- Customer Country Row -->
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="3dp"
+            android:layout_marginTop="3dp">
+
+            <TextView
+                style="?textRegular"
+                android:layout_width="0dip"                
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:text="@string/custCountryTxtStr" />
+
+            <TextView
+                android:id="@+id/txt_CustomerCountry"
+                style="?textRetriever"
+                android:layout_width="0dip"                
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginLeft="10dp"/>
+        </TableRow>
+        
+        <!-- Customer Phone No. Row -->
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="3dp"
+            android:layout_marginTop="3dp">
+
+            <TextView
+                style="?textRegular"
+                android:layout_width="0dip"                
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:text="@string/custPhoneTxtStr" />
+
+            <TextView
+                android:id="@+id/txt_CustomerPhone"
+                style="?textRetriever"
+                android:layout_width="0dip"                
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginLeft="10dp"/>
+        </TableRow>
+        
+        <!-- Customer Email Row -->
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="3dp"
+            android:layout_marginTop="3dp" >
+
+            <TextView
+                style="?textRegular"
+                android:layout_width="0dip"                
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:text="@string/custEmailTxtStr" />
+
+            <TextView
+                android:id="@+id/txt_CustomerEmail"
+                style="?textLongRetriever"
+                android:layout_width="0dip"                
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginLeft="10dp"/>
+        </TableRow>
+        
+        <!-- Customer Web Row -->
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="3dp"
+            android:layout_marginTop="3dp" >
+
+            <TextView
+                style="?textRegular"
+                android:layout_width="0dip"                
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:text="@string/custWebTxtStr" />
+
+            <TextView
+                android:id="@+id/txt_CustomerWebsite"
+                style="?textLongRetriever"
+                android:layout_width="0dip"                
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginLeft="10dp"/>
+        </TableRow>
+    </TableLayout>
+   
+</RelativeLayout>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="8dp" >
+
+    <TextView
+        android:id="@+id/txt_PrepaySummarySerialNum"
+        style="?textRetriever"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:gravity="center|left"        
+        android:layout_marginLeft="5dp"
+        android:textAppearance="?android:attr/textAppearanceSmall">
+    </TextView>
+
+    <TextView
+        android:id="@+id/txt_PrepaySummaryListDate"
+        style="?textRetriever"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"        
+        android:gravity="center|left"
+        android:layout_marginLeft="5dp"
+        android:textAppearance="?android:attr/textAppearanceSmall" >
+    </TextView>
+
+    <TextView
+        android:id="@+id/txt_PrepaySummaryListPaymentNo"
+        style="?textRetriever"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:gravity="center|left"        
+        android:layout_marginLeft="5dp"        
+        android:textAppearance="?android:attr/textAppearanceSmall">
+    </TextView>
+	
+    <TextView
+        android:id="@+id/txt_PrepaySummaryListCustNo"
+        style="?textRetriever"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:gravity="center|left"        
+        android:layout_marginLeft="5dp"
+        android:textAppearance="?android:attr/textAppearanceSmall">
+    </TextView>
+    
+    <TextView
+        android:id="@+id/txt_PrepaySummaryListCustName"
+        style="?textRetriever"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:gravity="center|left"        
+        android:layout_marginLeft="5dp"
+        android:textAppearance="?android:attr/textAppearanceSmall">
+    </TextView>
+    
+    <TextView
+        android:id="@+id/txt_PrepaySummaryListType"
+        style="?textRetriever"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:gravity="center|left"        
+        android:layout_marginLeft="5dp"
+        android:textAppearance="?android:attr/textAppearanceSmall">
+    </TextView>
+    <TextView
+        android:id="@+id/txt_PrepaySummaryListApplyby"
+        style="?textRetriever"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:gravity="center|left"
+        android:layout_marginLeft="5dp"                
+        android:textAppearance="?android:attr/textAppearanceSmall">
+    </TextView>
+    
+    <TextView
+        android:id="@+id/txt_PrepaySummaryListApplyTo"
+        style="?textRetriever"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:gravity="center|left"
+        android:layout_marginLeft="5dp"       
+        android:textAppearance="?android:attr/textAppearanceSmall">
+    </TextView>
+
+    <TextView
+        android:id="@+id/txt_PrepaySummaryListAmount"
+        style="?textRetriever"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:gravity="center|left"
+        android:layout_marginLeft="5dp"                
+        android:textAppearance="?android:attr/textAppearanceSmall">
+    </TextView>
+    
+</LinearLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item
+        android:id="@+id/trans_summary_print"
+        android:icon="@drawable/print_menu"
+        android:title="Print"/>
+    <item
+        android:id="@+id/trans_save_comments"
+        android:icon="@drawable/print_menu"
+        android:title="save_comments"/>
+	
+    <!-- Hide Email menu only for MSPV1.0 Build -->
+    <!-- 
+    <item
+        android:id="@+id/trans_summary_mail"
+        android:icon="@drawable/mail_menu"
+        android:title="E-Mail"/>
+ -->
+</menu>

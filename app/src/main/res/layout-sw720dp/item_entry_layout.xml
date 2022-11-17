@@ -1,0 +1,641 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--     @designed by T.SARAVANAN 
+ -->
+
+<!-- Parent Relative layout with vertical orientation -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="?pageBackground"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/txt_itemEntryTitle"
+        style="?pageTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:textColor="#E3474F"
+        android:textStyle="bold"
+        android:textSize="36sp"
+        android:text="@string/itmEntryTxtStr" />
+
+    <!-- Child linear layout with horizontal orientation -->
+
+    <LinearLayout
+        android:id="@+id/lay_ItemEntryCusName"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_itemEntryTitle"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            style="?textRegular"
+            android:textSize="32sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="2dp"
+            android:layout_marginLeft="10dp"
+            android:text="@string/shipToCusNmTxtStr" />
+
+        <TextView
+            android:id="@+id/txt_ItementryCusNm"
+            style="?textRetriever"
+            android:textSize="32sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp" />
+    </LinearLayout>
+
+    <!-- Line between title and Table layout -->
+
+    <View
+        android:id="@+id/itm_view_line1"
+        style="?PageLine"
+        android:layout_width="fill_parent"
+        android:layout_height="3dp"
+        android:layout_below="@+id/lay_ItemEntryCusName"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="20dp" />
+
+    <!-- Child Table layout -->
+
+    <TableLayout
+        android:id="@+id/tbl_itemEntryTable"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/itm_view_line1"   
+        android:layout_centerVertical="true"     
+        android:gravity="center_vertical"
+        android:layout_marginTop="10dp" >
+
+        <!-- Row 1: Item Number Field -->
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1" >
+
+            <TextView
+                style="?textRegular"
+                android:textSize="32sp"
+                android:layout_width="0dip"
+                android:layout_height="50dp"
+                android:layout_weight="0.30"
+                android:gravity="center|right"
+                android:paddingRight="20dp"
+                android:text="@string/itmNumTxtStr" />
+
+            <TextView
+                android:id="@+id/txt_ItemEntNum"
+                style="?textRetriever"
+                android:textSize="32sp"
+                android:layout_width="0dip"
+                android:layout_height="50dp"
+                android:layout_weight="0.30"
+                android:paddingLeft="5dp"
+                android:text="" />
+
+            <TextView
+                style="?textRetriever"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|right"
+                android:layout_weight="0.30" />
+
+            <TextView
+                style="?textRetriever"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|right"
+                android:layout_weight="0.10" />
+        </TableRow>
+
+        <!-- Row 2: Item Description Field -->
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1" >
+
+            <TextView
+                style="?textRegular"
+                android:textSize="32sp"
+                android:layout_width="0dip"
+                android:layout_height="50dp"
+                android:layout_weight="0.30"
+                android:gravity="center|right"
+                android:paddingRight="20dp"
+                android:text="@string/itmEntryTxtDesc" />
+
+            <TextView
+                android:id="@+id/txt_ItemEntDesc"
+                style="?textLongRetriever"
+                android:textSize="32sp"
+                android:layout_width="0dip"
+                android:layout_height="50dp"
+                android:layout_weight="0.60"
+                android:paddingLeft="5dp"
+                android:text="" />
+
+            <TextView
+                style="?textRetriever"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|right"
+                android:layout_weight="0.05" />
+
+            <TextView
+                style="?textRetriever"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|right"
+                android:layout_weight="0.05" />
+        </TableRow>
+
+        <!-- Row 3: Item Currency Field -->
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1" >
+
+            <TextView
+                style="?textRegular"
+                android:textSize="32sp"
+                android:layout_width="0dip"
+                android:layout_height="50dp"
+                android:layout_weight="0.30"
+                android:gravity="center|right"
+                android:paddingRight="20dp"
+                android:text="@string/itmEntryTxtCurrency" />
+
+            <TextView
+                android:id="@+id/txt_ItemEntCurrency"
+                style="?textRetriever"
+                android:textSize="32sp"
+                android:layout_width="0dip"
+                android:layout_height="50dp"
+                android:layout_weight="0.20"
+                android:gravity="left"
+                android:paddingLeft="5dp"
+                android:text="" />
+
+            <TextView
+                style="?textRegular"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.30"
+                android:textSize="32sp"
+                android:gravity="center|right"
+                android:paddingRight="20dp"
+                android:text="@string/itmEntryTxtPriceList" />
+
+            <TextView
+                android:id="@+id/txt_ItemEntPrcLst"
+                style="?textRetriever"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.20"
+                android:gravity="left"
+                android:textSize="32sp"
+                android:paddingLeft="10dp"
+                android:text="" />
+        </TableRow>
+
+        <!-- Row 4: Item Quantity Field -->
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1" >
+
+            <TextView
+                style="?textRegular"
+                android:textSize="32sp"
+                android:layout_width="0dip"
+                android:layout_height="50dp"
+                android:layout_weight="0.30"
+                android:gravity="center|right"
+                android:paddingRight="20dp"
+                android:text="@string/itmEntryTxtQty" />
+
+            <EditText
+                android:id="@+id/edtTxt_ItemEntQty"
+                style="@style/EditTxt"
+                android:textSize="32sp"
+                android:layout_width="0dip"
+                android:layout_height="50dp"
+                android:layout_weight="0.27"
+                android:gravity="center|left"
+                android:paddingRight="7dp"
+                android:paddingLeft="7dp"
+                android:inputType="number"
+                android:maxLength="9"
+                android:text="" />
+
+            <LinearLayout
+                android:layout_width="0dip"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="15dp"
+                android:layout_weight="0.30"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    android:id="@+id/btn_ItemEntInc"
+                    android:textSize="32sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:layout_marginBottom="3dp"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="2dp"
+                    android:background="@drawable/add_selector"
+                    android:contentDescription="@string/imgDesc" />
+
+                <ImageView
+                    android:id="@+id/btn_ItemEntDec"
+                    android:textSize="32sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="3dp"
+                    android:background="@drawable/del_selector"
+                    android:contentDescription="@string/imgDesc" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.10"
+                android:text="" />
+        </TableRow>
+
+        <!-- Row 5: Item Quantity on Hand Field -->
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1" >
+
+            <TextView
+                style="?textRegular"
+                android:textSize="32sp"
+                android:layout_width="0dip"
+                android:layout_height="50dp"
+                android:layout_weight="0.30"
+                android:gravity="center|right"
+                android:paddingRight="20dp"
+                android:singleLine="false"
+                android:text="@string/itmEntryTxtQtyHand" />
+
+            <TextView
+                android:id="@+id/txt_ItemEntQtyHand"
+                style="?textRetriever"
+                android:textSize="32sp"
+                android:layout_width="0dip"
+                android:layout_height="50dp"
+                android:layout_weight="0.30"
+                android:paddingLeft="5dp"
+                android:text="" />
+
+            <TextView
+                style="?textRetriever"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|right"
+                android:layout_weight="0.30" />
+
+            <TextView
+                style="?textRetriever"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|right"
+                android:layout_weight="0.10" />
+        </TableRow>
+
+        <!-- Row 6: Item UnitPrice Field -->
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1" >
+
+            <TextView
+                style="?textRegular"
+                android:textSize="32sp"
+                android:layout_width="0dip"
+                android:layout_height="50dp"
+                android:layout_weight="0.30"
+                android:gravity="center|right"
+                android:paddingRight="20dp"
+                android:text="@string/itmEntryTxtUnitPrice" />
+
+            <EditText
+                android:id="@+id/edtTxt_ItemEntUnitPrc"
+                style="@style/EditTxt"
+                android:textSize="32sp"
+                android:layout_width="0dip"
+                android:layout_height="50dp"
+                android:layout_weight="0.27"
+                android:gravity="center|left"
+                android:paddingRight="7dp"
+                android:paddingLeft="7dp"
+                android:inputType="numberDecimal"
+                android:text=""
+                />
+
+            <Spinner
+                android:id="@+id/spn_ItemEntUOM"
+                style="@style/SpinnerStyle"
+                android:textSize="32sp"
+                android:layout_width="0dip"
+                android:layout_height="50dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp" 
+                android:layout_weight="0.40" />
+
+            <TextView
+                style="?textRetriever"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|right"
+                android:layout_weight="0.00" />
+        </TableRow>
+
+        <!-- Row 7: Base Price Field -->
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1" >
+
+            <TextView
+                style="?textRegular"
+                android:textSize="32sp"
+                android:layout_width="0dip"
+                android:layout_height="50dp"
+                android:layout_weight="0.30"
+                android:gravity="center|right"
+                android:paddingRight="20dp"
+                android:text="@string/itmEntryTxtBasePrice" />
+
+            <TextView
+                android:id="@+id/txt_ItemEntBasePrc"
+                style="?textRetriever"
+                android:textSize="32sp"
+                android:layout_width="0dip"
+                android:layout_height="50dp"
+                android:layout_weight="0.30"
+                android:paddingLeft="5dp"
+                android:text="" />
+
+            <TextView
+                style="?textRetriever"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|right"
+                android:layout_weight="0.30" />
+
+            <TextView
+                style="?textRetriever"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|right"
+                android:layout_weight="0.10" />
+        </TableRow>
+
+        <!-- Row 8: Item Discount Field -->
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1" >
+
+            <TextView
+                style="?textRegular"
+                android:textSize="32sp"
+                android:layout_width="0dip"
+                android:layout_height="50dp"
+                android:layout_weight="0.30"
+                android:gravity="center|right"
+                android:paddingRight="20dp"
+                android:text="@string/itmEntryTxtDiscount" />
+
+            <EditText
+                android:id="@+id/edtTxt_ItemEntDiscount"
+                style="@style/EditTxt"
+                android:textSize="32sp"
+                android:layout_width="0dip"
+                android:layout_height="50dp"
+                android:layout_marginLeft="2dp"
+                android:layout_weight="0.27"
+                android:gravity="center|left"
+                android:paddingRight="7dp"
+                android:paddingLeft="7dp"
+                android:inputType="numberDecimal"
+                android:text="" />
+
+            <Spinner
+                android:id="@+id/spn_ItemEntDisc"
+                style="@style/SpinnerStyle"
+                android:textSize="32sp"
+                android:layout_width="0dip"
+                android:layout_height="50dp"
+                android:layout_weight="0.40"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp" />
+
+            <TextView
+                style="?textRetriever"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|right"
+                android:layout_weight="0.00" />
+        </TableRow>
+
+        <!-- Row 9: Item Location Field -->
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1" >
+
+            <TextView
+                style="?textRegular"
+                android:textSize="32sp"
+                android:layout_width="0dip"
+                android:layout_height="50dp"
+                android:layout_weight="0.30"
+                android:gravity="center|right"
+                android:paddingRight="20dp"
+                android:text="@string/itmEntryTxtLoc" />
+
+            <TextView
+                android:id="@+id/txt_ItemEntLoc"
+                style="?textRetriever"
+                android:textSize="32sp"
+                android:layout_width="0dip"
+                android:layout_height="50dp"
+                android:layout_weight="0.20"
+                android:gravity="center|left"
+                android:paddingLeft="5dp"
+                android:text="" />
+
+            <TextView
+                style="?textRegular"
+                android:textSize="32sp"
+                android:layout_width="0dip"
+                android:layout_height="50dp"
+                android:layout_weight="0.30"
+                android:gravity="center|right"
+                android:paddingRight="20dp"
+                android:text="@string/itmEntryTxtUom" />
+
+            <TextView
+                android:id="@+id/txt_ItemEntUOM"
+                style="?textRetriever"
+                android:textSize="32sp"
+                android:layout_width="0dip"
+                android:layout_height="50dp"
+                android:layout_weight="0.20"
+                android:gravity="left"
+                android:paddingLeft="10dp"
+                android:text="" />
+        </TableRow>
+
+        <!-- Row 10: Item Ship To Date Field -->
+
+        <TableRow
+            android:id="@+id/dateRow"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1" >
+
+            <TextView
+                style="?textRegular"
+                android:textSize="32sp"
+                android:layout_width="0dip"
+                android:layout_height="50dp"
+                android:layout_weight="0.30"
+                android:gravity="center|right"
+                android:paddingRight="20dp"
+                android:text="@string/itmEntryTxtShipDate" />
+
+            <EditText
+                android:id="@+id/edtTxt_ItemEntShipDate"
+                style="@style/EditTxt"
+                android:textSize="32sp"
+                android:gravity="center|left"
+                android:paddingRight="7dp"
+                android:paddingLeft="7dp"
+                android:layout_width="0dip"
+                android:layout_height="50dp"
+                android:layout_weight="0.27"
+                android:focusable="false" />
+
+            <TextView
+                style="?textRetriever"
+                android:layout_width="0dip"
+                android:textSize="32sp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|right"
+                android:layout_weight="0.33" />
+
+            <TextView
+                style="?textRetriever"
+                android:textSize="32sp"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|right"
+                android:layout_weight="0.10" />
+        </TableRow>
+    </TableLayout>
+
+    <!-- Child linear layout with horizontal orientation -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tbl_itemEntryTable"
+        android:layout_marginBottom="20dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center|right"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btn_ItemEntryToSale"
+            style="?buttonStyle"
+            android:textSize="32sp"
+            android:layout_width="160dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:text="@string/saleBtnStr" />
+
+        <Button
+            android:id="@+id/btn_ItemEntryToReturn"
+            style="?buttonStyle"
+            android:textSize="32sp"
+            android:layout_width="160dp"
+            android:layout_height="50dp"
+            android:text="@string/returnBtnStr" />
+
+        <Button
+            android:id="@+id/btn_ItemEntryOk"
+            style="?buttonStyle"
+            android:textSize="32sp"
+            android:layout_width="160dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:text="@string/nextBtnStr" />
+    </LinearLayout>
+
+</RelativeLayout>

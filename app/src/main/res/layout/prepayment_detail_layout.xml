@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+ <!--      @designed by T.SARAVANAN 
+ 
+  --> 
+ <!--  Parent Relative layout with vertical orientation 
+  --> 
+ <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+     style="?pageBackground" 
+     android:layout_width="match_parent" 
+     android:layout_height="match_parent" 
+     android:orientation="vertical">
+     
+  <TextView 
+      android:id="@+id/txt_prePayTitle" 
+      style="?pageTitle" 
+      android:layout_width="wrap_content" 
+      android:layout_height="wrap_content" 
+      android:layout_alignParentTop="true" 
+      android:layout_centerHorizontal="true" 
+      android:layout_marginTop="1dp" 
+      android:text="@string/txtPayTitle" /> 
+      
+ <!--  Line between title and Table layout 
+  --> 
+  <View 
+      android:id="@+id/prePay_view_line1" 
+      style="?PageLine" 
+      android:layout_width="fill_parent" 
+      android:layout_height="1dp" 
+      android:layout_below="@id/txt_prePayTitle" 
+      android:layout_marginBottom="5dp" 
+      android:layout_marginTop="5dp" /> 
+      
+ <!--  Child Table layout 
+  --> 
+ <TableLayout 
+     android:id="@+id/lay_prePaySec" 
+     android:layout_width="fill_parent" 
+     android:layout_height="wrap_content" 
+     android:layout_below="@+id/prePay_view_line1" 
+     android:layout_gravity="center" 
+     android:layout_marginTop="5dp">
+     
+ <!--  Row 1: Prepay Customer Number Field 
+  --> 
+ <TableRow 
+     android:layout_width="fill_parent" 
+     android:layout_height="wrap_content" 
+     android:layout_margin="5dp" 
+     android:layout_weight="1">
+     
+  <TextView 
+      style="?textRegular" 
+      android:layout_width="0dip" 
+      android:layout_height="wrap_content" 
+      android:layout_weight="0.45" 
+      android:gravity="right" 
+      android:paddingRight="10dp" 
+      android:text="@string/txtPayCusNo" /> 
+      
+  <TextView 
+      android:id="@+id/txt_prePayDetCusNo" 
+      style="?textRetriever" 
+      android:layout_width="0dip" 
+      android:layout_height="wrap_content" 
+      android:layout_weight="0.55" 
+      android:gravity="left" 
+      android:paddingLeft="10dp" /> 
+  </TableRow>
+ <!--  Row 2: Prepay Customer Name Field 
+  --> 
+ <TableRow 
+     android:layout_width="fill_parent" 
+     android:layout_height="wrap_content" 
+     android:layout_margin="5dp" 
+     android:layout_weight="1">
+  
+  <TextView 
+      style="?textRegular" 
+      android:layout_width="0dip" 
+      android:layout_height="wrap_content" 
+      android:layout_weight="0.45" 
+      android:gravity="right" 
+      android:paddingRight="10dp" 
+      android:text="@string/txtPayCusName" /> 
+      
+  <TextView 
+      android:id="@+id/txt_prePayDetCusName" 
+      style="?textLongRetriever" 
+      android:layout_width="0dip" 
+      android:layout_height="wrap_content" 
+      android:layout_gravity="left" 
+      android:layout_weight="0.55" 
+      android:paddingLeft="10dp" /> 
+      
+  </TableRow>
+- <!--  Row 3: Prepay Currency Field 
+  --> 
+- <TableRow 
+	  android:layout_width="fill_parent" 
+	  android:layout_height="wrap_content" 
+	  android:layout_margin="5dp" 
+	  android:layout_weight="1">
+  
+  <TextView 
+      style="?textRegular" 
+      android:layout_width="0dip" 
+      android:layout_height="wrap_content" 
+      android:layout_weight="0.45" 
+      android:gravity="right" 
+      android:paddingRight="10dp" 
+      android:text="@string/itmCrncyTxtStr" /> 
+      
+  <TextView 
+      android:id="@+id/txt_prePayDetCurrency" 
+      style="?textRetriever" 
+      android:layout_width="0dip" 
+      android:layout_height="wrap_content" 
+      android:layout_gravity="left" 
+      android:layout_weight="0.55" 
+      android:paddingLeft="10dp" /> 
+      
+  </TableRow>
+- <!--  Row 5: Prepay Order Total Field 
+  --> 
+- <TableRow 
+	  android:layout_width="fill_parent" 
+	  android:layout_height="wrap_content" 
+	  android:layout_margin="5dp" 
+	  android:layout_weight="1">
+  
+  <TextView 
+      style="?textRegular" 
+      android:layout_width="0dip" 
+      android:layout_height="wrap_content" 
+      android:layout_weight="0.45" 
+      android:layout_gravity="center|right" 
+      android:gravity="right" 
+      android:paddingRight="10dp" 
+      android:text="@string/txtPayApplyBy" /> 
+      
+  <TextView 
+      android:id="@+id/txt_prePayDetApplyby" 
+      style="?textRetriever" 
+      android:layout_width="0dip" 
+      android:layout_height="wrap_content" 
+      android:layout_gravity="left" 
+      android:layout_weight="0.55" 
+      android:paddingLeft="10dp" /> 
+      
+  </TableRow>
+ <!--  Row 6: Prepay Amount Due Field 
+  --> 
+ <TableRow 
+     android:layout_width="fill_parent" 
+     android:layout_height="wrap_content" 
+     android:layout_margin="5dp" 
+     android:layout_weight="1">
+  
+  <TextView 
+      style="?textRegular" 
+      android:layout_width="0dip" 
+      android:layout_height="wrap_content" 
+      android:layout_weight="0.45" 
+      android:gravity="right" 
+      android:paddingRight="10dp" 
+      android:text="@string/txtPayApplyTo" /> 
+      
+  <TextView 
+      android:id="@+id/txt_prePayDetApplyTo" 
+      style="?textRetriever" 
+      android:layout_width="0dip" 
+      android:layout_height="wrap_content" 
+      android:layout_gravity="left" 
+      android:layout_weight="0.55" 
+      android:paddingLeft="10dp" /> 
+  </TableRow>
+ <!--  Row 8: Prepay Receipt Amount Field 
+  --> 
+ <TableRow 
+     android:layout_width="fill_parent" 
+     android:layout_height="wrap_content" 
+     android:layout_margin="5dp" 
+     android:layout_weight="1">
+  
+  <TextView 
+      style="?textRegular" 
+      android:layout_width="0dip" 
+      android:layout_height="wrap_content" 
+      android:layout_gravity="center|right" 
+      android:layout_weight="0.45" 
+      android:gravity="right" 
+      android:paddingRight="10dp" 
+      android:text="@string/txtPrePayAmt" /> 
+      
+  <TextView 
+      android:id="@+id/txt_prePayDetAmount" 
+      style="?textRetriever" 
+      android:layout_width="0dip" 
+      android:layout_height="wrap_content" 
+      android:layout_gravity="left" 
+      android:layout_weight="0.55" 
+      android:paddingLeft="10dp" /> 
+      
+  </TableRow>
+ <!--  Row 9: Prepay Code Field 
+  --> 
+ <TableRow 
+     android:layout_width="fill_parent" 
+     android:layout_height="wrap_content" 
+     android:layout_margin="5dp" 
+     android:layout_weight="1">
+  
+  <TextView 
+      style="?textRegular" 
+      android:layout_width="0dip" 
+      android:layout_height="wrap_content" 
+      android:layout_gravity="center|right" 
+      android:layout_weight="0.45" 
+      android:gravity="right" 
+      android:paddingRight="10dp" 
+      android:text="@string/txtPaymentCode" /> 
+  <TextView 
+      android:id="@+id/txt_prePayDetType" 
+      style="?textRetriever" 
+      android:layout_width="0dip" 
+      android:layout_height="wrap_content" 
+      android:layout_gravity="left" 
+      android:layout_weight="0.55" 
+      android:paddingLeft="10dp" /> 
+      
+  </TableRow>
+ <TableRow 
+     android:layout_width="fill_parent" 
+     android:layout_height="wrap_content" 
+     android:layout_margin="5dp" 
+     android:layout_weight="1">
+  
+  <TextView 
+      style="?textRegular" 
+      android:layout_width="0dip" 
+      android:layout_height="wrap_content" 
+      android:layout_gravity="center|right" 
+      android:layout_weight="0.45" 
+      android:gravity="right" 
+      android:paddingRight="10dp" 
+      android:text="@string/txtBankCode" /> 
+      
+  <TextView 
+      android:id="@+id/txt_prePayDetBankCode" 
+      style="?textRetriever" 
+      android:layout_width="0dip" 
+      android:layout_height="wrap_content" 
+      android:layout_gravity="left" 
+      android:layout_weight="0.55" 
+      android:paddingLeft="10dp" /> 
+      
+  </TableRow>
+- <!--  Row 7: Prepay Check Number Field 
+  --> 
+- <TableRow 
+	  android:layout_width="fill_parent" 
+	  android:layout_height="wrap_content" 
+	  android:layout_margin="5dp" 
+	  android:layout_weight="1">
+  
+  <TextView 
+      style="?textRegular" 
+      android:layout_width="0dip" 
+      android:layout_height="wrap_content" 
+      android:layout_gravity="center|right" 
+      android:layout_weight="0.45" 
+      android:gravity="right" 
+      android:paddingRight="10dp" 
+      android:text="@string/txtPrePayNo" /> 
+      
+  <TextView 
+      android:id="@+id/txt_prePayDetNum" 
+      style="?textRetriever" 
+      android:layout_width="0dip" 
+      android:layout_height="wrap_content" 
+      android:layout_gravity="left" 
+      android:layout_weight="0.55" 
+      android:paddingLeft="10dp" /> 
+      
+  </TableRow>
+ <!--  Row 11: Prepay Receipt Date Field 
+  --> 
+ <TableRow 
+      android:layout_width="fill_parent" 
+      android:layout_height="wrap_content" 
+      android:layout_margin="5dp" 
+      android:layout_weight="1">
+  
+  <TextView 
+      style="?textRegular" 
+      android:layout_width="0dip" 
+      android:layout_height="wrap_content" 
+      android:layout_gravity="center|right" 
+      android:layout_weight="0.45" 
+      android:gravity="right" 
+      android:paddingRight="10dp" 
+      android:text="@string/txtPrePayDate" /> 
+      
+  <TextView 
+      android:id="@+id/txt_prePayDetDate" 
+      style="?textRetriever" 
+      android:layout_width="0dip" 
+      android:layout_height="wrap_content" 
+      android:layout_gravity="left" 
+      android:layout_weight="0.55" 
+      android:paddingLeft="10dp" /> 
+      
+  </TableRow>
+ <TableRow 
+     android:layout_width="fill_parent" 
+     android:layout_height="wrap_content" 
+     android:layout_margin="5dp" 
+     android:layout_weight="1">
+  
+  <TextView 
+      style="?textRegular" 
+      android:layout_width="0dip" 
+      android:layout_height="wrap_content" 
+      android:layout_gravity="center|right" 
+      android:layout_weight="0.45" 
+      android:gravity="right" 
+      android:paddingRight="10dp" 
+      android:text="@string/txtPrePayComment" /> 
+      
+  <TextView 
+      android:id="@+id/txt_prePayDetComment" 
+      style="?textRetriever" 
+      android:layout_width="0dip" 
+      android:layout_height="wrap_content" 
+      android:maxLines="4" 
+      android:singleLine="false" 
+      android:layout_gravity="left" 
+      android:layout_weight="0.55" 
+      android:paddingLeft="10dp" /> 
+      
+  </TableRow>
+  </TableLayout>
+  <Button 
+      android:id="@+id/btn_prePayPrint" 
+      style="?buttonStyle" 
+      android:layout_width="wrap_content" 
+      android:layout_height="wrap_content" 
+      android:layout_below="@+id/lay_prePaySec" 
+      android:layout_centerHorizontal="true" 
+      android:layout_marginTop="15dp" 
+      android:paddingLeft="50dp" 
+      android:paddingRight="50dp" 
+      android:text="@string/txtPaySave" /> 
+      
+  </RelativeLayout>

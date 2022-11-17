@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+    @designed by T.SARAVANAN 
+-->
+
+<!-- Parent Relative layout with vertical orientation -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    style="?pageBackground" >
+
+    <TextView
+        android:id="@+id/txt_itemInfoTitle"
+        style="?pageTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="@string/itmInfoTxtStr" />
+
+    <!-- Line between title and Table layout -->	
+    <View
+        android:id="@+id/itmInfo_view_line1"
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/txt_itemInfoTitle"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="10dp"
+        style="?PageLine" />
+
+    <!-- Child Table layout -->	
+    <TableLayout
+        android:id="@+id/lay_itemInfoSec"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/itmInfo_view_line1"
+        android:layout_gravity="center"
+        android:stretchColumns="*"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="30dp" >
+
+        <!-- Row 1: Item Number Field -->
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp" >
+
+            <TextView
+                style="?textRegular"
+                android:layout_width="0dip"                
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:text="@string/itmNumTxtStr" />
+
+            <TextView
+                android:id="@+id/txt_ItemNumber"
+                style="?textRetriever"
+                android:layout_width="0dip"                
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:layout_marginLeft="10dp" />
+        </TableRow>
+
+        <!-- Row 2: Item Description Field -->
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp" >
+
+            <TextView
+                style="?textRegular"
+                android:layout_width="0dip"                
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:gravity="right"                
+                android:text="@string/itmDescTxtStr" />
+
+            <TextView
+                android:id="@+id/txt_ItemDesc"
+                style="?textLongRetriever"
+                android:layout_width="0dip"                
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginLeft="10dp"/>
+        </TableRow>
+
+        <!-- Row 3: Item PriceList Field -->
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp" >
+
+            <TextView
+                style="?textRegular"
+                android:layout_width="0dip"                
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:gravity="center|right"
+                android:layout_gravity="center|center_vertical"
+                android:text="@string/itmPrcLstTxtStr" />
+
+            <Spinner
+                android:id="@+id/txt_ItemPriceListSpinner"
+                android:layout_width="0dip"
+                android:layout_height="54dp"
+                android:layout_gravity="left"
+                style="@style/SpinnerStyle"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1" />
+        </TableRow>
+
+        <!-- Row 4: Item Price Field -->
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp" >
+
+            <TextView
+                style="?textRegular"
+                android:layout_width="0dip"                
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:text="@string/itmPrcTxtStr" />
+
+            <TextView
+                android:id="@+id/txt_ItemPrice"
+                style="?textRetriever"
+                android:layout_width="0dip"                
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginLeft="10dp"/>
+        </TableRow>
+
+        <!-- Row 5: Item Currency Field -->
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp" >
+
+            <TextView
+                style="?textRegular"
+                android:layout_width="0dip"                
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:text="@string/itmCrncyTxtStr" />
+
+            <TextView
+                android:id="@+id/txt_ItemCurrency"
+                style="?textRetriever"
+                android:layout_width="0dip"                
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginLeft="10dp"/>
+        </TableRow>
+
+        <!-- Row 6: Item PriceDeptby Field -->
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp" >
+
+            <TextView
+                style="?textRegular"
+                android:layout_width="0dip"                
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:text="@string/itmPrcDeptTxtStr" />
+
+            <TextView
+                android:id="@+id/txt_ItemPriceDetBy"
+                style="?textRetriever"
+                android:layout_width="0dip"                
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:layout_marginLeft="10dp"/>
+        </TableRow>
+
+        <!-- Row 7: Item UOM Field -->
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp" >
+
+            <TextView
+                style="?textRegular"
+                android:layout_width="0dip"                
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:text="@string/itmUOMTxtStr" />
+
+            <TextView
+                android:id="@+id/txt_ItemUOM"
+                style="?textRetriever"
+                android:layout_width="0dip"                
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginLeft="10dp"/>
+        </TableRow>
+
+        <!-- Row 8: Item onHand Field -->
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp" >
+
+            <TextView
+                style="?textRegular"
+                android:layout_width="0dip"                
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:text="@string/itmHandTxtStr" />
+
+            <TextView
+                android:id="@+id/txt_ItemOnHand"
+                style="?textRetriever"
+                android:layout_width="0dip"                
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginLeft="10dp"/>
+        </TableRow>
+
+        <!-- Row 9: Item Costing Method Field -->
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp" >
+
+            <TextView
+                style="?textRegular"
+                android:layout_width="0dip"                
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:text="@string/itmCostMtdTxtStr" />
+
+            <TextView
+                android:id="@+id/txt_ItemCostMethod"
+                style="?textRetriever"
+                android:layout_width="0dip"                
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginLeft="10dp" />
+        </TableRow>
+
+        <!-- Row 10: Item Alteration Id Field -->
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp" >
+
+            <TextView
+                style="?textRegular"
+                android:layout_width="0dip"                
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:text="@string/itmAltTxtStr" />
+
+            <TextView
+                android:id="@+id/txt_ItemAltId"
+                style="?textRetriever"
+                android:layout_width="0dip"                
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginLeft="10dp" />
+        </TableRow>
+
+        <!-- Row 11: Item Alteration Description Field -->
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp" >
+
+            <TextView
+                style="?textRegular"
+                android:layout_width="0dip"                
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:text="@string/itmAltDescTxtStr" />
+
+            <TextView
+                android:id="@+id/txt_ItemAltDesc"
+                style="?textLongRetriever"
+                android:layout_width="0dip"                
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginLeft="10dp" />
+        </TableRow>
+
+        <!-- Row 12: Item Location Field -->
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp" >
+
+            <TextView
+                style="?textRegular"
+                android:layout_width="0dip"                
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:text="@string/itmLocTxtStr" />
+
+            <TextView
+                android:id="@+id/txt_ItemLoc"
+                style="?textRetriever"
+                android:layout_width="0dip"                
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginLeft="10dp" />
+        </TableRow>
+    </TableLayout>
+    
+</RelativeLayout>
