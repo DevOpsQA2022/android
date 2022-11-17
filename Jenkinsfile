@@ -22,7 +22,7 @@ pipeline {
         }
       
         stage('Compile') {
-            archiveArtifacts artifacts: '**/*.apk' 
+            archiveArtifacts artifacts: '**/*.apk --stacktrace' 
         }
     }
 }
