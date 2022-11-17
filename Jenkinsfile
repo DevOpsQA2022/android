@@ -3,14 +3,13 @@ pipeline {
     tools{
         maven 'Maven_Home'
     }
-    stages {
-        
+    stages {       
             stage('Clean Build') {
-                dir("android") {
+//                 dir("android") {
                     sh "pwd"
                     sh 'ls -al'
                     sh './gradlew clean'
-                }   
+//                 }   
         }
         
         stage('Build release ') {
