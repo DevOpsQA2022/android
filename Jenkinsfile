@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                sh 'make' 
+//                 sh 'make' 
                 sh './gradlew clean'
                 archiveArtifacts artifacts: '**/target/*.apk'
             }
