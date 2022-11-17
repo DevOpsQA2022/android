@@ -6,7 +6,7 @@ pipeline {
             steps {
                 sh 'make' 
                 sh './gradlew clean'
-                archiveArtifacts artifacts: '**/target/*.apk', fingerprint: true 
+                archiveArtifacts artifacts: '**/target/*.apk'
             }
         }
     }
