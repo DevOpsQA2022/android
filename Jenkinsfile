@@ -9,7 +9,7 @@ pipeline {
         stage('Build') {
             steps {
 //                 sh 'make' 
-                sh './gradlew clean'
+               sh 'gradle clean build'
 //                      sh './gradlew assembleRelease'               
             }
               post{
