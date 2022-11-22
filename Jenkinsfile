@@ -1,21 +1,19 @@
 pipeline {
     agent any
-    tools{
-      gradle 'GRADLE_HOME'
+     tools{
+      gradle 'gradle'
     }
-    
-
     stages {
-        stage('Build') {
-            steps {
-//                 sh 'make' 
-               sh 'gradle clean build'
-//                      sh './gradlew assembleRelease'               
+        stage('Build') {              
+            steps {                
+               sh 'gradle build --warning-mode=all' 
+                echo "successfully build"
+                
             }
               post{
                  success{
                      echo "Archiving the Artifacts"
-                     archiveArtifacts artifacts: '**/target/*.apk'
+                     archiveArtifacts artifacts: '**/build/*.apk'
                     
                  }
             }            
