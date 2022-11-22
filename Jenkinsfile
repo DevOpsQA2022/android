@@ -6,7 +6,7 @@ pipeline {
     stages {
         stage('Build') {              
             steps {                
-               sh 'gradle build --warning-mode=all' 
+               sh 'gradle build --stacktrace' 
                 echo "successfully build"
                 
             }
